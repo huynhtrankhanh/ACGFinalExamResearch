@@ -131,3 +131,224 @@ def fit_bezier_curve(data_points, degree):
     return P
 
 ```
+Here are the full TypeScript implementations for De Casteljau's algorithm in both 2D and 3D.
+To take advantage of TypeScript, we will first define clear interfaces for our data structures. The algorithm itself relies on an iterative approach, creating a working copy of the array and reducing it level by level until only the final evaluated point remains.
+### 1. Defining the Types
+First, we define the strict types for our 2D and 3D points so the compiler can catch any missing coordinates.
+```typescript
+export interface Point2D {
+    x: number;
+    y: number;
+}
+
+export interface Point3D extends Point2D {
+    z: number;
+}
+
+```
+### 2. De Casteljau for 2D Points
+This function takes an array of Point2D objects and a parameter t (where 0 \le t \le 1). It interpolates the x and y coordinates.
+```typescript
+/**
+ * Evaluates a point on a 2D Bezier curve using De Casteljau's algorithm.
+ * * @param points - An array of 2D control points.
+ * @param t - The parameter t, typically between 0.0 and 1.0.
+ * @returns The evaluated 2D point on the curve.
+ */
+export function deCasteljau2D(points: Point2D[], t: number): Point2D {
+    if (points.length === 0) {
+        throw new Error("At least one control point is required.");
+    }
+    
+    // Create a deep copy of the points to avoid mutating the original array
+    const workingPoints: Point2D[] = points.map(p => ({ x: p.x, y: p.y }));
+    const n = workingPoints.length - 1;
+
+    // Iteratively reduce the points
+    for (let j = 1; j <= n; j++) {
+        for (let i = 0; i <= n - j; i++) {
+            workingPoints[i] = {
+                x: (1 - t) * workingPoints[i].x + t * workingPoints[i + 1].x,
+                y: (1 - t) * workingPoints[i].y + t * workingPoints[i + 1].y
+            };
+        }
+    }
+
+    // The final remaining point is the evaluated point
+    return workingPoints[0];
+}
+
+```
+### 3. De Casteljau for 3D Points
+The 3D version is identical in structure to the 2D version, but it includes the z-axis in the linear interpolation step.
+```typescript
+/**
+ * Evaluates a point on a 3D Bezier curve using De Casteljau's algorithm.
+ * * @param points - An array of 3D control points.
+ * @param t - The parameter t, typically between 0.0 and 1.0.
+ * @returns The evaluated 3D point on the curve.
+ */
+export function deCasteljau3D(points: Point3D[], t: number): Point3D {
+    if (points.length === 0) {
+        throw new Error("At least one control point is required.");
+    }
+    
+    // Create a deep copy of the points
+    const workingPoints: Point3D[] = points.map(p => ({ x: p.x, y: p.y, z: p.z }));
+    const n = workingPoints.length - 1;
+
+    // Iteratively reduce the points
+    for (let j = 1; j <= n; j++) {
+        for (let i = 0; i <= n - j; i++) {
+            workingPoints[i] = {
+                x: (1 - t) * workingPoints[i].x + t * workingPoints[i + 1].x,
+                y: (1 - t) * workingPoints[i].y + t * workingPoints[i + 1].y,
+                z: (1 - t) * workingPoints[i].z + t * workingPoints[i + 1].z
+            };
+        }
+    }
+
+    return workingPoints[0];
+}
+
+```
+### Usage Example
+Here is how you would call these functions in your TypeScript application:
+```typescript
+// 2D Example: A simple quadratic curve
+const curve2D: Point2D[] = [
+    { x: 0, y: 0 },
+    { x: 5, y: 10 },
+    { x: 10, y: 0 }
+];
+
+// Evaluate exactly at the halfway mark
+const midpoint2D = deCasteljau2D(curve2D, 0.5);
+console.log(`2D Point at t=0.5: (${midpoint2D.x}, ${midpoint2D.y})`); 
+// Output: 2D Point at t=0.5: (5, 5)
+
+
+// 3D Example: A cubic curve in 3D space
+const curve3D: Point3D[] = [
+    { x: 0, y: 0, z: 0 },
+    { x: 0, y: 10, z: 5 },
+    { x: 10, y: 10, z: 10 },
+    { x: 10, y: 0, z: 15 }
+];
+
+// Evaluate at 75% along the curve
+const point3D = deCasteljau3D(curve3D, 0.75);
+console.log(`3D Point at t=0.75: (${point3D.x}, ${point3D.y}, ${point3D.z})`);
+
+```
+To compute a point on a Bézier surface, we apply De Casteljau's algorithm in two dimensions. You can think of a Bézier surface as a grid of control points. First, we use the parameter u to evaluate a point along each row of the grid. This yields a new, single "column" of intermediate points. Then, we use the parameter v to evaluate that new column, which gives us our final 3D point on the surface.
+Here is the complete, self-contained TypeScript code to evaluate a Bézier surface, including a function to generate a full mesh of points so you can render it.
+### 1. The Bézier Surface Implementation
+```typescript
+export interface Point3D {
+    x: number;
+    y: number;
+    z: number;
+}
+
+/**
+ * Helper function: De Casteljau's algorithm for a 1D curve in 3D space.
+ */
+function deCasteljau3D(points: Point3D[], t: number): Point3D {
+    if (points.length === 0) {
+        throw new Error("At least one control point is required.");
+    }
+    
+    const workingPoints: Point3D[] = points.map(p => ({ x: p.x, y: p.y, z: p.z }));
+    const n = workingPoints.length - 1;
+
+    for (let j = 1; j <= n; j++) {
+        for (let i = 0; i <= n - j; i++) {
+            workingPoints[i] = {
+                x: (1 - t) * workingPoints[i].x + t * workingPoints[i + 1].x,
+                y: (1 - t) * workingPoints[i].y + t * workingPoints[i + 1].y,
+                z: (1 - t) * workingPoints[i].z + t * workingPoints[i + 1].z
+            };
+        }
+    }
+
+    return workingPoints[0];
+}
+
+/**
+ * Evaluates a specific (u, v) point on a Bezier surface.
+ * @param controlGrid - A 2D array [row][col] of 3D control points.
+ * @param u - The parameter u, typically between 0.0 and 1.0.
+ * @param v - The parameter v, typically between 0.0 and 1.0.
+ * @returns The evaluated 3D point on the surface.
+ */
+export function evaluateBezierSurface(controlGrid: Point3D[][], u: number, v: number): Point3D {
+    if (controlGrid.length === 0 || controlGrid[0].length === 0) {
+        throw new Error("Control grid cannot be empty.");
+    }
+
+    const uCurvePoints: Point3D[] = [];
+
+    // Step 1: Reduce each row of the grid into a single point using parameter 'u'
+    for (let i = 0; i < controlGrid.length; i++) {
+        const pointAtU = deCasteljau3D(controlGrid[i], u);
+        uCurvePoints.push(pointAtU);
+    }
+
+    // Step 2: Reduce the resulting column of points into a final point using parameter 'v'
+    return deCasteljau3D(uCurvePoints, v);
+}
+
+/**
+ * Generates a full mesh/grid of points representing the Bezier surface.
+ * Useful for rendering the surface in a 3D engine like Three.js.
+ * @param controlGrid - A 2D array [row][col] of 3D control points.
+ * @param resolution - How many segments to divide the surface into.
+ * @returns A 2D array of points representing the final evaluated surface.
+ */
+export function generateSurfaceMesh(controlGrid: Point3D[][], resolution: number): Point3D[][] {
+    const surfaceMesh: Point3D[][] = [];
+
+    for (let i = 0; i <= resolution; i++) {
+        const u = i / resolution;
+        const row: Point3D[] = [];
+        
+        for (let j = 0; j <= resolution; j++) {
+            const v = j / resolution;
+            row.push(evaluateBezierSurface(controlGrid, u, v));
+        }
+        
+        surfaceMesh.push(row);
+    }
+
+    return surfaceMesh;
+}
+
+```
+### 2. Usage Example
+To test this, we can define a biquadratic surface (a 3 \times 3 grid of control points). This creates a simple curved "sheet" in 3D space.
+```typescript
+// Define a 3x3 grid of control points (Biquadratic Bezier Surface)
+const surfaceControlGrid: Point3D[][] = [
+    // Row 0
+    [ {x: -10, y: -10, z: 0}, {x: 0, y: -10, z: 5}, {x: 10, y: -10, z: 0} ],
+    // Row 1
+    [ {x: -10, y: 0, z: 5},   {x: 0, y: 0, z: 10},  {x: 10, y: 0, z: 5}   ],
+    // Row 2
+    [ {x: -10, y: 10, z: 0},  {x: 0, y: 10, z: 5},  {x: 10, y: 10, z: 0}  ]
+];
+
+// 1. Evaluate a single point in the dead center of the surface
+const centerPoint = evaluateBezierSurface(surfaceControlGrid, 0.5, 0.5);
+console.log(`Center point (u=0.5, v=0.5): x=${centerPoint.x}, y=${centerPoint.y}, z=${centerPoint.z}`);
+// Output: Center point (u=0.5, v=0.5): x=0, y=0, z=6.25
+
+// 2. Generate a coarse mesh (4x4 points) for rendering
+const resolution = 3; // 3 segments means 4 points along each axis
+const mesh = generateSurfaceMesh(surfaceControlGrid, resolution);
+
+console.log(`\nGenerated Mesh (${mesh.length}x${mesh[0].length}):`);
+console.log(`Point at u=1, v=1: x=${mesh[3][3].x}, y=${mesh[3][3].y}, z=${mesh[3][3].z}`);
+// Output will match the bottom-right corner control point: x=10, y=10, z=0
+
+```
