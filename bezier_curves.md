@@ -120,6 +120,11 @@ $$B'(t) = 3[(1-t)^2(P_1-P_0) + 2t(1-t)(P_2-P_1) + t^2(P_3-P_2)]$$
 | Quadratic | (P₀+2P₁+P₂)/4 | weighted average |
 | Cubic | (P₀+3P₁+3P₂+P₃)/8 | weighted average |
 
+### At t = 3/4 (Lecture Example)
+For the degree-5 curve with points (0,0), (1,0), (2,1), (3,1), (4,0), (5,0):
+Result: **B(0.75) = (3.75, 0.3515625)**
+(See `de_casteljau_algorithm.md` for full calculation)
+
 ### At t = 1/3
 Coefficients for quadratic: (1-1/3)²=4/9, 2(1/3)(2/3)=4/9, (1/3)²=1/9
 $$B(1/3) = \frac{4}{9}P_0 + \frac{4}{9}P_1 + \frac{1}{9}P_2$$

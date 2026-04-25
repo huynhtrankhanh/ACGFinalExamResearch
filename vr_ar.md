@@ -146,7 +146,10 @@ Separate distortion maps for R, G, B channels to correct chromatic aberration.
 2. REGISTRATION: Align virtual content precisely to real world coordinates (pixel-perfect)
 3. RENDERING: Blend virtual content with real world (occlusion, lighting, shadows)
 
-### Marker-Based AR Pipeline
+### Marker-Based AR Pipeline (The PnP Problem)
+
+**PnP (Perspective-n-Point)** is the problem of estimating the pose of a calibrated camera given a set of $n$ 3D points in the world and their corresponding 2D projections in the image.
+
 ```
 Camera frame
     |
@@ -160,37 +163,43 @@ Contour detection -> find quadrilateral candidates
 Decode marker ID (bit pattern in interior grid)
     |
     v
-PnP (Perspective-n-Point) pose estimation:
-  Known 3D corners [(-s,-s,0),(s,-s,0),(s,s,0),(-s,s,0)]
-  Observed 2D projections
-  Solve: minimize Sum |projected(R,t,P3d_i) - p2d_i|^2
-  -> Camera pose (R,t) given camera intrinsics K
+PnP Pose Estimation:
+  - Input: Known 3D corners $P_i$ and observed 2D points $u_i$
+  - Goal: Find Rotation $R$ and Translation $t$
+  - Solve: $\min_{R,t} \sum \| u_i - \text{project}(K, R, t, P_i) \|^2$
+  - Methods: EPnP (Efficient PnP), P3P (for 3 points)
     |
     v
 Render virtual object at pose (R,t)
 ```
 
 ### Markerless (SLAM-based) AR Pipeline
+
+**SLAM (Simultaneous Localization and Mapping)** builds a map of an unknown environment while simultaneously tracking the device's location within it.
+
 ```
 Camera frame
     |
     v
-Feature extraction (ORB/SIFT/SuperPoint): keypoints + descriptors
+1. Feature Extraction: Find keypoints (ORB, SIFT)
     |
     v
-Feature matching to active map (Bag-of-Words + descriptor match)
+2. Data Association: Match features to the existing 3D map
     |
     v
-Pose estimation (P3P + RANSAC inlier filtering)
+3. Pose Tracking: Solve PnP (using matched 3D map points)
     |
     v
-Local optimization: Bundle Adjustment on recent keyframes
+4. Mapping: Triangulate new 3D points from current and previous frames
     |
     v
-Map expansion: triangulate new 3D points from matched features
+5. Optimization (Bundle Adjustment):
+   Refine camera poses and 3D point positions to minimize reprojection error:
+   $\min_{P, X} \sum_{i,j} \| u_{i,j} - \text{project}(P_i, X_j) \|^2$
     |
     v
-Loop closure: DBoW2 similarity query -> global optimization if loop found
+6. Loop Closure: Detect if the camera has returned to a previously visited area
+   and correct "drift" across the entire map.
 ```
 
 ### Plane Detection (ARKit/ARCore)
