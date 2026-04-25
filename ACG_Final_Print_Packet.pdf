@@ -1,0 +1,8915 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 63 /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 2331 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(# ACG Final Exam Print Packet \(Single Combined Edition\)) Tj
+T*
+() Tj
+T*
+(Generated on: 2026-04-25) Tj
+T*
+() Tj
+T*
+(This packet combines all repository study guides plus an advanced internet-researched booster) Tj
+T*
+(section.) Tj
+T*
+() Tj
+T*
+(## Included Documents) Tj
+T*
+(- ACG_Final_Exam_Study_Book.md) Tj
+T*
+(- advanced_exam_booster.md) Tj
+T*
+(- vr_ar.md) Tj
+T*
+(- delaunay_triangulation.md) Tj
+T*
+(- marching_cubes.md) Tj
+T*
+(- mri_ct_scanning.md) Tj
+T*
+(- brain_tumor_detection.md) Tj
+T*
+(- bezier_curves.md) Tj
+T*
+(- de_casteljau_algorithm.md) Tj
+T*
+(- bezier_surfaces.md) Tj
+T*
+(- bezier_surfaces_2.md) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: ACG_Final_Exam_Study_Book.md) Tj
+T*
+() Tj
+T*
+(# Advanced Computer Graphics ? Final Exam Comprehensive Study Book) Tj
+T*
+() Tj
+T*
+(**Course:** Advanced Computer Graphics \(ACG\)  ) Tj
+T*
+(**Prepared from:** Final Exam Transcript + Deep Literature Research  ) Tj
+T*
+(**Format:** Open Book, Open Notes  Paper Only  No Electronics  ) Tj
+T*
+(**Exam Structure:** 5 Questions \(3 Theory + 2 Computation\)  2 Hours) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(> *This book is designed to be printed and brought into the examination. Every topic mentioned) Tj
+T*
+(in the professor's final review lecture is covered in depth, with algorithms, examples, and) Tj
+T*
+(computation walkthroughs.*) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## Table of Contents) Tj
+T*
+() Tj
+T*
+(1. [Virtual Reality \(VR\) and Augmented Reality \(AR\)]\(#chapter-1\)) Tj
+T*
+(2. [Geometric Modeling]\(#chapter-2\)) Tj
+T*
+(   - 2.1 Point Clouds) Tj
+T*
+(   - 2.2 Triangulation) Tj
+T*
+(   - 2.3 Mesh Simplification) Tj
+T*
+(   - 2.4 Hole Filling & Surface Reconstruction) Tj
+T*
+(   - 2.5 Noise Removal & Point Set Regularization) Tj
+T*
+(3. [Medical Image Processing]\(#chapter-3\)) Tj
+T*
+(   - 3.1 CT Scanning) Tj
+T*
+(   - 3.2 MRI Scanning) Tj
+T*
+(   - 3.3 3D Reconstruction from Medical Scans) Tj
+T*
+(   - 3.4 Brain Tumor Detection) Tj
+T*
+(4. [Curves and Surfaces ? The Key Math]\(#chapter-4\)) Tj
+T*
+(   - 4.1 Bzier Curves) Tj
+T*
+(   - 4.2 Bzier Surfaces) Tj
+T*
+(   - 4.3 De Casteljau's Algorithm) Tj
+T*
+(   - 4.4 Worked Computation Examples) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Chapter 1 ? Virtual Reality \(VR\) and Augmented Reality \(AR\) {#chapter-1}) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3431 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(## 1.1 Definitions and the Reality?Virtuality Continuum) Tj
+T*
+() Tj
+T*
+(**Virtual Reality \(VR\)** is a fully simulated, computer-generated environment that replaces the) Tj
+T*
+(user's real-world perception. The user is immersed in a 3D digital world through a head-mounted) Tj
+T*
+(display \(HMD\) with tracking sensors, auditory feedback, and sometimes haptic feedback.) Tj
+T*
+() Tj
+T*
+(**Augmented Reality \(AR\)** overlays computer-generated content \(images, 3D objects,) Tj
+T*
+(annotations\) onto the real world in real time. The user continues to see the real world, but) Tj
+T*
+(with digital enhancements layered on top.) Tj
+T*
+() Tj
+T*
+(**Mixed Reality \(MR\)** is sometimes used as a synonym for AR or as a distinct category where) Tj
+T*
+(virtual and real objects coexist and interact.) Tj
+T*
+() Tj
+T*
+(Paul Milgram's **Reality?Virtuality Continuum \(1994\)** arranges these on a spectrum:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Real Environment ???????????????????? Virtual Environment) Tj
+T*
+(                  AR     MR     AV) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(- **AR \(Augmented Reality\):** Mostly real, supplemented by virtual) Tj
+T*
+(- **AV \(Augmented Virtuality\):** Mostly virtual, supplemented by real elements) Tj
+T*
+(- **VR:** Completely virtual) Tj
+T*
+() Tj
+T*
+(## 1.2 How VR Systems Work) Tj
+T*
+() Tj
+T*
+(A VR system has four critical subsystems:) Tj
+T*
+() Tj
+T*
+(### 1.2.1 Tracking and Pose Estimation) Tj
+T*
+(The system must know exactly where the user's head \(and hands\) are at all times.) Tj
+T*
+() Tj
+T*
+(- **6 Degrees of Freedom \(6-DoF\):** Three translational \(x, y, z\) + three rotational \(pitch,) Tj
+T*
+(yaw, roll\)) Tj
+T*
+(- **Inside-out tracking:** Cameras on the headset observe the environment \(Meta Quest,) Tj
+T*
+(HoloLens\)) Tj
+T*
+(- **Outside-in tracking:** External base stations emit infrared light or radio signals that the) Tj
+T*
+(headset detects \(Valve Index, original HTC Vive\)) Tj
+T*
+(- **IMU \(Inertial Measurement Unit\):** Accelerometer + gyroscope for fast rotational tracking;) Tj
+T*
+(fused with visual tracking via a Kalman filter) Tj
+T*
+() Tj
+T*
+(### 1.2.2 Rendering Pipeline) Tj
+T*
+(VR requires **two images** \(one per eye\) rendered at very high frame rates:) Tj
+T*
+() Tj
+T*
+(| Requirement | Typical Specification |) Tj
+T*
+(|---|---|) Tj
+T*
+(| Minimum frame rate | 72 fps \(discomfort below this\) |) Tj
+T*
+(| Ideal frame rate | 90?120 fps |) Tj
+T*
+(| Resolution per eye | 20002000 pixels \(modern headsets\) |) Tj
+T*
+(| Latency \(motion-to-photon\) | <20 ms \(to prevent nausea\) |) Tj
+T*
+() Tj
+T*
+(**Foveated rendering:** Because the eye's fovea \(high-acuity region\) covers only ~2 of visual) Tj
+T*
+(field, eye-tracking allows the GPU to render only the gaze point in full resolution, reducing) Tj
+T*
+(GPU load by 30?70%.) Tj
+T*
+() Tj
+T*
+(**Reprojection / Asynchronous Timewarp \(ATW\):** If a frame is late, the GPU extrapolates the) Tj
+T*
+(new head orientation from the pose data and warps the previous frame rather than displaying a) Tj
+T*
+(stale or missing image. This prevents judder.) Tj
+T*
+() Tj
+T*
+(### 1.2.3 Display Technologies) Tj
+T*
+(- **LCD:** Fast-switching IPS panels used in many consumer headsets) Tj
+T*
+(- **OLED:** Higher contrast, true blacks, but risk of persistence/ghosting; used in PlayStation) Tj
+T*
+(VR) Tj
+T*
+(- **Pancake Optics:** Fold light back and forth to create thin lenses \(Meta Quest 3, Apple) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3042 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(Vision Pro\)) Tj
+T*
+(- **Fresnel Lenses:** Lightweight concentric rings that approximate a convex lens) Tj
+T*
+() Tj
+T*
+(**Vergence-Accommodation Conflict \(VAC\):** In natural vision, the eyes both converge \(rotate) Tj
+T*
+(inward\) and accommodate \(focus\) to the same distance. Current VR displays fix the focal plane) Tj
+T*
+(at a single depth \(~2 m\), so the eyes converge at a virtual object's depth but accommodate to) Tj
+T*
+(the fixed screen distance. This causes fatigue. Light field displays and varifocal displays aim) Tj
+T*
+(to solve this.) Tj
+T*
+() Tj
+T*
+(### 1.2.4 VR Software Pipeline) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(User Input \(HMD + Controllers\)) Tj
+T*
+(         ?) Tj
+T*
+(Pose Tracking + Prediction) Tj
+T*
+(         ?) Tj
+T*
+(Scene Graph Update \(Physics, AI, Scripting\)) Tj
+T*
+(         ?) Tj
+T*
+(Frustum Culling & Level of Detail \(LOD\) Selection) Tj
+T*
+(         ?) Tj
+T*
+(GPU Rendering \(Vertex Shader ? Rasterization ? Fragment Shader\)) Tj
+T*
+(         ?) Tj
+T*
+(Post-Processing \(Lens Distortion Correction, Chromatic Aberration\)) Tj
+T*
+(         ?) Tj
+T*
+(Display \(Left Eye | Right Eye\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Key VR engines:** Unity 3D, Unreal Engine, Godot  ) Tj
+T*
+(**Key VR APIs:** OpenXR \(cross-platform\), OpenVR \(SteamVR\), Meta XR SDK) Tj
+T*
+() Tj
+T*
+(## 1.3 How AR Systems Work) Tj
+T*
+() Tj
+T*
+(AR must solve two core problems: **tracking** \(where am I in the world?\) and **rendering** \(how) Tj
+T*
+(do I blend virtual and real visually?\).) Tj
+T*
+() Tj
+T*
+(### 1.3.1 AR Tracking Methods) Tj
+T*
+() Tj
+T*
+(**Marker-Based AR:**  ) Tj
+T*
+(- Fiducial markers \(ArUco, QR codes, Vuforia targets\) are recognized by computer vision) Tj
+T*
+(- The known marker geometry allows computing camera pose via PnP \(Perspective-n-Point\)) Tj
+T*
+(algorithm) Tj
+T*
+(- Simple, fast, but requires a physical marker) Tj
+T*
+() Tj
+T*
+(**Markerless AR \(SLAM-based\):**  ) Tj
+T*
+(- SLAM = Simultaneous Localization and Mapping) Tj
+T*
+(- The device builds a map of the environment while simultaneously localizing itself within it) Tj
+T*
+(- Feature points \(SIFT, ORB, FAST\) are extracted from camera frames; matched frame-to-frame) Tj
+T*
+(- **ARKit** \(Apple\) and **ARCore** \(Google\) implement SLAM + Visual-Inertial Odometry \(VIO\) on) Tj
+T*
+(phones) Tj
+T*
+() Tj
+T*
+(**Plane Detection:**  ) Tj
+T*
+(ARKit/ARCore detect horizontal and vertical planes using depth sensors or monocular depth) Tj
+T*
+(estimation, enabling virtual objects to sit on surfaces.) Tj
+T*
+() Tj
+T*
+(**LiDAR-based depth scanning \(iPhone 12 Pro+, iPad Pro\):**  ) Tj
+T*
+(Direct depth measurement allows instant surface reconstruction, occlusion handling, and faster) Tj
+T*
+(SLAM initialization.) Tj
+T*
+() Tj
+T*
+(### 1.3.2 Registration and Rendering in AR) Tj
+T*
+() Tj
+T*
+(**Registration** = aligning virtual content with the real world with pixel-level accuracy.) Tj
+T*
+() Tj
+T*
+(Key challenges:) Tj
+T*
+(- **Dynamic lighting:** The virtual object must be lit to match the real environment \(Spherical) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3182 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(Harmonics, environment maps, neural relighting\)) Tj
+T*
+(- **Occlusion:** A real object in front of a virtual one should hide it. Requires depth) Tj
+T*
+(estimation or LiDAR) Tj
+T*
+(- **Latency:** Any delay between head movement and content update causes "swimming" of virtual) Tj
+T*
+(objects; requires motion-to-photon latency <10 ms for see-through displays) Tj
+T*
+() Tj
+T*
+(**AR Display Types:**) Tj
+T*
+(| Type | Example | Principle |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Video see-through | Meta Quest \(passthrough mode\) | Camera images + rendering composited on) Tj
+T*
+(screen |) Tj
+T*
+(| Optical see-through | Microsoft HoloLens, Magic Leap | Transparent waveguides; virtual light) Tj
+T*
+(added on top |) Tj
+T*
+(| Projection-based | Spatial AR installations | Projector maps onto real surfaces |) Tj
+T*
+(| Handheld | Smartphone AR | Camera + screen; no headset |) Tj
+T*
+() Tj
+T*
+(### 1.3.3 Key AR/VR Applications in Practice) Tj
+T*
+() Tj
+T*
+(**Medical:**) Tj
+T*
+(- Pre-surgical planning: overlay CT/MRI reconstructions onto the patient's body) Tj
+T*
+(- Navigation: real-time AR showing tumor boundaries during surgery \(e.g., Augmedics xvision) Tj
+T*
+(spine system\)) Tj
+T*
+(- Training: VR surgical simulators \(Touch Surgery, Osso VR\)) Tj
+T*
+() Tj
+T*
+(**Education:**  ) Tj
+T*
+(- Virtual anatomy labs; immersive historical reconstructions) Tj
+T*
+() Tj
+T*
+(**Industrial:**  ) Tj
+T*
+(- AR assembly guidance overlaid on real machinery \(Boeing, Airbus\)) Tj
+T*
+(- VR safety training for hazardous environments) Tj
+T*
+() Tj
+T*
+(**Architecture & Construction:**  ) Tj
+T*
+(- Walk through a building before it's built; AR overlay of BIM models on construction sites) Tj
+T*
+() Tj
+T*
+(**Entertainment & Gaming:**  ) Tj
+T*
+(- Beat Saber, Half-Life: Alyx \(VR\); Pokmon GO, Ingress \(AR\)) Tj
+T*
+() Tj
+T*
+(## 1.4 Key Algorithms Underpinning AR/VR) Tj
+T*
+() Tj
+T*
+(| Algorithm | Purpose |) Tj
+T*
+(|---|---|) Tj
+T*
+(| SLAM \(ORB-SLAM3, LSD-SLAM\) | Map + localize |) Tj
+T*
+(| PnP \(Perspective-n-Point\) | Marker pose estimation |) Tj
+T*
+(| Kalman / Extended Kalman Filter | Sensor fusion \(IMU + vision\) |) Tj
+T*
+(| Depth Completion Networks | Dense depth from sparse LiDAR or monocular |) Tj
+T*
+(| NeRF \(Neural Radiance Fields\) | Photorealistic novel view synthesis |) Tj
+T*
+(| Gaussian Splatting \(3DGS\) | Real-time radiance field rendering |) Tj
+T*
+(| Lens Distortion Correction | Barrel/pincushion distortion of HMD optics |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Chapter 2 ? Geometric Modeling {#chapter-2}) Tj
+T*
+() Tj
+T*
+(Geometric modeling is the mathematical description and manipulation of 3D shapes. After) Tj
+T*
+(acquiring 3D data \(from LiDAR, photogrammetry, CT/MRI, etc.\), we must process the raw data into) Tj
+T*
+(clean, useful representations.) Tj
+T*
+() Tj
+T*
+(## 2.1 Point Clouds) Tj
+T*
+() Tj
+T*
+(### 2.1.1 What is a Point Cloud?) Tj
+T*
+() Tj
+T*
+(A **point cloud** is an unordered set of 3D points P = {p?, p?, ..., p?} where each point p? =) Tj
+T*
+(\(x?, y?, z?\) represents a position in 3D space. Points may also carry additional attributes:) Tj
+T*
+(color \(R,G,B\), surface normals, intensity \(from LiDAR\), or timestamps.) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 3262 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(**Acquisition methods:**) Tj
+T*
+(- **LiDAR \(Light Detection and Ranging\):** A laser pulse is fired and the time-of-flight) Tj
+T*
+(measured. Used in autonomous vehicles, surveying, and industrial scanning.) Tj
+T*
+(- **Structured Light Scanners:** Project a known light pattern \(e.g., sinusoidal stripes\);) Tj
+T*
+(deformation of the pattern encodes depth \(Intel RealSense D-series, Kinect\)) Tj
+T*
+(- **Time-of-Flight Cameras:** Each pixel measures round-trip photon travel time \(iToF, dToF\)) Tj
+T*
+(- **Photogrammetry:** Multiple overlapping images are processed by Structure from Motion \(SfM\)) Tj
+T*
+(algorithms to produce a dense point cloud) Tj
+T*
+(- **CT/MRI:** Medical scans provide 3D volumetric data that can be thresholded into point) Tj
+T*
+(clouds) Tj
+T*
+() Tj
+T*
+(### 2.1.2 Point Cloud Data Structures) Tj
+T*
+() Tj
+T*
+(Efficient processing requires spatial data structures:) Tj
+T*
+() Tj
+T*
+(**k-d Tree:**  ) Tj
+T*
+(A binary space-partitioning tree. Splits space alternately along x, y, z axes at median points.) Tj
+T*
+(Supports O\(log n\) nearest-neighbor queries. Used extensively in ICP, normal estimation, and) Tj
+T*
+(radius searches.) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Build: choose axis with max variance ? find median ? recurse on left/right) Tj
+T*
+(Query: traverse tree, prune branches where minimum possible distance > current best) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Octree:**  ) Tj
+T*
+(Recursively divides 3D space into 8 equal octants. Good for uniform density clouds; used for) Tj
+T*
+(compression and level-of-detail.) Tj
+T*
+() Tj
+T*
+(**Voxel Grid:**  ) Tj
+T*
+(Divides space into equal cubes \(voxels\). Points in each voxel are replaced by their centroid ?) Tj
+T*
+(a common downsampling strategy.) Tj
+T*
+() Tj
+T*
+(### 2.1.3 Normal Estimation) Tj
+T*
+() Tj
+T*
+(Normals are needed for rendering and surface reconstruction. For each point p?:) Tj
+T*
+() Tj
+T*
+(1. Find k-nearest neighbors \(k typically 10?30\)) Tj
+T*
+(2. Compute the covariance matrix C of the neighbor coordinates) Tj
+T*
+(3. Perform PCA \(eigendecomposition\) on C) Tj
+T*
+(4. The normal is the eigenvector corresponding to the smallest eigenvalue \(the direction of) Tj
+T*
+(least variance\)) Tj
+T*
+(5. Orient normals consistently \(e.g., using minimum spanning tree or camera viewpoint\)) Tj
+T*
+() Tj
+T*
+(## 2.2 Triangulation ? Turning Points into Meshes) Tj
+T*
+() Tj
+T*
+(### 2.2.1 Why Triangulate?) Tj
+T*
+() Tj
+T*
+(A point cloud has no topology ? we don't know which points are neighbors on the surface.) Tj
+T*
+(Triangulation creates a **triangle mesh** \(also called a **polygonal mesh** or **TIN ?) Tj
+T*
+(Triangulated Irregular Network**\), which gives us:) Tj
+T*
+(- Continuous surface for rendering) Tj
+T*
+(- Well-defined surface normals per face) Tj
+T*
+(- Topology for further geometric processing) Tj
+T*
+() Tj
+T*
+(### 2.2.2 Delaunay Triangulation \(2D\)) Tj
+T*
+() Tj
+T*
+(**Definition:** Given a set of points P in the plane, the Delaunay triangulation DT\(P\) is the) Tj
+T*
+(unique triangulation such that **no point in P lies inside the circumcircle of any triangle**) Tj
+T*
+(in DT\(P\).) Tj
+T*
+() Tj
+T*
+(**Properties:**) Tj
+T*
+(- Maximizes the minimum angle among all triangles ? avoids thin, degenerate "sliver" triangles) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3619 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- Dual graph of the Voronoi diagram: connect circumcenters of adjacent triangles) Tj
+T*
+(- Unique in general position \(no 4 co-circular points\)) Tj
+T*
+(- For n points: O\(n log n\) time to compute; produces at most 2n ? h ? 2 triangles \(h = convex) Tj
+T*
+(hull points\)) Tj
+T*
+() Tj
+T*
+(**Circumcircle condition \(Delaunay condition\):**  ) Tj
+T*
+(For each edge shared by triangles T1 and T2: the fourth point of T2 must NOT lie inside the) Tj
+T*
+(circumcircle of T1 \(and vice versa\). If it does, the shared edge is "flipped.") Tj
+T*
+() Tj
+T*
+(**Bowyer?Watson Algorithm:**) Tj
+T*
+(```) Tj
+T*
+(1. Start with a super-triangle containing all points) Tj
+T*
+(2. For each point p:) Tj
+T*
+(   a. Find all triangles whose circumcircle contains p  \(bad triangles\)) Tj
+T*
+(   b. Find the boundary polygon of the bad triangles \(the "hole"\)) Tj
+T*
+(   c. Delete bad triangles; re-triangulate the hole with p as new vertex) Tj
+T*
+(3. Remove triangles sharing vertices with the super-triangle) Tj
+T*
+(```) Tj
+T*
+(Time complexity: O\(n log n\) average, O\(n\) worst case.) Tj
+T*
+() Tj
+T*
+(**Lawson Flipping Algorithm:**  ) Tj
+T*
+(Start with any valid triangulation; iteratively flip non-Delaunay edges until all edges satisfy) Tj
+T*
+(the Delaunay condition. O\(n\) in worst case but fast in practice.) Tj
+T*
+() Tj
+T*
+(### 2.2.3 3D Triangulation from Point Clouds) Tj
+T*
+() Tj
+T*
+(**Ball Pivoting Algorithm \(BPA\):**  ) Tj
+T*
+(Imagine a ball of radius ? rolling over the point cloud:) Tj
+T*
+(1. Seed: find three points that form a triangle and have the ball resting on them with no other) Tj
+T*
+(point inside) Tj
+T*
+(2. Pivot: roll the ball around each edge; the next triangle vertex is the first point the ball) Tj
+T*
+(touches) Tj
+T*
+(3. Continue until all points are reached or the ball gets stuck in a hole) Tj
+T*
+() Tj
+T*
+(The radius ? determines the mesh resolution. Multiple passes with different ? can recover fine) Tj
+T*
+(and coarse features.) Tj
+T*
+() Tj
+T*
+(**Poisson Surface Reconstruction \(Kazhdan et al., 2006\):**  ) Tj
+T*
+(One of the most widely used methods:) Tj
+T*
+(1. Estimate oriented point normals) Tj
+T*
+(2. Formulate surface reconstruction as solving a Poisson equation: ?? = ?**V**, where **V**) Tj
+T*
+(is the vector field of normals and ? is an indicator function \(1 inside, 0 outside\)) Tj
+T*
+(3. Extract the isosurface ? = 0.5 using Marching Cubes) Tj
+T*
+() Tj
+T*
+(Advantages: robust to noise, produces watertight closed meshes. Used in MeshLab, Open3D, PCL.) Tj
+T*
+() Tj
+T*
+(**Alpha Shapes:**  ) Tj
+T*
+(A generalization of Delaunay triangulation. For a parameter ?, delete all simplices \(triangles,) Tj
+T*
+(edges, vertices\) whose circumradius exceeds 1/?. The result is a subset of the Delaunay) Tj
+T*
+(triangulation that follows the shape of the point cloud.) Tj
+T*
+(- Large ? ? convex hull) Tj
+T*
+(- Small ? ? detailed concave shape, or potentially disconnected) Tj
+T*
+() Tj
+T*
+(**Marching Cubes Algorithm \(Lorensen & Cline, 1987\):**  ) Tj
+T*
+(Used to extract an isosurface from a volumetric scalar field \(e.g., CT voxels\):) Tj
+T*
+(1. Divide space into small cubes) Tj
+T*
+(2. At each cube corner, evaluate whether the scalar value is above or below the iso-threshold) Tj
+T*
+(3. There are 2? = 256 possible configurations \(reduced to 15 by symmetry\); each corresponds to) Tj
+T*
+(a set of triangles within the cube) Tj
+T*
+(4. Interpolate edge intersection points; output triangles) Tj
+T*
+() Tj
+T*
+(This is the standard algorithm for medical image segmentation and volume rendering.) Tj
+T*
+() Tj
+T*
+(### 2.2.4 Summary Table: Triangulation Methods) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3170 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(| Method | Input | Output | Best For |) Tj
+T*
+(|---|---|---|---|) Tj
+T*
+(| Delaunay \(2D\) | 2D points | 2D triangles | Terrain, flat surfaces |) Tj
+T*
+(| Bowyer?Watson | 2D/3D points | Tetrahedral mesh \(3D\) | General purpose |) Tj
+T*
+(| Ball Pivoting | Oriented 3D points | Triangle mesh | Dense, clean scans |) Tj
+T*
+(| Poisson Reconstruction | Oriented 3D normals | Watertight mesh | Noisy data, medical |) Tj
+T*
+(| Alpha Shapes | 3D points | Concave hull mesh | Shape boundary extraction |) Tj
+T*
+(| Marching Cubes | Voxel grid | Isosurface mesh | CT/MRI volume data |) Tj
+T*
+() Tj
+T*
+(## 2.3 Mesh Simplification) Tj
+T*
+() Tj
+T*
+(### 2.3.1 Why Simplify?) Tj
+T*
+() Tj
+T*
+(Raw scans can contain millions of triangles. Simplification reduces the triangle count while) Tj
+T*
+(preserving visual quality. This is essential for:) Tj
+T*
+(- Real-time rendering \(games, VR\)) Tj
+T*
+(- Level of Detail \(LOD\) systems) Tj
+T*
+(- Transmission over networks) Tj
+T*
+(- Faster downstream processing) Tj
+T*
+() Tj
+T*
+(### 2.3.2 Quadric Error Metrics \(QEM\) ? Garland & Heckbert \(1997\)) Tj
+T*
+() Tj
+T*
+(The most widely used mesh simplification algorithm.) Tj
+T*
+() Tj
+T*
+(**Core Idea:** For each vertex, maintain a 44 symmetric matrix Q \(the "quadric"\) that measures) Tj
+T*
+(the squared distance from the vertex to the set of planes of its adjacent triangles. Collapsing) Tj
+T*
+(an edge merges two vertices; the error of the collapse is the quadric error at the merged) Tj
+T*
+(position.) Tj
+T*
+() Tj
+T*
+(**Algorithm:**) Tj
+T*
+(1. Compute Q matrix for every vertex \(sum of outer products of plane equations of adjacent) Tj
+T*
+(faces\)) Tj
+T*
+(2. For each edge \(v?, v?\), compute optimal contracted position v? = argmin\(v?? Q_total v?\) and) Tj
+T*
+(its error) Tj
+T*
+(3. Insert all edges into a min-heap ordered by error) Tj
+T*
+(4. Repeatedly extract the minimum-error edge and collapse it) Tj
+T*
+(5. Update Q matrices and edge costs for neighbors) Tj
+T*
+() Tj
+T*
+(**Error metric:**  ) Tj
+T*
+(For a plane defined by ax + by + cz + d = 0 \(with a + b + c = 1\), the squared distance from) Tj
+T*
+(point **p** = [x,y,z,1]? is:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(error\(p\) = p? K p) Tj
+T*
+(where K = pp? \(outer product of the plane vector p = [a,b,c,d]\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The vertex quadric Q = ? K over all adjacent planes.) Tj
+T*
+() Tj
+T*
+(**Results:** Can reduce a 100,000 triangle mesh to 1,000 triangles with < 1% visual degradation) Tj
+T*
+(if done carefully.) Tj
+T*
+() Tj
+T*
+(### 2.3.3 Other Simplification Methods) Tj
+T*
+() Tj
+T*
+(**Vertex Clustering:** Divide space into a grid; replace all vertices in each cell by a single) Tj
+T*
+(representative. Fast but can create artifacts.) Tj
+T*
+() Tj
+T*
+(**Progressive Meshes \(Hoppe, 1996\):** Record each edge collapse as a reversible operation;) Tj
+T*
+(store the original mesh as a sequence of "vertex splits." At runtime, apply the desired number) Tj
+T*
+(of splits for adaptive LOD.) Tj
+T*
+() Tj
+T*
+(**View-Dependent Simplification:** Keep fine detail in regions close to the camera; use fewer) Tj
+T*
+(triangles far away. Dynamically updates as the viewpoint changes.) Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 3084 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(## 2.4 Hole Filling and Surface Reconstruction) Tj
+T*
+() Tj
+T*
+(### 2.4.1 What are Holes?) Tj
+T*
+() Tj
+T*
+(Holes in a mesh arise from:) Tj
+T*
+(- Missing data during scanning \(occluded regions, reflective surfaces, scanner limitations\)) Tj
+T*
+(- Deliberate removal of corrupted regions) Tj
+T*
+(- Errors in reconstruction algorithms) Tj
+T*
+() Tj
+T*
+(A hole is a **boundary loop** in the mesh ? a chain of boundary edges forming a closed polygon.) Tj
+T*
+() Tj
+T*
+(### 2.4.2 Simple Hole Filling Methods) Tj
+T*
+() Tj
+T*
+(**Ear Clipping / Triangulation of the Boundary Polygon:**  ) Tj
+T*
+(1. Identify the boundary loop \(ordered sequence of boundary vertices v?, v?, ..., v?\)) Tj
+T*
+(2. Triangulate the polygon formed by these vertices) Tj
+T*
+(3. The simplest approach: connect each adjacent triple \(v???, v?, v???\) creating "ears") Tj
+T*
+() Tj
+T*
+(This produces a flat patch. For small holes, it is adequate.) Tj
+T*
+() Tj
+T*
+(**Minimum-Area Triangulation:**  ) Tj
+T*
+(Among all possible triangulations of the boundary polygon, choose the one minimizing total) Tj
+T*
+(triangle area. Can be computed in O\(n\) using dynamic programming.) Tj
+T*
+() Tj
+T*
+(### 2.4.3 Feature-Preserving Hole Filling \(Zhao et al., 2007\)) Tj
+T*
+() Tj
+T*
+(For larger or more complex holes, the fill must match the surrounding surface curvature:) Tj
+T*
+() Tj
+T*
+(1. **Boundary analysis:** Detect curvature and normals along the hole boundary) Tj
+T*
+(2. **Initial fill:** Apply a rough triangulation to the hole) Tj
+T*
+(3. **Refinement:** Iteratively move interior vertices to minimize a fairness energy functional:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(E = ?_fair  E_fairness + ?_fit  E_fit) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(where E_fairness penalizes high curvature \(Laplacian smoothing\) and E_fit attracts the patch) Tj
+T*
+(toward known data.) Tj
+T*
+() Tj
+T*
+(**Laplacian smoothing step:**  ) Tj
+T*
+(For each interior vertex v: v ? \(1/|N|\) ? v? over all neighbors N\(v\)  ) Tj
+T*
+(Repeated application smooths the patch to match neighbors.) Tj
+T*
+() Tj
+T*
+(### 2.4.4 Poisson-Based Reconstruction for Holes) Tj
+T*
+() Tj
+T*
+(The same Poisson surface reconstruction \(Section 2.2.3\) can be applied to a partial mesh with) Tj
+T*
+(holes:) Tj
+T*
+(1. Sample additional points around the hole boundary) Tj
+T*
+(2. Estimate their normals by interpolation from surrounding normals) Tj
+T*
+(3. Run full Poisson reconstruction on the combined point set) Tj
+T*
+(4. The algorithm naturally fills holes because it solves a global equation) Tj
+T*
+() Tj
+T*
+(### 2.4.5 Deep Learning Approaches) Tj
+T*
+() Tj
+T*
+(Recent methods use neural networks for hole filling:) Tj
+T*
+(- **PCN \(Point Completion Network\):** Takes incomplete point cloud; encoder-decoder outputs) Tj
+T*
+(completed point cloud) Tj
+T*
+(- **FoldingNet, TopNet, PoinTr:** Various architectures for point cloud completion) Tj
+T*
+(- Used when the missing part can be inferred from context \(e.g., the other half of a symmetric) Tj
+T*
+(object\)) Tj
+T*
+() Tj
+T*
+(## 2.5 Noise Removal and Point Set Regularization) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 2986 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(### 2.5.1 Sources of Noise) Tj
+T*
+() Tj
+T*
+(- Scanner hardware limitations \(quantization noise, sensor noise\)) Tj
+T*
+(- Multi-path reflections \(LiDAR bounces off multiple surfaces\)) Tj
+T*
+(- Dust, humidity, vibration during scanning) Tj
+T*
+(- Registration errors when combining multiple scans) Tj
+T*
+() Tj
+T*
+(Noise manifests as:) Tj
+T*
+(- **Outliers:** Points far from the true surface \(gross errors\)) Tj
+T*
+(- **High-frequency noise:** Points near the surface but randomly scattered around it) Tj
+T*
+() Tj
+T*
+(### 2.5.2 Statistical Outlier Removal \(SOR\)) Tj
+T*
+() Tj
+T*
+(For each point p?:) Tj
+T*
+(1. Find k nearest neighbors) Tj
+T*
+(2. Compute mean distance ?? and standard deviation ?? of distances to neighbors) Tj
+T*
+(3. Compute global mean ? and standard deviation ? across all points) Tj
+T*
+(4. Remove point if ?? > ? + ?? \(where ? is a threshold, typically 1.0?2.0\)) Tj
+T*
+() Tj
+T*
+(This removes isolated points that are far from their neighborhood.) Tj
+T*
+() Tj
+T*
+(### 2.5.3 Radius Outlier Removal) Tj
+T*
+() Tj
+T*
+(Remove points that have fewer than N neighbors within a radius r. Very fast; removes isolated) Tj
+T*
+(points in sparse regions.) Tj
+T*
+() Tj
+T*
+(### 2.5.4 Bilateral Filtering for Point Clouds) Tj
+T*
+() Tj
+T*
+(Adapted from image processing. For each point p?, compute a new position p'? as a weighted) Tj
+T*
+(average of neighbors:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(p'? = ?? w\(p?, p?\)  p?  /  ?? w\(p?, p?\)) Tj
+T*
+() Tj
+T*
+(w\(p?, p?\) = exp\(?||p??p?|| / ?_spatial\)  exp\(?||n?\(p??p?\)|| / ?_normal\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The first term uses spatial proximity; the second uses projected distance along the normal) Tj
+T*
+(direction \(preserving edges and sharp features\). ? values control the smoothing strength.) Tj
+T*
+() Tj
+T*
+(### 2.5.5 Moving Least Squares \(MLS\)) Tj
+T*
+() Tj
+T*
+(The MLS method fits a local polynomial surface to the neighborhood of each point and projects) Tj
+T*
+(the point onto that surface:) Tj
+T*
+() Tj
+T*
+(1. For each point p?, gather k-nearest neighbors) Tj
+T*
+(2. Fit a local plane or low-degree polynomial p\(u,v\) to those neighbors by least-squares, with) Tj
+T*
+(Gaussian weights centered at p?) Tj
+T*
+(3. Project p? onto the fitted surface) Tj
+T*
+(4. Recompute normals from the surface fit) Tj
+T*
+() Tj
+T*
+(MLS both smooths and regularizes ? moving noisy points onto a smooth implicit surface. It is) Tj
+T*
+(the basis of the **APSS \(Algebraic Point Set Surfaces\)** method.) Tj
+T*
+() Tj
+T*
+(### 2.5.6 Voxel Downsampling \(Regularization\)) Tj
+T*
+() Tj
+T*
+(To make a point set "more regular" \(uniform density\):) Tj
+T*
+(1. Create a 3D voxel grid of cell size `leaf_size`) Tj
+T*
+(2. All points in each voxel cell are replaced by their centroid) Tj
+T*
+(3. Result: one point per non-empty voxel ? uniform density) Tj
+T*
+() Tj
+T*
+(Fast O\(n log n\) implementation in PCL \(Point Cloud Library\) and Open3D.) Tj
+T*
+() Tj
+T*
+(### 2.5.7 Comparison of Denoising Methods) Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 2811 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(| Method | Removes Outliers | Smooths Noise | Preserves Sharp Edges | Speed |) Tj
+T*
+(|---|---|---|---|---|) Tj
+T*
+(| Statistical Outlier Removal | ? | ? | ? | Fast |) Tj
+T*
+(| Radius Outlier Removal | ? | ? | ? | Very Fast |) Tj
+T*
+(| Voxel Downsampling | Partial | Partial | ? | Very Fast |) Tj
+T*
+(| Bilateral Filtering | ? | ? | ? | Moderate |) Tj
+T*
+(| MLS | ? | ? | ? | Slow |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Chapter 3 ? Medical Image Processing {#chapter-3}) Tj
+T*
+() Tj
+T*
+(## 3.1 CT Scanning \(Computed Tomography\)) Tj
+T*
+() Tj
+T*
+(### 3.1.1 Physical Principle) Tj
+T*
+() Tj
+T*
+(CT uses **X-rays** ? ionizing electromagnetic radiation. A rotating X-ray source and detector) Tj
+T*
+(array around the patient take hundreds of 2D projection images \(sinograms\) from different) Tj
+T*
+(angles. A mathematical procedure called **back-projection** \(specifically **filtered) Tj
+T*
+(back-projection**, FBP\) reconstructs the 3D density distribution.) Tj
+T*
+() Tj
+T*
+(**Hounsfield Units \(HU\):**  ) Tj
+T*
+(The attenuation of X-rays by tissue is expressed in Hounsfield Units:) Tj
+T*
+() Tj
+T*
+(| Tissue | HU Value |) Tj
+T*
+(|---|---|) Tj
+T*
+(| Air | ?1000 |) Tj
+T*
+(| Lung | ?500 to ?700 |) Tj
+T*
+(| Fat | ?100 to ?50 |) Tj
+T*
+(| Water | 0 |) Tj
+T*
+(| Soft tissue | +20 to +80 |) Tj
+T*
+(| Bone | +300 to +1900 |) Tj
+T*
+() Tj
+T*
+(This allows **windowing** ? adjusting contrast and brightness to highlight specific tissue) Tj
+T*
+(types.) Tj
+T*
+() Tj
+T*
+(### 3.1.2 CT Reconstruction Algorithm ? Filtered Back-Projection) Tj
+T*
+() Tj
+T*
+(1. **Projection acquisition:** For each angle ?, measure the line integral of X-ray attenuation) Tj
+T*
+(along every ray through the object ? produces the **Radon transform** R?\(s\)) Tj
+T*
+() Tj
+T*
+(2. **Filtering step:** Apply a ramp filter \(Ram-Lak filter\) in the frequency domain to each) Tj
+T*
+(projection:  ) Tj
+T*
+(   `H\(f\) = |f|` \(enhances high frequencies, counteracts blurring from back-projection\)) Tj
+T*
+() Tj
+T*
+(3. **Back-projection:** For each filtered projection, smear the values back along the ray paths) Tj
+T*
+(and sum up:  ) Tj
+T*
+(   `f\(x,y\) = ??^? P_?\(x cos? + y sin?\) d?`) Tj
+T*
+() Tj
+T*
+(4. **Result:** A 3D voxel grid showing tissue density.) Tj
+T*
+() Tj
+T*
+(**Iterative reconstruction \(IR\):** Modern CT scanners use iterative methods \(ASIR, IRIS,) Tj
+T*
+(SAFIRE\) that model noise statistics and scanner physics, allowing lower radiation doses with) Tj
+T*
+(comparable image quality.) Tj
+T*
+() Tj
+T*
+(### 3.1.3 CT Advantages and Disadvantages) Tj
+T*
+() Tj
+T*
+(**Advantages:**) Tj
+T*
+(- Excellent for bone, calcifications, lung) Tj
+T*
+(- Fast acquisition \(entire chest in one breath-hold\)) Tj
+T*
+(- Wide availability) Tj
+T*
+(- Precise HU values enable automated segmentation) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 3240 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(**Disadvantages:**) Tj
+T*
+(- Ionizing radiation \(cumulative dose risk\)) Tj
+T*
+(- Poor soft-tissue contrast \(compared to MRI\)) Tj
+T*
+(- Artifacts: beam hardening, metal artifacts, partial volume effect) Tj
+T*
+() Tj
+T*
+(## 3.2 MRI Scanning \(Magnetic Resonance Imaging\)) Tj
+T*
+() Tj
+T*
+(### 3.2.1 Physical Principle) Tj
+T*
+() Tj
+T*
+(MRI exploits the **nuclear magnetic resonance \(NMR\)** of hydrogen nuclei \(protons\).) Tj
+T*
+() Tj
+T*
+(1. **Alignment:** A strong static magnetic field B? \(1.5T, 3T, or 7T\) aligns proton spins) Tj
+T*
+(parallel or anti-parallel to the field) Tj
+T*
+() Tj
+T*
+(2. **Excitation:** A radiofrequency \(RF\) pulse at the Larmor frequency  ) Tj
+T*
+(   `f_L = ? B? / \(2?\)`  ) Tj
+T*
+(   \(? = 42.577 MHz/T for hydrogen\) tips the net magnetization into the transverse plane) Tj
+T*
+() Tj
+T*
+(3. **Relaxation:** After the RF pulse, two relaxation processes occur:) Tj
+T*
+(   - **T1 \(longitudinal relaxation\):** Magnetization recovers along B?; different tissues have) Tj
+T*
+(different T1 times) Tj
+T*
+(   - **T2 \(transverse relaxation\):** Transverse magnetization decays due to spin-spin) Tj
+T*
+(interactions; also tissue-specific) Tj
+T*
+() Tj
+T*
+(4. **Signal detection:** The relaxing magnetization induces a voltage in receiver coils ? the) Tj
+T*
+(**FID \(Free Induction Decay\)** signal) Tj
+T*
+() Tj
+T*
+(5. **Spatial encoding:** Gradient coils create spatially varying magnetic fields. The frequency) Tj
+T*
+(and phase of the signal encode position. **2D Fourier transform** of the collected k-space data) Tj
+T*
+(produces the image.) Tj
+T*
+() Tj
+T*
+(### 3.2.2 MRI Sequences and Weighting) Tj
+T*
+() Tj
+T*
+(By choosing the **Repetition Time \(TR\)** and **Echo Time \(TE\)**, different tissue contrasts are) Tj
+T*
+(achieved:) Tj
+T*
+() Tj
+T*
+(| Sequence | TR | TE | Bright | Uses |) Tj
+T*
+(|---|---|---|---|---|) Tj
+T*
+(| T1-weighted | Short | Short | Fat, contrast-enhancing lesions | Anatomy, post-contrast brain) Tj
+T*
+(|) Tj
+T*
+(| T2-weighted | Long | Long | Fluid, edema, CSF | Pathology detection, brain |) Tj
+T*
+(| PD-weighted | Long | Short | Proton density | Cartilage, joint imaging |) Tj
+T*
+(| FLAIR | Long | Long \(fluid suppressed\) | White matter lesions | MS, encephalitis |) Tj
+T*
+(| DWI \(diffusion\) | ? | ? | Restricted diffusion \(ischemia\) | Stroke, tumor cellularity |) Tj
+T*
+(| fMRI \(BOLD\) | ? | ? | Blood oxygenation | Brain activity mapping |) Tj
+T*
+() Tj
+T*
+(### 3.2.3 MRI Advantages and Disadvantages) Tj
+T*
+() Tj
+T*
+(**Advantages:**) Tj
+T*
+(- No ionizing radiation) Tj
+T*
+(- Excellent soft-tissue contrast \(brain, spinal cord, joint cartilage, liver\)) Tj
+T*
+(- Multi-parametric: T1, T2, DWI, perfusion, spectroscopy in one session) Tj
+T*
+(- Functional imaging possible \(fMRI, DTI\)) Tj
+T*
+() Tj
+T*
+(**Disadvantages:**) Tj
+T*
+(- Long acquisition time \(minutes vs. seconds for CT\)) Tj
+T*
+(- Loud noise \(gradient switching\)) Tj
+T*
+(- Contraindicated in patients with certain metal implants \(pacemakers, some stents\)) Tj
+T*
+(- Expensive, less widely available) Tj
+T*
+(- Susceptibility to motion artifacts) Tj
+T*
+(- Limited spatial resolution for some applications) Tj
+T*
+() Tj
+T*
+(## 3.3 3D Reconstruction from Medical Scans) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 2804 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(### 3.3.1 Workflow Overview) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(CT/MRI Acquisition) Tj
+T*
+(        ?) Tj
+T*
+(DICOM Data \(stack of 2D slices, e.g., 512512  300 slices\)) Tj
+T*
+(        ?) Tj
+T*
+(Segmentation \(which voxels belong to the target structure?\)) Tj
+T*
+(        ?) Tj
+T*
+(3D Surface Extraction \(Marching Cubes\)) Tj
+T*
+(        ?) Tj
+T*
+(Mesh Post-Processing \(smoothing, hole filling, simplification\)) Tj
+T*
+(        ?) Tj
+T*
+(Visualization / 3D Printing / Surgical Planning) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### 3.3.2 Segmentation Methods) Tj
+T*
+() Tj
+T*
+(**Thresholding:**  ) Tj
+T*
+(For bone: any voxel with HU > 300 is classified as bone. Fast and effective for high-contrast) Tj
+T*
+(structures \(CT bone, lung\).) Tj
+T*
+() Tj
+T*
+(**Region Growing:**  ) Tj
+T*
+(1. Place a seed point inside the target organ) Tj
+T*
+(2. Recursively add adjacent voxels if their intensity is within a tolerance range) Tj
+T*
+(3. Stops at edges \(abrupt intensity changes\)) Tj
+T*
+() Tj
+T*
+(**Watershed Segmentation:**  ) Tj
+T*
+(Treat the image as a topographic map; flood from local minima; watershed lines separate) Tj
+T*
+(different regions. Good for touching structures.) Tj
+T*
+() Tj
+T*
+(**Active Contours \(Snakes, Level Sets\):**  ) Tj
+T*
+(Evolve a curve/surface toward object boundaries by minimizing an energy:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(E = E_internal \(smoothness\) + E_external \(image gradient\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Level set methods represent the surface implicitly as the zero-level of a function ?\(x,y,z\),) Tj
+T*
+(which evolves according to:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(??/?t = |??| \(? + F\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(where ? is curvature and F is the image-based speed term.) Tj
+T*
+() Tj
+T*
+(**Deep Learning Segmentation:**  ) Tj
+T*
+(- **U-Net \(Ronneberger et al., 2015\):** The dominant architecture for medical image) Tj
+T*
+(segmentation) Tj
+T*
+(  - Encoder path: consecutive conv + max-pool \(extracts features, increases receptive field\)) Tj
+T*
+(  - Bottleneck: lowest resolution) Tj
+T*
+(  - Decoder path: upsampling + skip connections from encoder \(restores spatial detail\)) Tj
+T*
+(  - Output: pixel-wise probability map) Tj
+T*
+(- **3D U-Net:** Extends to volumetric segmentation) Tj
+T*
+(- **nnU-Net:** Self-configuring framework that adapts to any segmentation dataset automatically) Tj
+T*
+() Tj
+T*
+(### 3.3.3 Marching Cubes Applied to Medical Data) Tj
+T*
+() Tj
+T*
+(After segmentation, the binary volume is passed to Marching Cubes:) Tj
+T*
+(1. Each 222 voxel cube has 8 corners classified as inside/outside the object) Tj
+T*
+(2. 256 configurations ? 15 unique cases by symmetry) Tj
+T*
+(3. Each case defines which edges are intersected and how to place triangles) Tj
+T*
+(4. Linear interpolation finds precise edge intersection positions) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 3404 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(**Post-processing the medical mesh:**) Tj
+T*
+(- **Laplacian smoothing:** reduces staircase artifacts from the voxel grid) Tj
+T*
+(- **Taubin smoothing \(?-? filter\):** smooths without shrinkage \(alternating positive/negative) Tj
+T*
+(smoothing steps\)) Tj
+T*
+(- **Mesh simplification:** reduce triangle count while maintaining shape) Tj
+T*
+(- **Hole filling:** fill any topological holes in the mesh) Tj
+T*
+() Tj
+T*
+(## 3.4 Brain Tumor Detection) Tj
+T*
+() Tj
+T*
+(### 3.4.1 Types of Brain Tumors in MRI) Tj
+T*
+() Tj
+T*
+(**Primary tumors \(originating in the brain\):**) Tj
+T*
+(- Glioblastoma Multiforme \(GBM\) ? Grade IV, most aggressive; heterogeneous enhancement on T1c;) Tj
+T*
+(central necrosis) Tj
+T*
+(- Low-grade glioma ? Grades II?III; T2/FLAIR hyperintense; minimal enhancement) Tj
+T*
+(- Meningioma ? Extra-axial; strong enhancement on T1c) Tj
+T*
+(- Medulloblastoma ? Posterior fossa; pediatric) Tj
+T*
+() Tj
+T*
+(**Secondary \(metastatic\):**  ) Tj
+T*
+(- Ring-enhancing lesions on T1c; often multiple; surrounded by vasogenic edema \(T2/FLAIR) Tj
+T*
+(bright\)) Tj
+T*
+() Tj
+T*
+(### 3.4.2 MRI Sequences for Brain Tumor Diagnosis) Tj
+T*
+() Tj
+T*
+(The standard **multi-parametric MRI \(mpMRI\)** protocol for brain tumors includes:) Tj
+T*
+(- **T1 \(pre-contrast\):** Baseline anatomy; hemorrhage appears bright) Tj
+T*
+(- **T1c \(post-gadolinium contrast\):** Blood-brain barrier breakdown shows enhancement; tumor) Tj
+T*
+(core) Tj
+T*
+(- **T2:** Peritumoral edema bright; shows tumor extent) Tj
+T*
+(- **T2-FLAIR:** Fluid suppressed; edema and infiltration clearly visible) Tj
+T*
+(- **DWI/ADC:** Cell density; tumor cellularity; differentiates abscess from tumor) Tj
+T*
+(- **MR Spectroscopy \(MRS\):** Choline? \(cell membrane turnover\), NAA? \(neuronal death\); Cho/Cr) Tj
+T*
+(and Cho/NAA ratios indicate malignancy) Tj
+T*
+(- **Perfusion MRI \(DSC, DCE\):** Blood volume and flow; rCBV elevated in high-grade tumor) Tj
+T*
+() Tj
+T*
+(### 3.4.3 Manual vs. Automated Segmentation) Tj
+T*
+() Tj
+T*
+(**Manual segmentation:** Radiologist draws tumor boundaries on each slice ? gold standard but) Tj
+T*
+(time-consuming \(1?4 hours per case\) and subject to inter-rater variability.) Tj
+T*
+() Tj
+T*
+(**BraTS \(Brain Tumor Segmentation\) Challenge:**  ) Tj
+T*
+(An annual competition \(MICCAI\) providing a standardized dataset and evaluation for automated) Tj
+T*
+(tumor segmentation. Sub-regions:) Tj
+T*
+(- **Enhancing tumor \(ET\):** T1c-bright region \(active tumor\)) Tj
+T*
+(- **Tumor core \(TC\):** ET + necrosis) Tj
+T*
+(- **Whole tumor \(WT\):** TC + peritumoral edema) Tj
+T*
+() Tj
+T*
+(### 3.4.4 Deep Learning for Brain Tumor Segmentation) Tj
+T*
+() Tj
+T*
+(**3D U-Net / U-Net variants:**  ) Tj
+T*
+(The current state of the art. Input: 4-channel volume \(T1, T1c, T2, FLAIR\). Output: 3-channel) Tj
+T*
+(probability map \(ET, TC, WT regions\).) Tj
+T*
+() Tj
+T*
+(**Attention U-Net:**  ) Tj
+T*
+(Adds attention gates on skip connections to focus on relevant regions; suppresses irrelevant) Tj
+T*
+(background activations.) Tj
+T*
+() Tj
+T*
+(**Transformer-based models:**  ) Tj
+T*
+(- **Swin-UNet, TransBTS, nnFormer:** Use self-attention to capture long-range dependencies) Tj
+T*
+(\(important for irregular tumor shapes\)) Tj
+T*
+() Tj
+T*
+(**Training considerations:**) Tj
+T*
+(- Class imbalance: tumor voxels ? 1?2% of total; use weighted loss, focal loss, or oversampling) Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 2872 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- Loss functions: Dice loss + cross-entropy \(combined\) is standard) Tj
+T*
+(- Data augmentation: random flipping, rotation, intensity scaling, elastic deformation,) Tj
+T*
+(Gaussian noise) Tj
+T*
+() Tj
+T*
+(### 3.4.5 Performance Metrics for Tumor Segmentation) Tj
+T*
+() Tj
+T*
+(**Dice Similarity Coefficient \(DSC\):**) Tj
+T*
+(```) Tj
+T*
+(DSC = 2 |A ? B| / \(|A| + |B|\)) Tj
+T*
+(```) Tj
+T*
+(where A = predicted region, B = ground truth. Range [0,1]; 1 = perfect overlap.  ) Tj
+T*
+(State-of-the-art BraTS results: DSC ? 0.88?0.92 for whole tumor.) Tj
+T*
+() Tj
+T*
+(**Hausdorff Distance \(HD95\):**  ) Tj
+T*
+(The 95th percentile of distances between surface points of predicted and ground truth meshes.) Tj
+T*
+(Measures worst-case boundary localization error.) Tj
+T*
+() Tj
+T*
+(**Sensitivity / Specificity:**) Tj
+T*
+(- Sensitivity \(Recall\) = TP / \(TP + FN\) ? how many true tumor voxels are found) Tj
+T*
+(- Specificity = TN / \(TN + FP\) ? how many non-tumor voxels are correctly excluded) Tj
+T*
+() Tj
+T*
+(### 3.4.6 Clinical Application Pipeline) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Patient presents with symptoms \(headache, seizures, focal deficits\)) Tj
+T*
+(           ?) Tj
+T*
+(Multi-parametric MRI acquisition) Tj
+T*
+(           ?) Tj
+T*
+(AI-assisted segmentation \(U-Net or similar\) ? approximate tumor boundaries) Tj
+T*
+(           ?) Tj
+T*
+(Radiologist review and correction \(human-in-the-loop\)) Tj
+T*
+(           ?) Tj
+T*
+(3D tumor volume rendered for surgical planning) Tj
+T*
+(           ?) Tj
+T*
+(Optional: tractography \(DTI\) to map fiber tracts near tumor) Tj
+T*
+(           ?) Tj
+T*
+(Surgical resection with AR navigation overlay) Tj
+T*
+(           ?) Tj
+T*
+(Post-operative MRI to assess residual tumor) Tj
+T*
+(           ?) Tj
+T*
+(Radiation therapy planning \(tumor + margin outlined\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Chapter 4 ? Curves and Surfaces: The Key Math {#chapter-4}) Tj
+T*
+() Tj
+T*
+(> **Exam-Critical:** The professor explicitly said: "Focus on the three formulas: Bzier Curve,) Tj
+T*
+(Bzier Surface, and De Casteljau Algorithm." This chapter covers all three in full detail with) Tj
+T*
+(worked examples.) Tj
+T*
+() Tj
+T*
+(## 4.1 Bzier Curves) Tj
+T*
+() Tj
+T*
+(### 4.1.1 History and Context) Tj
+T*
+() Tj
+T*
+(The Bzier curve is named after **Pierre Bzier** \(1910?1999\), a French engineer at Renault,) Tj
+T*
+(who used them in the 1960s for designing car body shapes. The mathematical basis ? **Bernstein) Tj
+T*
+(polynomials** ? was established earlier by Sergei Bernstein in 1912. **Paul de Casteljau**) Tj
+T*
+(independently developed his algorithm at Citron in 1959, which remained a trade secret until) Tj
+T*
+(the 1980s.) Tj
+T*
+() Tj
+T*
+(Today, Bzier curves are used in:) Tj
+T*
+(- Font design \(PostScript, TrueType, OpenType\)) Tj
+T*
+(- Vector graphics \(Adobe Illustrator "paths", SVG\)) Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 2142 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- CAD/CAM \(NURBS are generalizations\)) Tj
+T*
+(- Animation \(ease-in / ease-out timing\)) Tj
+T*
+(- Robotics \(smooth trajectory planning\)) Tj
+T*
+() Tj
+T*
+(### 4.1.2 Control Points and the Curve) Tj
+T*
+() Tj
+T*
+(A Bzier curve of **degree n** is defined by **n+1 control points** P?, P?, ..., P?.) Tj
+T*
+() Tj
+T*
+(The curve B\(t\) traces a path for t ? [0, 1]:) Tj
+T*
+(- B\(0\) = P? \(the curve always starts at the first control point\)) Tj
+T*
+(- B\(1\) = P? \(the curve always ends at the last control point\)) Tj
+T*
+(- Intermediate control points "attract" but don't lie on the curve \(in general\)) Tj
+T*
+() Tj
+T*
+(### 4.1.3 Bernstein Polynomial Form) Tj
+T*
+() Tj
+T*
+(**Bernstein basis polynomial of degree n:**) Tj
+T*
+(```) Tj
+T*
+(B?,?\(t\) = C\(n,i\)  t?  \(1?t\)^\(n?i\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(where C\(n,i\) = n! / \(i! \(n?i\)!\) is the binomial coefficient.) Tj
+T*
+() Tj
+T*
+(**Bzier curve formula:**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = ????? B?,?\(t\)  P?) Tj
+T*
+(     = ????? C\(n,i\)  t?  \(1?t\)^\(n?i\)  P?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### 4.1.4 Cases by Degree) Tj
+T*
+() Tj
+T*
+(**Linear \(n=1\) ? 2 control points:**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + tP?) Tj
+T*
+(```) Tj
+T*
+(This is simple linear interpolation. The curve is a straight line segment.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(**Quadratic \(n=2\) ? 3 control points:**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + 2\(1?t\)tP? + tP?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Bernstein weights: \(1?t\), 2t\(1?t\), t  ) Tj
+T*
+(These sum to 1: [\(1?t\) + t] = 1 ?) Tj
+T*
+() Tj
+T*
+(The curve passes through P? and P?, and is "pulled toward" P?.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(**Cubic \(n=3\) ? 4 control points:**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + 3\(1?t\)tP? + 3\(1?t\)tP? + tP?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Bernstein weights: \(1?t\), 3\(1?t\)t, 3\(1?t\)t, t  ) Tj
+T*
+(These sum to 1: [\(1?t\) + t] = 1 ?) Tj
+T*
+() Tj
+T*
+(Cubic Bzier curves are the most common in practice \(Adobe Illustrator, font outlines, CSS) Tj
+T*
+(animations\).) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(**General \(arbitrary n\):**  ) Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 2807 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(The binomial coefficients for the first several degrees:) Tj
+T*
+() Tj
+T*
+(| Degree | Coefficients | Formula |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| 1 | 1 1 | \(1?t\) t |) Tj
+T*
+(| 2 | 1 2 1 | \(1?t\) 2\(1?t\)t t |) Tj
+T*
+(| 3 | 1 3 3 1 | \(1?t\) 3\(1?t\)t 3\(1?t\)t t |) Tj
+T*
+(| 4 | 1 4 6 4 1 | \(1?t\)? ... t? |) Tj
+T*
+(| 5 | 1 5 10 10 5 1 | \(1?t\)? ... t? |) Tj
+T*
+() Tj
+T*
+(\(Pascal's triangle gives the binomial coefficients\)) Tj
+T*
+() Tj
+T*
+(### 4.1.5 Properties of Bzier Curves) Tj
+T*
+() Tj
+T*
+(| Property | Description |) Tj
+T*
+(|---|---|) Tj
+T*
+(| Endpoint interpolation | B\(0\) = P?, B\(1\) = P? |) Tj
+T*
+(| Convex hull property | Entire curve lies within convex hull of control points |) Tj
+T*
+(| Affine invariance | Transform control points ? same as transforming curve |) Tj
+T*
+(| Tangent at endpoints | B'\(0\) = n\(P??P?\); B'\(1\) = n\(P??P???\) |) Tj
+T*
+(| Variation diminishing | Curve crosses any line no more times than the control polygon does |) Tj
+T*
+(| Symmetry | Reversing control point order gives the same curve reversed |) Tj
+T*
+() Tj
+T*
+(**Tangent at t=0:**  ) Tj
+T*
+(B'\(0\) = n\(P? ? P?\) ? the curve is tangent to the first edge of the control polygon) Tj
+T*
+() Tj
+T*
+(**Tangent at t=1:**  ) Tj
+T*
+(B'\(1\) = n\(P? ? P???\) ? the curve is tangent to the last edge) Tj
+T*
+() Tj
+T*
+(These properties enable **C1 continuity** between two Bzier segments if you align P?, P?, and) Tj
+T*
+(Q? \(first control point of next curve\) collinearly: P? ? P??? = Q? ? Q?.) Tj
+T*
+() Tj
+T*
+(### 4.1.6 Derivative Formula) Tj
+T*
+() Tj
+T*
+(The first derivative of a degree-n Bzier curve is a degree-\(n-1\) Bzier curve:) Tj
+T*
+(```) Tj
+T*
+(B'\(t\) = n  ????^\(n?1\) B?,???\(t\)  \(P??? ? P?\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The second derivative:) Tj
+T*
+(```) Tj
+T*
+(B''\(t\) = n\(n-1\)  ????^\(n?2\) B?,???\(t\)  \(P??? ? 2P??? + P?\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### 4.1.7 Composite Bzier Curves \(Splines\)) Tj
+T*
+() Tj
+T*
+(A single high-degree curve is hard to control. In practice, multiple cubic segments are joined:) Tj
+T*
+() Tj
+T*
+(- **C0 continuity:** Endpoint of curve i = start of curve i+1 \(no gap\)) Tj
+T*
+(- **C1 continuity:** Equal first derivatives \(tangent direction AND magnitude match\)) Tj
+T*
+(- **G1 continuity:** Equal tangent direction only \(not magnitude\); visually smooth junction) Tj
+T*
+(- **C2 continuity:** Equal second derivatives \(curvature matches\); smoother but more) Tj
+T*
+(constrained) Tj
+T*
+() Tj
+T*
+(## 4.2 Bzier Surfaces) Tj
+T*
+() Tj
+T*
+(### 4.2.1 Extension to 2D Parameter Space) Tj
+T*
+() Tj
+T*
+(A Bzier surface of degree \(m, n\) is defined by a **\(m+1\)  \(n+1\) grid of control points**) Tj
+T*
+(P?,?.) Tj
+T*
+() Tj
+T*
+(It maps two parameters \(u, v\) ? [0,1] to a 3D point:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 2706 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(B\(u,v\) = ????? ????? B?,?\(u\)  B?,?\(v\)  P?,?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(where B?,?\(u\) is the Bernstein basis in u-direction, and B?,?\(v\) is the Bernstein basis in) Tj
+T*
+(v-direction.) Tj
+T*
+() Tj
+T*
+(**Interpretation:** Fix u ? you get a Bzier curve in v-direction with control points Q?\(u\) =) Tj
+T*
+(?? B?,?\(u\) P?,?. Varying v traces a Bzier curve through those moving control points.) Tj
+T*
+() Tj
+T*
+(### 4.2.2 Bicubic Bzier Patch \(Most Common\)) Tj
+T*
+() Tj
+T*
+(Degree \(3,3\): 44 = **16 control points**, parameters \(u, v\) ? [0,1]) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(B\(u,v\) = ???? ???? B_{i,3}\(u\)  B_{j,3}\(v\)  P_{i,j}) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Written in matrix form:) Tj
+T*
+(```) Tj
+T*
+(B\(u,v\) = U  M  P  M?  V?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(where:) Tj
+T*
+(- U = [u, u, u, 1]) Tj
+T*
+(- V = [v, v, v, 1]) Tj
+T*
+(- M is the 44 Bzier basis matrix:) Tj
+T*
+(```) Tj
+T*
+(M = [ -1  3 -3  1 ]) Tj
+T*
+(    [  3 -6  3  0 ]) Tj
+T*
+(    [ -3  3  0  0 ]) Tj
+T*
+(    [  1  0  0  0 ]) Tj
+T*
+(```) Tj
+T*
+(- P is the 443 control point matrix) Tj
+T*
+() Tj
+T*
+(### 4.2.3 Properties) Tj
+T*
+() Tj
+T*
+(All properties of Bzier curves extend to surfaces:) Tj
+T*
+(- **Endpoint interpolation:** B\(0,0\) = P?,? etc. \(corner points are on the surface\)) Tj
+T*
+(- **Edge curves:** B\(0,v\) is a Bzier curve through control points P?,?, P?,?, P?,?, P?,?) Tj
+T*
+(- **Convex hull:** Surface lies within convex hull of control points) Tj
+T*
+(- **Partial derivatives \(tangent planes\):**  ) Tj
+T*
+(  ?B/?u\(0,0\) = 3\(P?,? ? P?,?\) ? tangent in u-direction at corner  ) Tj
+T*
+(  ?B/?v\(0,0\) = 3\(P?,? ? P?,?\) ? tangent in v-direction at corner  ) Tj
+T*
+(  Normal = \(?B/?u\)  \(?B/?v\)) Tj
+T*
+() Tj
+T*
+(### 4.2.4 Evaluating a Point on the Surface) Tj
+T*
+() Tj
+T*
+(**Method:** Apply De Casteljau in u-direction to get intermediate control points, then apply De) Tj
+T*
+(Casteljau in v-direction \(or vice versa\).) Tj
+T*
+() Tj
+T*
+(**Algorithm:**) Tj
+T*
+(1. Fix u?. For each row i \(i = 0..m\), evaluate the Bzier curve Q?\(u?\) = De Casteljau on row i) Tj
+T*
+(at parameter u?. This gives \(n+1\) intermediate points {Q?, Q?, ..., Q?}.) Tj
+T*
+(2. Fix v?. Apply De Casteljau on {Q?, ..., Q?} at parameter v?. The result is B\(u?, v?\).) Tj
+T*
+() Tj
+T*
+(## 4.3 De Casteljau's Algorithm) Tj
+T*
+() Tj
+T*
+(### 4.3.1 Motivation) Tj
+T*
+() Tj
+T*
+(While the Bernstein polynomial formula is mathematically clean, direct evaluation requires) Tj
+T*
+(computing large binomial coefficients \(e.g., C\(20,10\) = 184,756 for a degree-20 curve\) and is) Tj
+T*
+(numerically unstable for high degrees.) Tj
+T*
+() Tj
+T*
+(De Casteljau's algorithm avoids these issues:) Tj
+T*
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 2360 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- No large numbers) Tj
+T*
+(- Numerically stable \(each step is just a linear interpolation\)) Tj
+T*
+(- Also provides curve subdivision as a byproduct) Tj
+T*
+() Tj
+T*
+(### 4.3.2 The Algorithm) Tj
+T*
+() Tj
+T*
+(Given control points P?, P?, ..., P? and parameter t? ? [0,1]:) Tj
+T*
+() Tj
+T*
+(**Initialize:** Set P???? = P? for i = 0, 1, ..., n) Tj
+T*
+() Tj
+T*
+(**Recurrence relation:**) Tj
+T*
+(```) Tj
+T*
+(P???? = \(1 ? t?\)  P????? + t?  P???????) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(for j = 1, 2, ..., n and i = 0, 1, ..., n?j) Tj
+T*
+() Tj
+T*
+(**Result:** B\(t?\) = P????) Tj
+T*
+() Tj
+T*
+(Each step linearly interpolates between adjacent points with ratio t?. After n rounds, one) Tj
+T*
+(point remains ? that is the curve point.) Tj
+T*
+() Tj
+T*
+(### 4.3.3 Triangular Scheme \(Hand Calculation Table\)) Tj
+T*
+() Tj
+T*
+(The computation can be organized in a triangular table:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(j=0        j=1          j=2          j=3 \(result\)) Tj
+T*
+(P????) Tj
+T*
+(          P???) Tj
+T*
+(P????              P???) Tj
+T*
+(          P???                P??? ? Answer) Tj
+T*
+(P????              P???) Tj
+T*
+(          P???) Tj
+T*
+(P????) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Each entry is the linear interpolation of its two upper-left neighbors.) Tj
+T*
+() Tj
+T*
+(### 4.3.4 Geometric Interpretation) Tj
+T*
+() Tj
+T*
+(Each iteration shrinks the polygon by linear interpolation. The intermediate points at each) Tj
+T*
+(level form a new control polygon. The key insight:) Tj
+T*
+() Tj
+T*
+(- At parameter t?, the leftmost column of the triangular table {P????, P???, ..., P????} gives) Tj
+T*
+(control points for the LEFT sub-curve B?\(t\) for t ? [0, t?]) Tj
+T*
+(- The diagonal {P????, P?????, ..., P????} gives control points for the RIGHT sub-curve B?\(t\)) Tj
+T*
+(for t ? [t?, 1]) Tj
+T*
+() Tj
+T*
+(This is **curve subdivision** ? splitting one curve into two Bzier curves at any parameter) Tj
+T*
+(value.) Tj
+T*
+() Tj
+T*
+(### 4.3.5 Pseudocode) Tj
+T*
+() Tj
+T*
+(```python) Tj
+T*
+(def de_casteljau\(points, t\):) Tj
+T*
+(    """) Tj
+T*
+(    points: list of control points [[x0,y0], [x1,y1], ..., [xn,yn]]) Tj
+T*
+(    t: parameter in [0,1]) Tj
+T*
+(    returns: point on curve at parameter t) Tj
+T*
+(    """) Tj
+T*
+(    p = [list\(pt\) for pt in points]  # copy) Tj
+T*
+(    n = len\(p\) - 1) Tj
+T*
+(    for j in range\(1, n + 1\):) Tj
+T*
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 2243 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(        for i in range\(n - j + 1\):) Tj
+T*
+(            p[i][0] = \(1 - t\) * p[i][0] + t * p[i+1][0]) Tj
+T*
+(            p[i][1] = \(1 - t\) * p[i][1] + t * p[i+1][1]) Tj
+T*
+(    return p[0]) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### 4.3.6 Complexity) Tj
+T*
+() Tj
+T*
+(- For a degree-n curve: n + \(n?1\) + ... + 1 = n\(n+1\)/2 linear interpolations) Tj
+T*
+(- Each linear interpolation is O\(1\) operations per coordinate) Tj
+T*
+(- Total: O\(n\) per evaluation) Tj
+T*
+(- Compared to direct Bernstein: also O\(n\) but with better numerical properties) Tj
+T*
+() Tj
+T*
+(## 4.4 Worked Computation Examples) Tj
+T*
+() Tj
+T*
+(> These are the types of computation questions expected in the exam.) Tj
+T*
+() Tj
+T*
+(### Example 1: Quadratic Bzier Curve at t = 0.75) Tj
+T*
+() Tj
+T*
+(**Given:** Control points P? = \(0, 0\), P? = \(1, 2\), P? = \(3, 0\)  ) Tj
+T*
+(**Find:** B\(0.75\)) Tj
+T*
+() Tj
+T*
+(**Method A: Bernstein Formula**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + 2t\(1?t\)P? + tP?) Tj
+T*
+() Tj
+T*
+(At t = 0.75:) Tj
+T*
+(  \(1?0.75\) = 0.25 = 0.0625) Tj
+T*
+(  20.750.25 = 0.375) Tj
+T*
+(  0.75 = 0.5625) Tj
+T*
+() Tj
+T*
+(B\(0.75\) = 0.0625\(0,0\) + 0.375\(1,2\) + 0.5625\(3,0\)) Tj
+T*
+(x = 0 + 0.375 + 1.6875 = 2.0625) Tj
+T*
+(y = 0 + 0.75 + 0 = 0.75) Tj
+T*
+() Tj
+T*
+(Answer: B\(0.75\) = \(2.0625, 0.75\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Method B: De Casteljau**) Tj
+T*
+(```) Tj
+T*
+(Level 0:  P?=\(0,0\)  P?=\(1,2\)  P?=\(3,0\)) Tj
+T*
+() Tj
+T*
+(Level 1 \(linear interp with t=0.75\):) Tj
+T*
+(  P? = \(1?0.75\)\(0,0\) + 0.75\(1,2\)) Tj
+T*
+(       = 0.25\(0,0\) + 0.75\(1,2\)) Tj
+T*
+(       = \(0,0\) + \(0.75, 1.5\) = \(0.75, 1.5\)) Tj
+T*
+() Tj
+T*
+(  P? = \(1?0.75\)\(1,2\) + 0.75\(3,0\)) Tj
+T*
+(       = 0.25\(1,2\) + 0.75\(3,0\)) Tj
+T*
+(       = \(0.25, 0.5\) + \(2.25, 0\) = \(2.5, 0.5\)) Tj
+T*
+() Tj
+T*
+(Level 2 \(final, t=0.75\):) Tj
+T*
+(  P? = \(1?0.75\)\(0.75, 1.5\) + 0.75\(2.5, 0.5\)) Tj
+T*
+(       = 0.25\(0.75,1.5\) + 0.75\(2.5,0.5\)) Tj
+T*
+(       = \(0.1875, 0.375\) + \(1.875, 0.375\)) Tj
+T*
+(       = \(2.0625, 0.75\)) Tj
+T*
+() Tj
+T*
+(Answer: B\(0.75\) = \(2.0625, 0.75\) ?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example 2: Cubic Bzier Curve at t = 0.5) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 2501 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(**Given:** P? = \(0,0\), P? = \(0,1\), P? = \(1,1\), P? = \(1,0\)  ) Tj
+T*
+(**Find:** B\(0.5\)) Tj
+T*
+() Tj
+T*
+(**De Casteljau at t = 0.5:**) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level 0:) Tj
+T*
+(  P?? = \(0,0\)) Tj
+T*
+(  P?? = \(0,1\)) Tj
+T*
+(  P?? = \(1,1\)) Tj
+T*
+(  P?? = \(1,0\)) Tj
+T*
+() Tj
+T*
+(Level 1 [P? = 0.5P? + 0.5P???]:) Tj
+T*
+(  P? = 0.5\(0,0\) + 0.5\(0,1\) = \(0, 0.5\)) Tj
+T*
+(  P? = 0.5\(0,1\) + 0.5\(1,1\) = \(0.5, 1\)) Tj
+T*
+(  P? = 0.5\(1,1\) + 0.5\(1,0\) = \(1, 0.5\)) Tj
+T*
+() Tj
+T*
+(Level 2 [P? = 0.5P? + 0.5P???]:) Tj
+T*
+(  P? = 0.5\(0,0.5\) + 0.5\(0.5,1\) = \(0.25, 0.75\)) Tj
+T*
+(  P? = 0.5\(0.5,1\) + 0.5\(1,0.5\) = \(0.75, 0.75\)) Tj
+T*
+() Tj
+T*
+(Level 3 [final]:) Tj
+T*
+(  P? = 0.5\(0.25,0.75\) + 0.5\(0.75,0.75\) = \(0.5, 0.75\)) Tj
+T*
+() Tj
+T*
+(Answer: B\(0.5\) = \(0.5, 0.75\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example 3: Cubic Bzier at t = 3/4 \(the professor's example\)) Tj
+T*
+() Tj
+T*
+(**Given:** Six points P?=\(0,0\), P?=\(1,0\), P?=\(2,1\), P?=\(3,1\), P?=\(4,0\), P?=\(5,0\)  ) Tj
+T*
+(\(This is a **degree-5** curve ? 6 points\)  ) Tj
+T*
+(**Find:** B\(0.75\) using De Casteljau) Tj
+T*
+() Tj
+T*
+(**De Casteljau at t = 0.75:**) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level 0 \(j=0\):) Tj
+T*
+(  P? = \(0,0\)) Tj
+T*
+(  P? = \(1,0\)) Tj
+T*
+(  P? = \(2,1\)) Tj
+T*
+(  P? = \(3,1\)) Tj
+T*
+(  P? = \(4,0\)) Tj
+T*
+(  P? = \(5,0\)) Tj
+T*
+() Tj
+T*
+(Level 1 \(j=1\), lerp with t=0.75:) Tj
+T*
+(  Q? = 0.25\(0,0\) + 0.75\(1,0\)   = \(0.75, 0\)) Tj
+T*
+(  Q? = 0.25\(1,0\) + 0.75\(2,1\)   = \(1.75, 0.75\)) Tj
+T*
+(  Q? = 0.25\(2,1\) + 0.75\(3,1\)   = \(2.75, 1\)) Tj
+T*
+(  Q? = 0.25\(3,1\) + 0.75\(4,0\)   = \(3.75, 0.25\)) Tj
+T*
+(  Q? = 0.25\(4,0\) + 0.75\(5,0\)   = \(4.75, 0\)) Tj
+T*
+() Tj
+T*
+(Level 2 \(j=2\):) Tj
+T*
+(  R? = 0.25\(0.75,0\)   + 0.75\(1.75,0.75\) = \(0.1875+1.3125, 0+0.5625\) = \(1.5, 0.5625\)) Tj
+T*
+(  R? = 0.25\(1.75,0.75\)+ 0.75\(2.75,1\)   = \(0.4375+2.0625, 0.1875+0.75\) = \(2.5, 0.9375\)) Tj
+T*
+(  R? = 0.25\(2.75,1\)  + 0.75\(3.75,0.25\) = \(0.6875+2.8125, 0.25+0.1875\) = \(3.5, 0.4375\)) Tj
+T*
+(  R? = 0.25\(3.75,0.25\)+ 0.75\(4.75,0\)  = \(0.9375+3.5625, 0.0625+0\)   = \(4.5, 0.0625\)) Tj
+T*
+() Tj
+T*
+(Level 3 \(j=3\):) Tj
+T*
+(  S? = 0.25\(1.5,0.5625\) + 0.75\(2.5,0.9375\) = \(0.375+1.875, 0.140625+0.703125\) = \(2.25,) Tj
+T*
+(0.84375\)) Tj
+T*
+(  S? = 0.25\(2.5,0.9375\) + 0.75\(3.5,0.4375\) = \(0.625+2.625, 0.234375+0.328125\) = \(3.25,) Tj
+T*
+(0.5625\)) Tj
+T*
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 2473 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(  S? = 0.25\(3.5,0.4375\) + 0.75\(4.5,0.0625\) = \(0.875+3.375, 0.109375+0.046875\) = \(4.25,) Tj
+T*
+(0.15625\)) Tj
+T*
+() Tj
+T*
+(Level 4 \(j=4\):) Tj
+T*
+(  T? = 0.25\(2.25,0.84375\) + 0.75\(3.25,0.5625\)) Tj
+T*
+(     = \(0.5625+2.4375, 0.2109375+0.421875\) = \(3.0, 0.6328125\)) Tj
+T*
+(  T? = 0.25\(3.25,0.5625\) + 0.75\(4.25,0.15625\)) Tj
+T*
+(     = \(0.8125+3.1875, 0.140625+0.1171875\) = \(4.0, 0.2578125\)) Tj
+T*
+() Tj
+T*
+(Level 5 \(j=5, final\):) Tj
+T*
+(  U? = 0.25\(3.0,0.6328125\) + 0.75\(4.0,0.2578125\)) Tj
+T*
+(     = \(0.75+3.0, 0.158203125+0.193359375\) = \(3.75, 0.35156...\)) Tj
+T*
+() Tj
+T*
+(Answer: B\(0.75\) ? \(3.75, 0.352\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example 4: Bzier Surface Point) Tj
+T*
+() Tj
+T*
+(**Given:** A degree-\(2,2\) Bzier patch with control grid \(33 = 9 points\):) Tj
+T*
+(```) Tj
+T*
+(P?,?=\(0,0,0\)  P?,?=\(1,0,1\)  P?,?=\(2,0,0\)) Tj
+T*
+(P?,?=\(0,1,1\)  P?,?=\(1,1,2\)  P?,?=\(2,1,1\)) Tj
+T*
+(P?,?=\(0,2,0\)  P?,?=\(1,2,1\)  P?,?=\(2,2,0\)) Tj
+T*
+(```) Tj
+T*
+(**Find:** B\(0.5, 0.5\)) Tj
+T*
+() Tj
+T*
+(**Step 1:** For each row i, evaluate quadratic Bzier in v at v=0.5:) Tj
+T*
+() Tj
+T*
+(Row i=0: P?,?, P?,?, P?,? at v=0.5) Tj
+T*
+(```) Tj
+T*
+(Q? = \(1?0.5\)\(0,0,0\) + 20.50.5\(1,0,1\) + 0.5\(2,0,0\)) Tj
+T*
+(   = 0.25\(0,0,0\) + 0.5\(1,0,1\) + 0.25\(2,0,0\)) Tj
+T*
+(   = \(0,0,0\) + \(0.5,0,0.5\) + \(0.5,0,0\) = \(1.0, 0.0, 0.5\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Row i=1: P?,?, P?,?, P?,? at v=0.5) Tj
+T*
+(```) Tj
+T*
+(Q? = 0.25\(0,1,1\) + 0.5\(1,1,2\) + 0.25\(2,1,1\)) Tj
+T*
+(   = \(0,0.25,0.25\) + \(0.5,0.5,1\) + \(0.5,0.25,0.25\) = \(1.0, 1.0, 1.5\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Row i=2: P?,?, P?,?, P?,? at v=0.5) Tj
+T*
+(```) Tj
+T*
+(Q? = 0.25\(0,2,0\) + 0.5\(1,2,1\) + 0.25\(2,2,0\)) Tj
+T*
+(   = \(0,0.5,0\) + \(0.5,1,0.5\) + \(0.5,0.5,0\) = \(1.0, 2.0, 0.5\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Step 2:** Evaluate quadratic Bzier in u at u=0.5 through {Q?, Q?, Q?}:) Tj
+T*
+(```) Tj
+T*
+(B\(0.5,0.5\) = 0.25Q? + 0.5Q? + 0.25Q?) Tj
+T*
+(           = 0.25\(1,0,0.5\) + 0.5\(1,1,1.5\) + 0.25\(1,2,0.5\)) Tj
+T*
+(           = \(0.25,0,0.125\) + \(0.5,0.5,0.75\) + \(0.25,0.5,0.125\)) Tj
+T*
+(           = \(1.0, 1.0, 1.0\)) Tj
+T*
+() Tj
+T*
+(Answer: B\(0.5, 0.5\) = \(1, 1, 1\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example 5: Curve Tangent Vectors) Tj
+T*
+() Tj
+T*
+(**Given:** Cubic Bzier with P?=\(0,0\), P?=\(1,3\), P?=\(2,3\), P?=\(3,0\)) Tj
+T*
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 1920 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(**Tangent at t=0:**) Tj
+T*
+(```) Tj
+T*
+(B'\(0\) = n\(P? ? P?\) = 3\(\(1,3\)?\(0,0\)\) = 3\(1,3\) = \(3, 9\)) Tj
+T*
+(```) Tj
+T*
+(Direction: from \(0,0\) toward \(1,3\), scaled by 3.) Tj
+T*
+() Tj
+T*
+(**Tangent at t=1:**) Tj
+T*
+(```) Tj
+T*
+(B'\(1\) = n\(P? ? P???\) = 3\(\(3,0\)?\(2,3\)\) = 3\(1,?3\) = \(3, ?9\)) Tj
+T*
+(```) Tj
+T*
+(Direction: from \(2,3\) toward \(3,0\), scaled by 3.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Summary Formula Sheet) Tj
+T*
+() Tj
+T*
+(**Linear Bzier \(n=1\):**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + tP?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Quadratic Bzier \(n=2\):**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + 2t\(1?t\)P? + tP?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Cubic Bzier \(n=3\):**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = \(1?t\)P? + 3t\(1?t\)P? + 3t\(1?t\)P? + tP?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**General Bzier \(degree n\):**) Tj
+T*
+(```) Tj
+T*
+(B\(t\) = ????? C\(n,i\)  t?  \(1?t\)^\(n?i\)  P?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Bzier Surface \(degree mn\):**) Tj
+T*
+(```) Tj
+T*
+(B\(u,v\) = ????? ????? C\(m,i\)u?\(1?u\)^\(m?i\)  C\(n,j\)v?\(1?v\)^\(n?j\)  P?,?) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**De Casteljau Recurrence:**) Tj
+T*
+(```) Tj
+T*
+(P???? = P?  \(initial\)) Tj
+T*
+(P???? = \(1?t\)P????? + tP???????  \(recurrence\)) Tj
+T*
+(B\(t\) = P????  \(result\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Tangents:**) Tj
+T*
+(```) Tj
+T*
+(B'\(0\) = n\(P? ? P?\)) Tj
+T*
+(B'\(1\) = n\(P? ? P???\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Appendix A ? Quick Reference: Algorithms Summary) Tj
+T*
+() Tj
+T*
+(| Topic | Algorithm | Key Idea |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| VR Tracking | SLAM + IMU Kalman fusion | Map + localize simultaneously |) Tj
+T*
+(| AR Tracking | PnP \(marker\) or SLAM \(markerless\) | Camera pose from known points |) Tj
+T*
+(| Triangulation 2D | Delaunay / Bowyer-Watson | Maximize min angle; circumcircle condition |) Tj
+T*
+ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 3658 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(| Triangulation 3D | Ball Pivoting | Roll ball over point cloud |) Tj
+T*
+(| 3D Reconstruction | Poisson | Solve Poisson equation on normal field |) Tj
+T*
+(| Volume ? Mesh | Marching Cubes | Per-voxel-cube isosurface extraction |) Tj
+T*
+(| Mesh Simplification | Quadric Error Metrics \(QEM\) | Collapse edges with min quadric error |) Tj
+T*
+(| Hole Filling | Ear clipping + Laplacian | Triangulate boundary ? smooth fill |) Tj
+T*
+(| Outlier Removal | Statistical Outlier Removal | ? + ?? distance threshold |) Tj
+T*
+(| Point Smoothing | Bilateral filter / MLS | Neighborhood-weighted reprojection |) Tj
+T*
+(| Noise Regularization | Voxel downsampling | Replace voxel contents with centroid |) Tj
+T*
+(| CT Reconstruction | Filtered Back-Projection | Radon transform + ramp filter + back-project |) Tj
+T*
+(| MRI | NMR + 2D FFT | T1/T2 relaxation; k-space Fourier |) Tj
+T*
+(| Medical Segmentation | U-Net \(3D\) | Encoder-decoder with skip connections |) Tj
+T*
+(| Tumor Detection | mpMRI + Dice loss training | T1c enhancement + T2 edema patterns |) Tj
+T*
+(| Bzier Curve | Bernstein polynomial | Weighted sum of control points |) Tj
+T*
+(| Bzier Surface | Tensor product Bernstein | Apply curve formula in both u, v |) Tj
+T*
+(| De Casteljau | Recursive linear interpolation | Stable evaluation + subdivision |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Appendix B ? Key Terms Glossary) Tj
+T*
+() Tj
+T*
+(**Alpha Shape:** Generalization of Delaunay triangulation parameterized by radius ?; removes) Tj
+T*
+(simplices whose circumradius exceeds 1/?.) Tj
+T*
+() Tj
+T*
+(**Augmented Reality \(AR\):** Overlaying virtual content on the real world in real time.) Tj
+T*
+() Tj
+T*
+(**Ball Pivoting Algorithm:** 3D triangulation by "rolling" a virtual ball over a point cloud.) Tj
+T*
+() Tj
+T*
+(**Bernstein Polynomial:** Basis functions for Bzier curves: B?,?\(t\) = C\(n,i\)t?\(1?t\)^\(n?i\).) Tj
+T*
+() Tj
+T*
+(**Bzier Curve:** Parametric curve defined by control points using Bernstein polynomial) Tj
+T*
+(blending.) Tj
+T*
+() Tj
+T*
+(**Bzier Surface:** Tensor product of two Bzier curves; requires \(m+1\)\(n+1\) control grid.) Tj
+T*
+() Tj
+T*
+(**BOLD fMRI:** Blood-Oxygen-Level-Dependent imaging; detects brain activity via oxygenated) Tj
+T*
+(hemoglobin.) Tj
+T*
+() Tj
+T*
+(**BraTS Challenge:** Annual brain tumor segmentation competition \(MICCAI\); benchmark dataset.) Tj
+T*
+() Tj
+T*
+(**Convex Hull Property:** A Bzier curve lies entirely within the convex hull of its control) Tj
+T*
+(points.) Tj
+T*
+() Tj
+T*
+(**De Casteljau's Algorithm:** Stable recursive algorithm for evaluating Bzier curves via) Tj
+T*
+(repeated linear interpolation.) Tj
+T*
+() Tj
+T*
+(**Delaunay Triangulation:** Triangulation where no point lies inside any triangle's) Tj
+T*
+(circumcircle; maximizes minimum angle.) Tj
+T*
+() Tj
+T*
+(**Dice Score \(DSC\):** Overlap metric: 2|A?B|/\(|A|+|B|\); standard for segmentation evaluation.) Tj
+T*
+() Tj
+T*
+(**FLAIR:** Fluid-Attenuated Inversion Recovery MRI; suppresses CSF signal; highlights white) Tj
+T*
+(matter lesions.) Tj
+T*
+() Tj
+T*
+(**Hounsfield Units \(HU\):** CT attenuation scale; water = 0, air = ?1000, bone = +300 to +1900.) Tj
+T*
+() Tj
+T*
+(**ICP \(Iterative Closest Point\):** Aligns two point clouds by minimizing distances between) Tj
+T*
+(correspondences.) Tj
+T*
+() Tj
+T*
+(**k-d Tree:** Binary spatial partition tree; O\(log n\) nearest-neighbor search.) Tj
+T*
+() Tj
+T*
+(**Larmor Frequency:** Proton precession frequency in MRI: f = ?B?/\(2?\); ? = 42.577 MHz/T.) Tj
+T*
+() Tj
+T*
+(**Level Set Method:** Represents evolving surfaces as zero-crossings of an implicit function ?;) Tj
+T*
+(used in segmentation.) Tj
+T*
+ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 2940 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(**LiDAR:** Light Detection And Ranging; measures distances by time-of-flight of laser pulses.) Tj
+T*
+() Tj
+T*
+(**Marching Cubes:** Extracts isosurface mesh from voxel grid; 256 cube configurations ?) Tj
+T*
+(triangles.) Tj
+T*
+() Tj
+T*
+(**MLS \(Moving Least Squares\):** Fits local polynomial to neighborhood; projects points onto) Tj
+T*
+(smooth surface.) Tj
+T*
+() Tj
+T*
+(**NURBS:** Non-Uniform Rational B-Splines; generalization of Bzier curves with weights and) Tj
+T*
+(knot vectors.) Tj
+T*
+() Tj
+T*
+(**Octree:** Recursive space subdivision into 8 octants; used for spatial indexing.) Tj
+T*
+() Tj
+T*
+(**Poisson Reconstruction:** Solves ?? = ?V to reconstruct watertight surface from oriented) Tj
+T*
+(points.) Tj
+T*
+() Tj
+T*
+(**QEM \(Quadric Error Metrics\):** Mesh simplification by iterative edge collapse minimizing) Tj
+T*
+(sum-of-squared-distances-to-planes.) Tj
+T*
+() Tj
+T*
+(**SLAM:** Simultaneous Localization and Mapping; builds map and tracks pose concurrently.) Tj
+T*
+() Tj
+T*
+(**SOR \(Statistical Outlier Removal\):** Removes points with anomalously large average neighbor) Tj
+T*
+(distances.) Tj
+T*
+() Tj
+T*
+(**T1/T2 Relaxation:** MRI relaxation times; T1 = longitudinal, T2 = transverse; contrast) Tj
+T*
+(between tissue types.) Tj
+T*
+() Tj
+T*
+(**U-Net:** Encoder-decoder CNN with skip connections; dominant architecture for medical image) Tj
+T*
+(segmentation.) Tj
+T*
+() Tj
+T*
+(**Virtual Reality \(VR\):** Fully synthetic immersive 3D environment, typically via HMD.) Tj
+T*
+() Tj
+T*
+(**Voronoi Diagram:** Dual of Delaunay triangulation; partitions space into cells nearest each) Tj
+T*
+(point.) Tj
+T*
+() Tj
+T*
+(**Voxel:** Volumetric pixel; a cubic unit of a 3D grid \(from "volumetric pixel"\).) Tj
+T*
+() Tj
+T*
+(**VIO \(Visual-Inertial Odometry\):** Combines camera and IMU for robust pose tracking; used in) Tj
+T*
+(AR.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# Appendix C ? Exam Strategy Guide) Tj
+T*
+() Tj
+T*
+(## What the Professor Explicitly Said to Focus On) Tj
+T*
+() Tj
+T*
+(1. **Three Key Formulas \(computation exam questions\):**) Tj
+T*
+(   - Bzier Curve formula \(Bernstein form\)) Tj
+T*
+(   - Bzier Surface formula \(tensor product\)) Tj
+T*
+(   - De Casteljau Algorithm \(recursive evaluation\)) Tj
+T*
+() Tj
+T*
+(2. **Theory questions will ask you to:**) Tj
+T*
+(   - **Describe** geometric modeling operations \(triangulation, hole filling, noise removal,) Tj
+T*
+(simplification\)) Tj
+T*
+(   - **Give an example algorithm** for each operation) Tj
+T*
+(   - **Describe VR/AR** ? how they work, tools, implementation) Tj
+T*
+() Tj
+T*
+(3. **Medical Imaging:**) Tj
+T*
+(   - Be able to compare MRI vs CT \(input data, reconstruction method, clinical use\)) Tj
+T*
+(   - Know what can be reconstructed from each modality) Tj
+T*
+(   - Reference the two Assignment 3 papers \(brain tumor detection, signal detection in MRI\)) Tj
+T*
+() Tj
+T*
+(## Recommended Approach to Theory Questions) Tj
+T*
+ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 2752 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(**For any operation \(e.g., triangulation\):**) Tj
+T*
+(1. Define the problem \(input ? output\)) Tj
+T*
+(2. Name at least one algorithm) Tj
+T*
+(3. Give the key idea of the algorithm in 2?3 sentences) Tj
+T*
+(4. Mention a practical application or limitation) Tj
+T*
+() Tj
+T*
+(**Example answer structure for "Explain triangulation from a 3D point cloud":**) Tj
+T*
+(> *A 3D point cloud is an unordered set of 3D coordinates with no topology. Triangulation) Tj
+T*
+(converts it into a triangle mesh by inferring surface connectivity. The Ball Pivoting Algorithm) Tj
+T*
+(\(BPA\) places a virtual sphere of radius ?; as the sphere rolls over the points, each contact) Tj
+T*
+(with a third point creates a triangle. Alternatively, Poisson Surface Reconstruction treats the) Tj
+T*
+(problem globally: it estimates point normals, constructs a vector field, and solves a Poisson) Tj
+T*
+(equation ?? = ?V whose isosurface is the reconstructed mesh. Applications include 3D) Tj
+T*
+(scanning, medical image visualization, and heritage preservation.*) Tj
+T*
+() Tj
+T*
+(## Memory Aids) Tj
+T*
+() Tj
+T*
+(**Bzier Degree 1-2-3 first term exponents:**) Tj
+T*
+(- Linear: \(1?t\) ... t) Tj
+T*
+(- Quadratic: \(1?t\) ... t) Tj
+T*
+(- Cubic: \(1?t\) ... t) Tj
+T*
+() Tj
+T*
+(**Binomial coefficients \(Pascal's Triangle rows\):**) Tj
+T*
+(```) Tj
+T*
+(n=1:  1 1) Tj
+T*
+(n=2:  1 2 1) Tj
+T*
+(n=3:  1 3 3 1) Tj
+T*
+(n=4:  1 4 6 4 1) Tj
+T*
+(n=5:  1 5 10 10 5 1) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**De Casteljau mnemonics:**) Tj
+T*
+(- "Left-right lerp, then reduce": take two adjacent points, lerp by t, reduce count by 1,) Tj
+T*
+(repeat) Tj
+T*
+(- Think of it as: you start with n+1 points and do n rounds, each round producing one fewer) Tj
+T*
+(point) Tj
+T*
+() Tj
+T*
+(**MRI vs CT at a glance:**) Tj
+T*
+(```) Tj
+T*
+(MRI: No radiation  Strong magnet  Good for soft tissue  Slow  No ionizing) Tj
+T*
+(CT:  X-rays  Fast  Good for bone/lung  Hounsfield units  Ionizing radiation) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*End of Study Book  Good luck on the exam!*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: advanced_exam_booster.md) Tj
+T*
+() Tj
+T*
+(# Advanced Exam Booster Pack \(Internet-Researched\)) Tj
+T*
+() Tj
+T*
+(## How to Use This Packet in a 2-Hour Written Exam) Tj
+T*
+(- First 5 minutes: write the core formulas from memory on scratch paper \(Bernstein basis, De) Tj
+T*
+(Casteljau recurrence, Dice score, HU equation, Radon/FBP, Delaunay in-circle determinant\).) Tj
+T*
+(- Next 5 minutes: skim question verbs \(define, derive, compare, compute\) and allocate minutes) Tj
+T*
+(per mark.) Tj
+T*
+(- For compute questions: show intermediate arithmetic \(even if final answer is wrong you) Tj
+T*
+ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
+endobj
+54 0 obj
+<< /Length 2815 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(recover method marks\).) Tj
+T*
+(- For theory questions: always include \(1\) definition, \(2\) key equation, \(3\) practical) Tj
+T*
+(implication/example, \(4\) limitation.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1\) VR/AR: Advanced Talking Points That Score Well) Tj
+T*
+() Tj
+T*
+(### 1.1 End-to-End XR Pipeline \(What examiners want\)) Tj
+T*
+(1. Sensor acquisition \(IMU/camera/depth\)) Tj
+T*
+(2. Time synchronization and calibration) Tj
+T*
+(3. Visual-inertial odometry \(state estimation\)) Tj
+T*
+(4. Pose prediction to display time) Tj
+T*
+(5. Stereo rendering) Tj
+T*
+(6. Lens distortion correction and timewarp) Tj
+T*
+(7. Scan-out on display) Tj
+T*
+() Tj
+T*
+(**Why this matters:** motion-to-photon latency is cumulative across all stages. Reducing only) Tj
+T*
+(GPU time is not enough if tracking/prediction is weak.) Tj
+T*
+() Tj
+T*
+(### 1.2 Tracking Fusion \(state-estimation form\)) Tj
+T*
+(State vector example:) Tj
+T*
+(- position p, velocity v, orientation q, IMU biases b_g, b_a) Tj
+T*
+() Tj
+T*
+(Discrete process model \(concept\):) Tj
+T*
+(- x_k = f\(x_{k-1}, u_k\) + w_k) Tj
+T*
+(- z_k = h\(x_k\) + n_k) Tj
+T*
+() Tj
+T*
+(Where IMU drives prediction, camera features correct drift \(EKF / bundle-adjustment style) Tj
+T*
+(back-end\).) Tj
+T*
+() Tj
+T*
+(### 1.3 OpenXR High-Value Notes) Tj
+T*
+(- OpenXR 1.1 was announced by Khronos on **April 15, 2024**.) Tj
+T*
+(- 1.1 promotes widely-used extension capabilities into core to reduce runtime fragmentation.) Tj
+T*
+(- Exam framing: ?OpenXR decouples application code from vendor SDKs by standardizing) Tj
+T*
+(instance/session/swapchain/action abstractions.?) Tj
+T*
+() Tj
+T*
+(### 1.4 AR Registration Error Sources) Tj
+T*
+(- Intrinsic calibration error \(focal length, principal point\)) Tj
+T*
+(- Extrinsic drift from SLAM) Tj
+T*
+(- Rolling shutter + fast motion) Tj
+T*
+(- Lighting changes causing feature tracking loss) Tj
+T*
+() Tj
+T*
+(**Strong answer line:** ?AR realism depends on geometric, photometric, and temporal) Tj
+T*
+(consistency?not just geometric alignment.?) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2\) Delaunay Triangulation: Beyond the Basics) Tj
+T*
+() Tj
+T*
+(### 2.1 In-Circle Test \(orientation-aware\)) Tj
+T*
+(For CCW triangle \(A,B,C\), point D is inside circumcircle if determinant > 0:) Tj
+T*
+() Tj
+T*
+(|Ax-Dx  Ay-Dy  \(Ax-Dx\)^2+\(Ay-Dy\)^2|) Tj
+T*
+(|Bx-Dx  By-Dy  \(Bx-Dx\)^2+\(By-Dy\)^2|  > 0) Tj
+T*
+(|Cx-Dx  Cy-Dy  \(Cx-Dx\)^2+\(Cy-Dy\)^2|) Tj
+T*
+() Tj
+T*
+(If orientation is CW, sign flips.) Tj
+T*
+() Tj
+T*
+(### 2.2 Why Delaunay in graphics/geometry pipelines) Tj
+T*
+(- Better-conditioned finite elements \(larger minimum angles\)) Tj
+T*
+(- Cleaner interpolation over irregular samples) Tj
+T*
+(- Stable neighborhood graph for point clouds) Tj
+T*
+(- Dual Voronoi structure enables nearest-region reasoning) Tj
+T*
+ET
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
+endobj
+56 0 obj
+<< /Length 2489 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(### 2.3 Robustness pitfalls \(great exam bonus\)) Tj
+T*
+(- Nearly cocircular points -> floating point ambiguity) Tj
+T*
+(- Collinear subsets -> degenerate triangles) Tj
+T*
+(- Duplicate points -> broken predicates) Tj
+T*
+() Tj
+T*
+(Mitigations:) Tj
+T*
+(- symbolic perturbation / exact predicates \(Shewchuk-style orientation/in-circle\)) Tj
+T*
+(- epsilon-aware duplicate filtering) Tj
+T*
+(- deterministic tie-breaks) Tj
+T*
+() Tj
+T*
+(### 2.4 Complexity statements to memorize) Tj
+T*
+(- Bowyer-Watson expected: O\(n log n\)) Tj
+T*
+(- Worst-case for many practical incremental methods: O\(n^2\)) Tj
+T*
+(- Planar triangulation edge count \(general position\): about 3n - 3 - h) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3\) Marching Cubes: Topology-Correct Thinking) Tj
+T*
+() Tj
+T*
+(### 3.1 Core idea \(exam-safe wording\)) Tj
+T*
+(Given a scalar field sampled at grid corners, classify each cube corner against an isovalue,) Tj
+T*
+(then emit triangles from a lookup table and interpolate vertex positions on intersected edges.) Tj
+T*
+() Tj
+T*
+(### 3.2 Interpolation formula) Tj
+T*
+(t = \(iso - f1\) / \(f2 - f1\)) Tj
+T*
+() Tj
+T*
+(p = p1 + t \(p2 - p1\)) Tj
+T*
+() Tj
+T*
+(### 3.3 Ambiguity handling hierarchy) Tj
+T*
+(1. Original MC \(15 symmetry classes\)) Tj
+T*
+(2. Asymptotic Decider \(face ambiguity resolution\)) Tj
+T*
+(3. MC33 \(topology-aware case expansion\)) Tj
+T*
+() Tj
+T*
+(### 3.4 Normal computation for shading) Tj
+T*
+(- Analytical: normal = gradient of trilinear field) Tj
+T*
+(- Practical finite difference:) Tj
+T*
+(  - fx ~ f\(x+1\)-f\(x-1\)) Tj
+T*
+(  - fy ~ f\(y+1\)-f\(y-1\)) Tj
+T*
+(  - fz ~ f\(z+1\)-f\(z-1\)) Tj
+T*
+(- Normalize and interpolate to vertices) Tj
+T*
+() Tj
+T*
+(### 3.5 Practical mesh quality improvements) Tj
+T*
+(- Deduplicate edge vertices with hash map keyed by \(cell,edge\)) Tj
+T*
+(- Apply Taubin/Laplacian smoothing cautiously \(avoid volume shrink\)) Tj
+T*
+(- Use manifold checks before downstream FEM/printing) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4\) CT + MRI: High-Yield Physics and Reconstruction) Tj
+T*
+() Tj
+T*
+(### 4.1 CT attenuation model) Tj
+T*
+(I = I0 exp\(-? mu\(s\) ds\)) Tj
+T*
+() Tj
+T*
+(Log form used in reconstruction:) Tj
+T*
+(- ln\(I/I0\) = -? mu\(s\) ds) Tj
+T*
+() Tj
+T*
+(### 4.2 Hounsfield Unit equation) Tj
+T*
+(HU = 1000 * \(mu_tissue - mu_water\) / \(mu_water - mu_air\)) Tj
+T*
+() Tj
+T*
+(Anchor values:) Tj
+T*
+(- air ? -1000) Tj
+T*
+(- water = 0) Tj
+T*
+(- dense cortical bone up to +1000 or higher) Tj
+T*
+ET
+endstream
+endobj
+57 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
+endobj
+58 0 obj
+<< /Length 2527 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(### 4.3 Filtered Backprojection intuition) Tj
+T*
+(- Raw backprojection blurs as 1/r) Tj
+T*
+(- Ramp filter compensates high-frequency loss) Tj
+T*
+(- Then integrate filtered projections over angles) Tj
+T*
+() Tj
+T*
+(### 4.4 MRI signal essentials) Tj
+T*
+(- Larmor relation: omega0 = gamma B0) Tj
+T*
+(- Contrast depends on TR, TE, tissue T1/T2/T2*) Tj
+T*
+() Tj
+T*
+(Classic contrast shortcuts:) Tj
+T*
+(- T1-weighted: fat bright, fluid dark) Tj
+T*
+(- T2-weighted: fluid bright) Tj
+T*
+(- FLAIR: fluid suppressed; edema/tumor remains bright) Tj
+T*
+() Tj
+T*
+(### 4.5 MRI safety talking points) Tj
+T*
+(- MRI has no ionizing radiation \(contrast with CT\)) Tj
+T*
+(- Main hazards: projectile risk, RF heating/burns, acoustic noise, implant/device interactions) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5\) Brain Tumor Segmentation \(BraTS-Oriented\)) Tj
+T*
+() Tj
+T*
+(### 5.1 Label semantics \(critical\)) Tj
+T*
+(- WT \(whole tumor\): edema + core + enhancing) Tj
+T*
+(- TC \(tumor core\): necrosis/non-enhancing + enhancing \(no edema\)) Tj
+T*
+(- ET \(enhancing tumor\): active contrast-enhancing component) Tj
+T*
+() Tj
+T*
+(### 5.2 Metrics you should be ready to compute) Tj
+T*
+(Dice\(A,B\) = 2|A?B| / \(|A|+|B|\)) Tj
+T*
+() Tj
+T*
+(Precision = TP/\(TP+FP\)) Tj
+T*
+(Recall = TP/\(TP+FN\)) Tj
+T*
+() Tj
+T*
+(HD95: 95th percentile bidirectional boundary distance) Tj
+T*
+() Tj
+T*
+(### 5.3 Training details examiners love) Tj
+T*
+(- 3D patch sampling to fit memory) Tj
+T*
+(- class-balanced sampling \(tumor voxels are minority\)) Tj
+T*
+(- z-score normalization per modality) Tj
+T*
+(- deep supervision for stable gradients) Tj
+T*
+(- test-time ensembling/augmentation for better robustness) Tj
+T*
+() Tj
+T*
+(### 5.4 Error analysis language) Tj
+T*
+(- False positives near ventricles or postoperative cavities) Tj
+T*
+(- Boundary leakage into edema for ET/TC confusion) Tj
+T*
+(- Domain shift across scanners/sites/protocols) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6\) Bzier Curves: Advanced Differentiation + Continuity) Tj
+T*
+() Tj
+T*
+(### 6.1 General form) Tj
+T*
+(B\(t\) = ?_{i=0..n} C\(n,i\) \(1-t\)^\(n-i\) t^i P_i) Tj
+T*
+() Tj
+T*
+(### 6.2 First derivative curve \(degree n-1\)) Tj
+T*
+(B'\(t\) = n ?_{i=0..n-1} B_{i,n-1}\(t\) \(P_{i+1}-P_i\)) Tj
+T*
+() Tj
+T*
+(Endpoint tangents:) Tj
+T*
+(- B'\(0\) = n\(P1-P0\)) Tj
+T*
+(- B'\(1\) = n\(Pn-P_{n-1}\)) Tj
+T*
+() Tj
+T*
+(### 6.3 Second derivative \(useful for curvature discussion\)) Tj
+T*
+(B''\(t\) = n\(n-1\) ?_{i=0..n-2} B_{i,n-2}\(t\)\(P_{i+2}-2P_{i+1}+P_i\)) Tj
+T*
+ET
+endstream
+endobj
+59 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 58 0 R >>
+endobj
+60 0 obj
+<< /Length 2302 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(### 6.4 Joining segments \(exam favorite\)) Tj
+T*
+(Given curve A ending at A3 and curve B starting at B0:) Tj
+T*
+(- C0 continuity: A3 = B0) Tj
+T*
+(- C1 continuity: A3-A2 = B1-B0) Tj
+T*
+(- G1 continuity: directions parallel \(magnitudes may differ\)) Tj
+T*
+(- C2 continuity: second derivatives equal at join) Tj
+T*
+() Tj
+T*
+(### 6.5 Subdivision at t=0.5 \(De Casteljau\)) Tj
+T*
+(- Produces two Bzier segments exactly matching original) Tj
+T*
+(- Useful for adaptive tessellation and collision approximation) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7\) Bzier Surfaces: Differential Geometry Essentials) Tj
+T*
+() Tj
+T*
+(For tensor-product surface S\(u,v\):) Tj
+T*
+(S\(u,v\)=?_i ?_j B_{i,m}\(u\) B_{j,n}\(v\) P_{i,j}) Tj
+T*
+() Tj
+T*
+(### 7.1 Partial derivatives) Tj
+T*
+(Su = ?S/?u) Tj
+T*
+(Sv = ?S/?v) Tj
+T*
+() Tj
+T*
+(Surface normal \(unnormalized\):) Tj
+T*
+(N = Su  Sv) Tj
+T*
+() Tj
+T*
+(### 7.2 Boundary curves) Tj
+T*
+(- Fix u=0,1 or v=0,1 to get Bzier boundary curves) Tj
+T*
+(- Corner interpolation always holds: S\(0,0\)=P00, etc.) Tj
+T*
+() Tj
+T*
+(### 7.3 Continuity between adjacent patches) Tj
+T*
+(- C0: shared boundary control points match) Tj
+T*
+(- C1 across shared edge: adjacent handle rows/columns arranged collinearly with matched) Tj
+T*
+(derivative magnitudes) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 8\) High-Probability Computation Drills) Tj
+T*
+() Tj
+T*
+(### Drill A: Dice score) Tj
+T*
+(If |GT|=1200, |Pred|=1000, intersection=900:) Tj
+T*
+(Dice = 2*900 / \(1200+1000\) = 1800/2200 = 0.8182) Tj
+T*
+() Tj
+T*
+(### Drill B: De Casteljau quadratic) Tj
+T*
+(P0=\(0,0\), P1=\(2,2\), P2=\(4,0\), t=0.25) Tj
+T*
+(Q0=0.75P0+0.25P1=\(0.5,0.5\)) Tj
+T*
+(Q1=0.75P1+0.25P2=\(2.5,1.5\)) Tj
+T*
+(B=0.75Q0+0.25Q1=\(1.0,0.75\)) Tj
+T*
+() Tj
+T*
+(### Drill C: Marching edge interpolation) Tj
+T*
+(f1=30, f2=90, iso=60, p1=\(0,0,0\), p2=\(0,1,0\)) Tj
+T*
+(t=\(60-30\)/\(90-30\)=0.5) Tj
+T*
+(p=\(0,0.5,0\)) Tj
+T*
+() Tj
+T*
+(### Drill D: CT window mapping) Tj
+T*
+(Given WL=40, WW=80:) Tj
+T*
+(visible HU range is [0,80]) Tj
+T*
+(HU below 0 -> black, above 80 -> white \(after clipping\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 9\) One-Page Formula Dump \(Memorize\)) Tj
+T*
+(- Bernstein: B_{i,n}\(t\)=C\(n,i\)t^i\(1-t\)^\(n-i\)) Tj
+T*
+(- Bzier curve: B\(t\)=? B_{i,n}\(t\)P_i) Tj
+T*
+ET
+endstream
+endobj
+61 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 60 0 R >>
+endobj
+62 0 obj
+<< /Length 3228 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- De Casteljau: P_i^{\(j\)}=\(1-t\)P_i^{\(j-1\)}+tP_{i+1}^{\(j-1\)}) Tj
+T*
+(- Bzier derivative: B'\(t\)=n? B_{i,n-1}\(t\)\(P_{i+1}-P_i\)) Tj
+T*
+(- Surface: S\(u,v\)=?? B_{i,m}\(u\)B_{j,n}\(v\)P_{i,j}) Tj
+T*
+(- Dice: 2TP/\(2TP+FP+FN\)) Tj
+T*
+(- HU: 1000\(mu_t-mu_w\)/\(mu_w-mu_a\)) Tj
+T*
+(- CT attenuation: I=I0 exp\(-?mu ds\)) Tj
+T*
+(- Larmor: omega0=gamma B0) Tj
+T*
+(- Marching interpolation: p=p1 + \(\(iso-f1\)/\(f2-f1\)\)\(p2-p1\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 10\) Curated Research References \(for trustable facts\)) Tj
+T*
+(1. OpenXR Registry \(official specification\):) Tj
+T*
+(https://registry.khronos.org/OpenXR/specs/1.1-khr/html/xrspec.html) Tj
+T*
+(2. Khronos press release \(OpenXR 1.1, 2024-04-15\):) Tj
+T*
+(https://www.khronos.org/news/press/khronos-releases-openxr-1.1-to-further-streamline-cross-plat) Tj
+T*
+(form-xr-development) Tj
+T*
+(3. ORB-SLAM3 \(arXiv:2007.11898\): https://arxiv.org/abs/2007.11898) Tj
+T*
+(4. U-Net \(arXiv:1505.04597\): https://arxiv.org/abs/1505.04597) Tj
+T*
+(5. nnU-Net \(Nature Methods 2021\): https://www.nature.com/articles/s41592-020-01008-z) Tj
+T*
+(6. BraTS benchmark review \(arXiv:1811.02629\): https://arxiv.org/abs/1811.02629) Tj
+T*
+(7. BraTS 2024 post-treatment glioma challenge: https://arxiv.org/abs/2405.18368) Tj
+T*
+(8. BraTS 2024 MEN-RT challenge: https://arxiv.org/abs/2405.18383) Tj
+T*
+(9. Marching Cubes \(SIGGRAPH 1987\): https://doi.org/10.1145/37401.37422) Tj
+T*
+(10. FDA MRI professional safety page:) Tj
+T*
+(https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/information-prof) Tj
+T*
+(essionals) Tj
+T*
+(11. NIBIB MRI overview:) Tj
+T*
+(https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri) Tj
+T*
+(12. WHO CNS Tumours \(5th edition volume, 2021\): https://publications.iarc.who.int/601) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: vr_ar.md) Tj
+T*
+() Tj
+T*
+(# Virtual Reality & Augmented Reality --- Complete Guide) Tj
+T*
+() Tj
+T*
+(> Wikipedia on VR: "Virtual reality \(VR\) is a simulated experience that employs 3D head-mounted) Tj
+T*
+(displays and pose tracking to give the user an immersive feel of a virtual world.") Tj
+T*
+(> Wikipedia on AR: "Augmented reality \(AR\) overlays real-time 3D-rendered computer graphics) Tj
+T*
+(into the real world through a display. Augmented reality can be defined as a system that) Tj
+T*
+(incorporates three basic features: a combination of real and virtual worlds, real-time) Tj
+T*
+(interaction, and accurate 3D registration of virtual and real objects.") Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1. The Reality-Virtuality Continuum \(Milgram 1994\)) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Real World <---------------------------------------> Virtual World) Tj
+T*
+(           |              |              |) Tj
+T*
+(           AR             MR            AV) Tj
+T*
+(      \(Augmented    \(Mixed Reality\)  \(Augmented      \(VR\)) Tj
+T*
+(        Reality\)                     Virtuality\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(- AR: Mostly real + virtual overlay) Tj
+T*
+(- MR: Real and virtual interact) Tj
+T*
+(- AV: Mostly virtual, some real inserted) Tj
+T*
+(- VR: 100% synthetic environment) Tj
+T*
+ET
+endstream
+endobj
+63 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 62 0 R >>
+endobj
+64 0 obj
+<< /Length 2809 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. VR Core Requirements) Tj
+T*
+() Tj
+T*
+(### 6 Degrees of Freedom \(6-DoF\)) Tj
+T*
+() Tj
+T*
+(Translation:  X \(left/right\), Y \(up/down\), Z \(forward/back\)) Tj
+T*
+(Rotation:     Pitch \(nod\), Yaw \(shake head\), Roll \(tilt\)) Tj
+T*
+() Tj
+T*
+(All 6 must be tracked in real time to avoid motion sickness.) Tj
+T*
+() Tj
+T*
+(### Performance Requirements) Tj
+T*
+() Tj
+T*
+(| Metric | Minimum | Target | Premium |) Tj
+T*
+(|---|---|---|---|) Tj
+T*
+(| Frame rate | 60 fps | 90 fps | 120 fps |) Tj
+T*
+(| Latency \(motion-to-photon\) | 20 ms | 10 ms | 7 ms |) Tj
+T*
+(| Resolution \(per eye\) | 1600x1440 | 2064x2208 | 4K+ |) Tj
+T*
+(| Field of View | 90 deg | 110 deg | 120+ deg |) Tj
+T*
+() Tj
+T*
+(### Why < 20ms Latency Matters) Tj
+T*
+() Tj
+T*
+(The vestibular system detects head movement within 2-5ms. The visual system must confirm) Tj
+T*
+(the movement within ~20ms or the mismatch causes simulator sickness \(nausea, disorientation\).) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. VR Tracking Technologies) Tj
+T*
+() Tj
+T*
+(### Inside-Out Tracking \(Modern Standard\)) Tj
+T*
+(- Cameras on the HMD observe the environment) Tj
+T*
+(- SLAM/VIO algorithms compute device pose from observed features) Tj
+T*
+(- No external infrastructure needed) Tj
+T*
+(- Devices: Meta Quest 2/3/Pro, HoloLens 2, Apple Vision Pro) Tj
+T*
+(- Accuracy: 1-3mm position, <0.1 degree rotation) Tj
+T*
+() Tj
+T*
+(### Outside-In Tracking \(High-End PC VR\)) Tj
+T*
+(- External base stations emit IR laser sweeps \(Lighthouse tracking\)) Tj
+T*
+(- Sensors on HMD and controllers triangulate position) Tj
+T*
+(- Devices: Valve Index, HTC Vive, HTC Vive Pro) Tj
+T*
+(- Accuracy: <1mm position \(more precise than inside-out\)) Tj
+T*
+() Tj
+T*
+(### IMU \(Inertial Measurement Unit\)) Tj
+T*
+(- All HMDs include IMU: accelerometer + gyroscope) Tj
+T*
+(- Provides high-frequency \(1000 Hz\) rotation data) Tj
+T*
+(- Fused with camera data via Extended Kalman Filter \(EKF\)) Tj
+T*
+(- Alone: fast but drifts over time; with vision: stable) Tj
+T*
+() Tj
+T*
+(### Visual-Inertial Odometry \(VIO\)) Tj
+T*
+(The gold standard. Camera provides absolute position via feature matching.) Tj
+T*
+(IMU provides 1000 Hz rotation between video frames \(30-60 fps\).) Tj
+T*
+(EKF/Kalman filter fuses them: accurate, drift-corrected, low-latency.) Tj
+T*
+() Tj
+T*
+(ORB-SLAM3 \(arXiv:2007.11898\) is the state-of-the-art open-source VIO system:) Tj
+T*
+(- Features: ORB \(Oriented FAST + Rotated BRIEF\) - fast and rotation invariant) Tj
+T*
+(- MAP estimation: optimizes all poses + map points jointly) Tj
+T*
+(- Multi-map: when tracking lost, starts new sub-map; later merges) Tj
+T*
+(- Accuracy: 3.6cm on EuRoC drone dataset, 9mm hand-held) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. VR Display Technologies) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+65 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 64 0 R >>
+endobj
+66 0 obj
+<< /Length 3123 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(### OLED vs LCD) Tj
+T*
+(| Property | OLED | LCD |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Black level | True black \(pixel off\) | Backlit \(gray black\) |) Tj
+T*
+(| Contrast | Very high \(1,000,000:1\) | Lower \(1,000:1\) |) Tj
+T*
+(| Response time | <0.1ms | 1-5ms \(ghosting risk\) |) Tj
+T*
+(| Burn-in | Yes \(static images\) | No |) Tj
+T*
+(| Brightness | Lower | Higher |) Tj
+T*
+(| Used in | PSVR2, Valve Index | Meta Quest 2 |) Tj
+T*
+() Tj
+T*
+(### Optics Types) Tj
+T*
+(- Fresnel: Concentric rings; wide FoV; light; some god-rays) Tj
+T*
+(- Pancake: Multiple reflective surfaces; thin/compact; dimmer) Tj
+T*
+(  \(Meta Quest 3, Apple Vision Pro use pancake\)) Tj
+T*
+(- Catadioptric: Hybrid reflective; used in Varjo headsets) Tj
+T*
+() Tj
+T*
+(### Vergence-Accommodation Conflict \(VAC\)) Tj
+T*
+(Eyes converge \(rotate\) to virtual object depth but must accommodate \(focus lens\)) Tj
+T*
+(to fixed screen distance \(~2m optical\). Causes eye strain in prolonged use.) Tj
+T*
+(Solutions:) Tj
+T*
+(- Varifocal displays: Mechanically move lens based on eye tracking) Tj
+T*
+(- Light field displays: Multiple focal planes \(computational lightfield\)) Tj
+T*
+(- Holographic displays: Wave optics, true 3D light field \(future\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Rendering Techniques for VR) Tj
+T*
+() Tj
+T*
+(### Foveated Rendering) Tj
+T*
+(- Fovea \(center of retina\): 2 degrees, maximum acuity) Tj
+T*
+(- Periphery: 80% of visual field but 50% lower acuity) Tj
+T*
+(- With eye tracking: render only foveal region at full quality) Tj
+T*
+(- Periphery: 25-50% lower resolution \(user cannot detect\)) Tj
+T*
+(- GPU savings: 3-5x reduction in shading cost) Tj
+T*
+() Tj
+T*
+(Devices with eye tracking: Apple Vision Pro, PlayStation VR2, Varjo headsets) Tj
+T*
+() Tj
+T*
+(### Asynchronous Spacewarp \(ASW\) / Timewarp) Tj
+T*
+(If GPU drops below 90 fps: instead of judder \(dropped frame\), the runtime) Tj
+T*
+(extrapolates the next frame by warping the last rendered frame using depth + motion.) Tj
+T*
+(User perceives smooth 90fps even if game renders at 45fps.) Tj
+T*
+() Tj
+T*
+(### Single-Pass Stereo Rendering) Tj
+T*
+(Render both eyes in one draw call using:) Tj
+T*
+(- Geometry shaders \(instancing to two render targets\)) Tj
+T*
+(- Multi-view extension \(GL_OVR_multiview, VK_KHR_multiview\)) Tj
+T*
+(- Reduces CPU-GPU draw call overhead by ~40%) Tj
+T*
+() Tj
+T*
+(### Lens Distortion Pre-correction) Tj
+T*
+(Fresnel lenses create barrel distortion \(edges bow outward\).) Tj
+T*
+(Renderer applies inverse pincushion distortion to the image.) Tj
+T*
+(The lens then corrects it back to a straight image.) Tj
+T*
+(Separate distortion maps for R, G, B channels to correct chromatic aberration.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6. AR: How It Works) Tj
+T*
+() Tj
+T*
+(### Three Core Problems) Tj
+T*
+(1. TRACKING: Know device pose \(6-DoF\) in real world at all times) Tj
+T*
+(2. REGISTRATION: Align virtual content precisely to real world coordinates \(pixel-perfect\)) Tj
+T*
+(3. RENDERING: Blend virtual content with real world \(occlusion, lighting, shadows\)) Tj
+T*
+() Tj
+T*
+(### Marker-Based AR Pipeline) Tj
+T*
+ET
+endstream
+endobj
+67 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 66 0 R >>
+endobj
+68 0 obj
+<< /Length 2492 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(```) Tj
+T*
+(Camera frame) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Grayscale + adaptive threshold -> binary image) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Contour detection -> find quadrilateral candidates) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Decode marker ID \(bit pattern in interior grid\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(PnP \(Perspective-n-Point\) pose estimation:) Tj
+T*
+(  Known 3D corners [\(-s,-s,0\),\(s,-s,0\),\(s,s,0\),\(-s,s,0\)]) Tj
+T*
+(  Observed 2D projections) Tj
+T*
+(  Solve: minimize Sum |projected\(R,t,P3d_i\) - p2d_i|^2) Tj
+T*
+(  -> Camera pose \(R,t\) given camera intrinsics K) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Render virtual object at pose \(R,t\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### Markerless \(SLAM-based\) AR Pipeline) Tj
+T*
+(```) Tj
+T*
+(Camera frame) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Feature extraction \(ORB/SIFT/SuperPoint\): keypoints + descriptors) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Feature matching to active map \(Bag-of-Words + descriptor match\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Pose estimation \(P3P + RANSAC inlier filtering\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Local optimization: Bundle Adjustment on recent keyframes) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Map expansion: triangulate new 3D points from matched features) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Loop closure: DBoW2 similarity query -> global optimization if loop found) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### Plane Detection \(ARKit/ARCore\)) Tj
+T*
+(LiDAR \(iPhone 12 Pro+\) or stereo gives depth map.) Tj
+T*
+(RANSAC plane fitting: for each candidate plane, count inlier depth points.) Tj
+T*
+(Plane tracked over time; boundary refined using alpha shapes.) Tj
+T*
+(Used for: placing virtual furniture on floors, wall projections.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7. Key Hardware 2024) Tj
+T*
+() Tj
+T*
+(| Device | Type | Tracking | Display | Notable |) Tj
+T*
+(|---|---|---|---|---|) Tj
+T*
+(| Meta Quest 3 | Standalone VR/AR | Inside-out | LCD pancake | Color passthrough, affordable |) Tj
+T*
+(| Apple Vision Pro | AR/VR spatial | Inside-out | MicroOLED | Eye/hand tracking, visionOS |) Tj
+T*
+(| PlayStation VR2 | Tethered VR | Inside-out | OLED | Adaptive triggers, eye tracking |) Tj
+T*
+(| Valve Index | Tethered VR | Lighthouse | LCD | Finger tracking, widest FoV |) Tj
+T*
+(| HoloLens 2 | AR enterprise | Inside-out | Waveguide | Enterprise AR, hand tracking |) Tj
+T*
+(| Magic Leap 2 | AR enterprise | Inside-out | Waveguide | Dimming dimmer, focus modes |) Tj
+T*
+ET
+endstream
+endobj
+69 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 68 0 R >>
+endobj
+70 0 obj
+<< /Length 2598 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 8. Applications) Tj
+T*
+() Tj
+T*
+(### Medical) Tj
+T*
+(- Surgical planning: overlay CT/MRI anatomy in AR on patient) Tj
+T*
+(- Training: VR surgical simulation \(Osso VR, Touch Surgery\)) Tj
+T*
+(- Rehabilitation: VR stroke/motor retraining) Tj
+T*
+(- Pain management: VR distraction reduces pain 35-50%) Tj
+T*
+() Tj
+T*
+(### Industrial) Tj
+T*
+(- Boeing: AR wiring guidance -> 40% error reduction, 25% faster) Tj
+T*
+(- Remote assistance: Expert annotates worker's live view) Tj
+T*
+(- Digital twin: 1:1 scale VR walkthrough before manufacturing) Tj
+T*
+() Tj
+T*
+(### Education) Tj
+T*
+(- Virtual anatomy \(Complete Anatomy, Visible Body\)) Tj
+T*
+(- Historical reconstruction \(ancient Rome, Pompeii VR\)) Tj
+T*
+(- VR physics labs \(dangerous experiments safely\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 9. Novel Rendering for VR/AR: NeRF and Gaussian Splatting) Tj
+T*
+() Tj
+T*
+(### NeRF \(arXiv:2003.08934\)) Tj
+T*
+(Neural Radiance Fields -- photorealistic novel view synthesis:) Tj
+T*
+(- Scene = MLP neural network F\(x,y,z,theta,phi\) -> RGB + density) Tj
+T*
+(- Rendering: integrate color along rays via volume rendering) Tj
+T*
+(- Input: 20-100 photos with known poses) Tj
+T*
+(- Training: 1-2 days; rendering: 30s/frame \(slow\)) Tj
+T*
+(- View-dependent effects: reflections, specular highlights captured) Tj
+T*
+() Tj
+T*
+(### 3D Gaussian Splatting \(arXiv:2308.04079\)) Tj
+T*
+(Real-time alternative to NeRF:) Tj
+T*
+(- Scene = millions of 3D Gaussians \(position, covariance, color, opacity\)) Tj
+T*
+(- Rendering: project Gaussians to 2D, alpha-composite front-to-back) Tj
+T*
+(- Training: 30 minutes; rendering: 30+ fps at 1080p) Tj
+T*
+(- Application: Scan real space with phone -> photorealistic VR/AR environment) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: Wikipedia Virtual reality; Wikipedia Augmented reality; ORB-SLAM3 \(arXiv:2007.11898\);) Tj
+T*
+(NeRF \(arXiv:2003.08934\); 3DGS \(arXiv:2308.04079\)*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: delaunay_triangulation.md) Tj
+T*
+() Tj
+T*
+(# Delaunay Triangulation --- Complete Guide) Tj
+T*
+() Tj
+T*
+(> Wikipedia says: "A Delaunay triangulation of a set of points in the plane subdivides their) Tj
+T*
+(convex hull into triangles whose circumcircles do not contain any of the points. This maximizes) Tj
+T*
+(the size of the smallest angle in any of the triangles, and tends to avoid sliver triangles.") Tj
+T*
+(> Named after Boris Delaunay for his work from 1934.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1. The Core Definition) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+71 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 70 0 R >>
+endobj
+72 0 obj
+<< /Length 2782 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(**Circumcircle Property:** For every triangle in the Delaunay triangulation, the circumcircle) Tj
+T*
+(\(the unique circle passing through all 3 vertices\) contains NO other input point in its) Tj
+T*
+(interior.) Tj
+T*
+() Tj
+T*
+(If any point P lies inside the circumcircle of triangle ABC, then ABC is NOT a valid Delaunay) Tj
+T*
+(triangle and must be "flipped.") Tj
+T*
+() Tj
+T*
+(### The Circumcircle Test \(Determinant\)) Tj
+T*
+() Tj
+T*
+(Given triangle A,B,C \(counterclockwise\) and test point D:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(|Ax-Dx  Ay-Dy  \(Ax-Dx\)^2+\(Ay-Dy\)^2|) Tj
+T*
+(|Bx-Dx  By-Dy  \(Bx-Dx\)^2+\(By-Dy\)^2| > 0  =>  D is INSIDE circumcircle) Tj
+T*
+(|Cx-Dx  Cy-Dy  \(Cx-Dx\)^2+\(Cy-Dy\)^2|) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(If determinant > 0: D inside circle => NOT Delaunay => flip edge) Tj
+T*
+(If determinant < 0: D outside circle => OK) Tj
+T*
+(If determinant = 0: D ON circle => ambiguous \(degenerate\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. Key Properties) Tj
+T*
+() Tj
+T*
+(1. **Maximizes minimum angle** -- the "fattest" triangles possible) Tj
+T*
+(2. **Avoids slivers** -- no long thin triangles \(numerically bad for FEA, rendering\)) Tj
+T*
+(3. **Unique** -- for n points in general position \(no 4 points cocircular\)) Tj
+T*
+(4. **Dual of Voronoi diagram** -- connect circumcenters of adjacent triangles => Voronoi edges) Tj
+T*
+(5. **Count** -- at most 2n-h-2 triangles \(n=points, h=convex hull vertices\)) Tj
+T*
+(6. **Geometric spanner** -- shortest path along edges is at most 1.998x Euclidean distance) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. Voronoi Duality) Tj
+T*
+() Tj
+T*
+(Voronoi cell of point p = region closer to p than any other point.) Tj
+T*
+() Tj
+T*
+(**Delaunay <-> Voronoi duality:**) Tj
+T*
+(- Delaunay vertex = Voronoi cell center) Tj
+T*
+(- Delaunay edge AB = dual Voronoi edge \(perpendicular bisector of AB between Vor\(A\) and Vor\(B\)\)) Tj
+T*
+(- Delaunay triangle circumcenter = Voronoi vertex) Tj
+T*
+() Tj
+T*
+(Building one from the other is O\(n\) after first construction.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. The Edge Flip Operation) Tj
+T*
+() Tj
+T*
+(Given two triangles sharing edge BD \(forming quadrilateral ABCD\):) Tj
+T*
+(- If the sum of opposite angles alpha + gamma > 180 degrees, edge BD is "illegal") Tj
+T*
+(- Flip BD to AC => creates two new triangles that satisfy Delaunay condition) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Before flip:           After flip:) Tj
+T*
+(    A                      A) Tj
+T*
+(   /|\\                    /|) Tj
+T*
+(  / | \\                  / |) Tj
+T*
+( /  BD  \\               /  |) Tj
+T*
+(B---+---C    =>      B  AC  C) Tj
+T*
+( \\  |  /               \\  |) Tj
+T*
+(  \\ | /                 \\ |) Tj
+T*
+(   \\|/                   \\|) Tj
+T*
+(    D                      D) Tj
+T*
+ET
+endstream
+endobj
+73 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 72 0 R >>
+endobj
+74 0 obj
+<< /Length 2477 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Bowyer-Watson Algorithm \(O\(n log n\)\)) Tj
+T*
+() Tj
+T*
+(The most commonly implemented Delaunay triangulation algorithm:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Algorithm Bowyer-Watson\(points\):) Tj
+T*
+(1. Create super-triangle S that contains all input points) Tj
+T*
+(2. triangulation = {S}) Tj
+T*
+() Tj
+T*
+(3. For each point p in points:) Tj
+T*
+(   a. Find all triangles whose circumcircle contains p:) Tj
+T*
+(      bad_triangles = {T in triangulation : p inside circumcircle\(T\)}) Tj
+T*
+(   ) Tj
+T*
+(   b. Find boundary polygon \(hole boundary\):) Tj
+T*
+(      boundary = edges of bad_triangles that are not shared by 2 bad triangles) Tj
+T*
+(   ) Tj
+T*
+(   c. Remove bad_triangles from triangulation) Tj
+T*
+(   ) Tj
+T*
+(   d. For each edge \(a,b\) in boundary:) Tj
+T*
+(      Add new triangle \(a, b, p\) to triangulation) Tj
+T*
+() Tj
+T*
+(4. Remove all triangles sharing a vertex with super-triangle S) Tj
+T*
+(5. Return triangulation) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Complexity:** O\(n log n\) expected; O\(n^2\) worst case) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6. 3D Extension: Tetrahedralization) Tj
+T*
+() Tj
+T*
+(In 3D, Delaunay triangulation becomes Delaunay tetrahedralization:) Tj
+T*
+(- Instead of circumcircles, use circumspheres) Tj
+T*
+(- No point inside any tetrahedron's circumsphere) Tj
+T*
+(- Used for finite element mesh generation \(FEM\)) Tj
+T*
+(- Libraries: TetGen, CGAL, Qhull) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7. Applications in Computer Graphics) Tj
+T*
+() Tj
+T*
+(| Application | Why Delaunay |) Tj
+T*
+(|---|---|) Tj
+T*
+(| Point cloud triangulation | Connect nearby points without sliver triangles |) Tj
+T*
+(| Terrain meshing \(DEMs\) | Triangulate elevation data for terrain rendering |) Tj
+T*
+(| Finite element analysis | Well-shaped triangles for numerical stability |) Tj
+T*
+(| Voronoi diagrams | Dual graph for nearest-neighbor queries |) Tj
+T*
+(| Path planning | Visibility graph through triangulation |) Tj
+T*
+(| Interpolation | Natural neighbor interpolation on Delaunay mesh |) Tj
+T*
+(| 2D physics simulation | Good mesh for rigid body simulation |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 8. Limitations and Extensions) Tj
+T*
+() Tj
+T*
+(**Limitations:**) Tj
+T*
+(- Does not work well with sharp features \(edges, corners\) -- quality near boundary can be poor) Tj
+T*
+(- Assumes points in general position \(no 4 cocircular points\)) Tj
+T*
+() Tj
+T*
+(**Extensions:**) Tj
+T*
+ET
+endstream
+endobj
+75 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 74 0 R >>
+endobj
+76 0 obj
+<< /Length 2560 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- **Constrained Delaunay:** Some edges are forced \(e.g., known boundaries\); used for terrain) Tj
+T*
+(with roads, coastlines) Tj
+T*
+(- **Conforming Delaunay:** Add extra Steiner points to make triangulation conform to input) Tj
+T*
+(edges) Tj
+T*
+(- **Weighted Delaunay:** Each point has a weight; circumcircle test uses weighted circles) Tj
+T*
+(- **Delaunay refinement \(Ruppert's algorithm\):** Adds vertices to improve triangle quality) Tj
+T*
+(\(minimum angle >= 20.7 degrees guaranteed\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: Wikipedia Delaunay triangulation; de Berg et al. 'Computational Geometry'; O'Rourke) Tj
+T*
+('Computational Geometry in C'*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: marching_cubes.md) Tj
+T*
+() Tj
+T*
+(# Marching Cubes --- Complete Guide) Tj
+T*
+() Tj
+T*
+(> Wikipedia says: "Marching cubes is a computer graphics algorithm, published in the 1987) Tj
+T*
+(SIGGRAPH proceedings by Lorensen and Cline, for extracting a polygonal mesh of an isosurface) Tj
+T*
+(from a three-dimensional discrete scalar field.") Tj
+T*
+(> "The applications are mainly concerned with medical visualizations such as CT and MRI scan) Tj
+T*
+(data images.") Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1. Problem Statement) Tj
+T*
+() Tj
+T*
+(**Input:** 3D scalar field f\(x,y,z\) sampled on a regular grid \(voxels\)) Tj
+T*
+(         e.g., CT scan \(Hounsfield units\), MRI intensity, distance field) Tj
+T*
+() Tj
+T*
+(**Output:** Triangle mesh of the isosurface {\(x,y,z\) : f\(x,y,z\) = isovalue}) Tj
+T*
+() Tj
+T*
+(**Example:** Extract a brain surface from MRI by thresholding at the grey matter / CSF) Tj
+T*
+(boundary.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. Algorithm Steps) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(For each 2x2x2 voxel cube in the grid:) Tj
+T*
+(  1. CLASSIFY: Label each of 8 corners as inside \(f > isovalue\) or outside \(f <= isovalue\)) Tj
+T*
+(  ) Tj
+T*
+(  2. INDEX: Convert 8 binary labels to an 8-bit integer \(index 0..255\)) Tj
+T*
+(     bit 0 = corner 0, bit 1 = corner 1, ..., bit 7 = corner 7) Tj
+T*
+(  ) Tj
+T*
+(  3. LOOKUP: Use triTable[index] to get the list of triangle edges \(up to 5 triangles\)) Tj
+T*
+(  ) Tj
+T*
+(  4. INTERPOLATE: For each triangle edge crossing the isosurface, linearly interpolate:) Tj
+T*
+(     t = \(isovalue - f\(v1\)\) / \(f\(v2\) - f\(v1\)\)) Tj
+T*
+(     vertex = v1 + t * \(v2 - v1\)) Tj
+T*
+(  ) Tj
+T*
+(  5. OUTPUT: Store triangle vertices) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. The 256 Cases -> 15 Unique Cases) Tj
+T*
+ET
+endstream
+endobj
+77 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 76 0 R >>
+endobj
+78 0 obj
+<< /Length 2354 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(By exploiting rotational and reflective symmetry, all 256 possible corner configurations) Tj
+T*
+(reduce to 15 unique cases:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Case 0:  All outside -> no triangles) Tj
+T*
+(Case 1:  1 corner inside -> 1 triangle \(corner cut\)) Tj
+T*
+(Case 2:  2 adjacent corners inside -> 1 triangle) Tj
+T*
+(Case 3:  2 diagonal corners inside -> 2 triangles \(ambiguous!\)) Tj
+T*
+(Case 4:  1 corner inside \(opposite side\) -> 1 triangle) Tj
+T*
+(Case 5:  3 corners of a face inside -> 2 triangles) Tj
+T*
+(...) Tj
+T*
+(Case 14: 7 corners inside \(1 outside\) -> 1 triangle \(complement of case 1\)) Tj
+T*
+(Case 15: All inside -> no triangles) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The original paper had 15 cases \(reduced by symmetry\).) Tj
+T*
+(Marching Cubes 33 \(Chernyaev 1995\) expands to 33 cases to resolve topological ambiguities.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. Linear Interpolation Along Edges) Tj
+T*
+() Tj
+T*
+(When an edge crosses the isosurface:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(t = \(isovalue - f_v1\) / \(f_v2 - f_v1\)) Tj
+T*
+() Tj
+T*
+(vertex = v1 + t * \(v2 - v1\)) Tj
+T*
+(       = \(1-t\)*v1 + t*v2) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(This places the vertex at the exact isovalue crossing within the edge.) Tj
+T*
+() Tj
+T*
+(**Example:** edge from \(0,0,0\) with f=10 to \(1,0,0\) with f=30, isovalue=20:) Tj
+T*
+(```) Tj
+T*
+(t = \(20 - 10\) / \(30 - 10\) = 10/20 = 0.5) Tj
+T*
+(vertex = \(0,0,0\) + 0.5 * \(1,0,0\) = \(0.5, 0, 0\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Normal Estimation) Tj
+T*
+() Tj
+T*
+(The gradient of the scalar field gives the surface normal at each vertex:) Tj
+T*
+(```) Tj
+T*
+(N\(x,y,z\) = grad\(f\) = \(df/dx, df/dy, df/dz\)) Tj
+T*
+() Tj
+T*
+(Finite differences:) Tj
+T*
+(df/dx ~ \(f\(x+1,y,z\) - f\(x-1,y,z\)\) / 2) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Interpolate normals from grid vertices to triangle vertices the same way as positions.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6. Ambiguous Cases and Marching Cubes 33) Tj
+T*
+() Tj
+T*
+(**Face ambiguity:** When opposite corners of a cube face are both inside/outside,) Tj
+T*
+(the surface crossing pattern is ambiguous \(two valid triangulations\).) Tj
+T*
+() Tj
+T*
+(**Interior ambiguity:** Even with face ambiguities resolved, some cube configurations) Tj
+T*
+(have multiple valid interior triangulations.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+79 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 78 0 R >>
+endobj
+80 0 obj
+<< /Length 2230 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(**Asymptotic Decider \(Nielson & Hamann 1991\):** Test based on the trilinear interpolant's) Tj
+T*
+(saddle point to resolve face ambiguities.) Tj
+T*
+() Tj
+T*
+(**Marching Cubes 33:** 33 topologically distinct cases \(instead of 15\) that guarantee) Tj
+T*
+(topologically correct meshes.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7. 2D Version: Marching Squares) Tj
+T*
+() Tj
+T*
+(The 2D analog: extract contours from 2D scalar field:) Tj
+T*
+(- 4 corners per "square" -> 16 cases -> 4 unique cases) Tj
+T*
+(- Used for: contour plots, 2D segmentation boundaries) Tj
+T*
+(- Simple and fast: O\(n\) where n = number of cells) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 8. Variants and Extensions) Tj
+T*
+() Tj
+T*
+(| Variant | Innovation | Use Case |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Marching Tetrahedra | Decompose cube to 6 tetrahedra; no ambiguity | Alternative to MC |) Tj
+T*
+(| Dual Marching Cubes | Place vertices at grid centers; cleaner topology | Cleaner meshes |) Tj
+T*
+(| Adaptive MC | Non-uniform grids \(octree\) for efficiency | Large volumes |) Tj
+T*
+(| METABALLS | MC applied to implicit potential fields | 3D modeling |) Tj
+T*
+(| GPU-accelerated MC | Parallel execution on CUDA/OpenCL | Real-time reconstruction |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 9. Medical Imaging Pipeline) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(CT/MRI scanner) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(DICOM files \(512x512 x N slices, 16-bit integers\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Preprocessing \(gaussian smoothing, resampling\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Segmentation \(thresholding, U-Net, etc.\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(MARCHING CUBES at isovalue=0.5) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Triangle mesh \(STL, OBJ format\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Post-processing \(smoothing, simplification\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Visualization / 3D printing / Surgery planning) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 10. Performance) Tj
+T*
+() Tj
+T*
+(- Time complexity: O\(V\) where V = number of voxels) Tj
+T*
+(- Space: O\(E\) output triangles, E ~ V in practice) Tj
+T*
+(- Typical: 512^3 volume processed in ~1 second on modern CPU) Tj
+T*
+(- GPU: Real-time for 256^3 volumes) Tj
+T*
+ET
+endstream
+endobj
+81 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 80 0 R >>
+endobj
+82 0 obj
+<< /Length 2227 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: Wikipedia Marching cubes; Lorensen & Cline SIGGRAPH 1987; Chernyaev MC33 1995*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: mri_ct_scanning.md) Tj
+T*
+() Tj
+T*
+(# MRI and CT Scanning --- Complete Guide) Tj
+T*
+() Tj
+T*
+(> Wikipedia on MRI: "Magnetic resonance imaging \(MRI\) is a medical imaging technique used in) Tj
+T*
+(radiology to generate pictures of the anatomy and the physiological processes inside the body.) Tj
+T*
+(MRI scanners use strong magnetic fields, magnetic field gradients, and radio waves to form) Tj
+T*
+(images of the organs in the body. MRI does not involve X-rays or the use of ionizing radiation,) Tj
+T*
+(which distinguishes it from computed tomography \(CT\) and positron emission tomography \(PET\)) Tj
+T*
+(scans.") Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1. CT Scanning \(Computed Tomography\)) Tj
+T*
+() Tj
+T*
+(### Physical Principle) Tj
+T*
+() Tj
+T*
+(X-ray CT uses ionizing radiation \(X-rays\). As X-rays pass through tissue they are absorbed:) Tj
+T*
+(```) Tj
+T*
+(I = I0 * exp\(-Integral[mu\(x\)] dx\)) Tj
+T*
+(```) Tj
+T*
+(where mu\(x\) is the linear attenuation coefficient. CT reconstructs the 3D map of mu\(x,y,z\).) Tj
+T*
+() Tj
+T*
+(### Hounsfield Units \(HU\)) Tj
+T*
+() Tj
+T*
+(Standardized scale of CT attenuation:) Tj
+T*
+(```) Tj
+T*
+(HU = 1000 * \(mu_tissue - mu_water\) / \(mu_water - mu_air\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(| Tissue | HU Range |) Tj
+T*
+(|---|---|) Tj
+T*
+(| Air | -1000 |) Tj
+T*
+(| Lung | -900 to -500 |) Tj
+T*
+(| Fat | -120 to -80 |) Tj
+T*
+(| Water / CSF | 0 |) Tj
+T*
+(| White matter | +20 to +30 |) Tj
+T*
+(| Grey matter | +35 to +45 |) Tj
+T*
+(| Blood | +50 to +80 |) Tj
+T*
+(| Liver | +40 to +65 |) Tj
+T*
+(| Calcification/bone | +100 to +1900 |) Tj
+T*
+() Tj
+T*
+(### CT Windowing) Tj
+T*
+() Tj
+T*
+(Display a range of HU values mapped to 0-255 gray:) Tj
+T*
+(- Window Level \(WL\) = center of the range) Tj
+T*
+(- Window Width \(WW\) = width of the range) Tj
+T*
+() Tj
+T*
+(| Window | WL | WW | Shows |) Tj
+T*
+(|---|---|---|---|) Tj
+T*
+(| Brain | 40 | 80 | Grey/white matter |) Tj
+T*
+(| Bone | 400 | 1800 | Bone detail |) Tj
+T*
+(| Lung | -600 | 1500 | Lung parenchyma |) Tj
+T*
+ET
+endstream
+endobj
+83 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 82 0 R >>
+endobj
+84 0 obj
+<< /Length 2400 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(| Abdomen | 60 | 400 | Soft tissue organs |) Tj
+T*
+(| Stroke | 40 | 40 | Acute hemorrhage |) Tj
+T*
+() Tj
+T*
+(### CT Reconstruction: Filtered Back-Projection \(FBP\)) Tj
+T*
+() Tj
+T*
+(CT acquisition = measuring the Radon transform \(line integrals\):) Tj
+T*
+(```) Tj
+T*
+(R_theta\(s\) = Integral[ mu\(x,y\) * delta\(x*cos\(theta\) + y*sin\(theta\) - s\) ] dx dy) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(FBP Algorithm:) Tj
+T*
+(```) Tj
+T*
+(1. For each angle theta:) Tj
+T*
+(   a. Acquire projection p_theta\(s\)) Tj
+T*
+(   b. Fourier transform: P_hat\(f\) = FT[p_theta\(s\)]) Tj
+T*
+(   c. Apply ramp filter: P_filtered\(f\) = |f| * P_hat\(f\)) Tj
+T*
+(   d. Inverse FT: p_filtered\(s\) = IFT[P_filtered\(f\)]) Tj
+T*
+() Tj
+T*
+(2. Back-project:) Tj
+T*
+(   mu\(x,y\) = Integral_0^pi  p_filtered\(x*cos\(theta\) + y*sin\(theta\)\) d\(theta\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The ramp filter |f| compensates for the 1/f density of back-projected data.) Tj
+T*
+(In practice multiplied by Hamming/Hann window to reduce noise:) Tj
+T*
+(```) Tj
+T*
+(H\(f\) = |f| * \(0.54 + 0.46*cos\(pi*f/fmax\)\)   [Hamming-windowed ramp]) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### Iterative Reconstruction \(IR\) -- Modern CT) Tj
+T*
+() Tj
+T*
+(Model system as Ax = b:) Tj
+T*
+(- x = unknown attenuation image \(vectorized\)) Tj
+T*
+(- b = measured projections) Tj
+T*
+(- A = system matrix \(each row = one ray integral\)) Tj
+T*
+() Tj
+T*
+(Solve iteratively:) Tj
+T*
+(```) Tj
+T*
+(x_{k+1} = x_k - alpha * A^T * \(A*x_k - b\) + regularization) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Benefits: 50-80% dose reduction for same image quality.) Tj
+T*
+(All modern scanners use IR: Siemens SAFIRE, GE ASIR, Philips iDose.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. MRI Scanning) Tj
+T*
+() Tj
+T*
+(### Nuclear Magnetic Resonance Physics) Tj
+T*
+() Tj
+T*
+(Hydrogen nuclei \(protons\) in magnetic field B0 precess at Larmor frequency:) Tj
+T*
+(```) Tj
+T*
+(f0 = gamma * B0 / \(2*pi\)) Tj
+T*
+(gamma = 42.577 MHz/T for proton) Tj
+T*
+(```) Tj
+T*
+(At B0 = 1.5T: f0 = 63.87 MHz) Tj
+T*
+(At B0 = 3.0T: f0 = 127.74 MHz \(radio frequency band\)) Tj
+T*
+() Tj
+T*
+(### The Three Stages of MRI) Tj
+T*
+() Tj
+T*
+(1. ALIGNMENT: B0 creates net magnetization M0 along z-axis) Tj
+T*
+(   \(1 in ~10^6 spins excess at body temperature\)) Tj
+T*
+() Tj
+T*
+(2. EXCITATION: RF pulse at f0 tips magnetization:) Tj
+T*
+(   - 90 degree pulse: M tips fully into transverse \(xy\) plane) Tj
+T*
+ET
+endstream
+endobj
+85 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 84 0 R >>
+endobj
+86 0 obj
+<< /Length 2929 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(   - 180 degree pulse: M flips) Tj
+T*
+(   After excitation, precessing M induces voltage in receive coil -> MRI signal) Tj
+T*
+() Tj
+T*
+(3. RELAXATION:) Tj
+T*
+(   T1 recovery \(longitudinal\):  Mz\(t\) = M0 * \(1 - exp\(-t/T1\)\)) Tj
+T*
+(   T2 decay \(transverse\):       Mxy\(t\) = Mxy0 * exp\(-t/T2\)) Tj
+T*
+(   T2* decay \(with inhomogeneity\): faster than T2) Tj
+T*
+() Tj
+T*
+(### T1 and T2 Times for Brain Tissues \(at 3T\)) Tj
+T*
+() Tj
+T*
+(| Tissue | T1 \(ms\) | T2 \(ms\) |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| White matter | 1110 | 69 |) Tj
+T*
+(| Grey matter | 1820 | 99 |) Tj
+T*
+(| CSF | 4000 | 2200 |) Tj
+T*
+(| Fat | 365 | 133 |) Tj
+T*
+(| Tumor \(glioma\) | 1500-2000 | 100-200 |) Tj
+T*
+(| Edema | 1900 | 150 |) Tj
+T*
+() Tj
+T*
+(### Spatial Encoding: k-Space) Tj
+T*
+() Tj
+T*
+(Gradient coils add spatially varying field to B0:) Tj
+T*
+(- Gz \(slice selection\): only slice where B0+Gz*z = f0/gamma excited) Tj
+T*
+(- Gy \(phase encoding\): phase of Mxy varies with y position) Tj
+T*
+(- Gx \(frequency encoding\): precession frequency varies with x during readout) Tj
+T*
+() Tj
+T*
+(Data acquired in k-space \(spatial frequency domain\):) Tj
+T*
+(```) Tj
+T*
+(kx = gamma/\(2*pi\) * Integral[Gx\(t\) dt]) Tj
+T*
+(ky = gamma/\(2*pi\) * Integral[Gy\(t\) dt]) Tj
+T*
+() Tj
+T*
+(Signal\(kx,ky\) = FT[proton_density\(x,y\)] \(Fourier transform of image!\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Image reconstruction: 2D Inverse Fourier Transform of k-space data.) Tj
+T*
+() Tj
+T*
+(k-Space properties:) Tj
+T*
+(- Center: low frequencies -> overall brightness and contrast) Tj
+T*
+(- Edges: high frequencies -> fine detail and edges) Tj
+T*
+(- If only center acquired: blurry but fast \(cardiac MRI uses this\)) Tj
+T*
+() Tj
+T*
+(### MRI Sequences and Contrast) Tj
+T*
+() Tj
+T*
+(By varying TR \(repetition time\) and TE \(echo time\):) Tj
+T*
+() Tj
+T*
+(| Sequence | TR | TE | Bright | Dark | Clinical Use |) Tj
+T*
+(|---|---|---|---|---|---|) Tj
+T*
+(| T1-weighted | Short \(<800ms\) | Short \(<30ms\) | Fat, gadolinium, white matter | CSF | Anatomy,) Tj
+T*
+(post-contrast |) Tj
+T*
+(| T2-weighted | Long \(>2000ms\) | Long \(>80ms\) | CSF, edema, most tumors | Fat | Pathology,) Tj
+T*
+(lesions |) Tj
+T*
+(| FLAIR | Long | Long | White matter lesions | CSF suppressed | MS, glioma, stroke |) Tj
+T*
+(| DWI | --- | --- | Restricted diffusion | Free diffusion | Stroke, abscess |) Tj
+T*
+(| T1+Gd | Short | Short | Enhancing regions | --- | Tumor vascularity, BBB breakdown |) Tj
+T*
+(| SWI | Long | Long | --- | Hemosiderin, deoxy-Hb | Bleeds, veins, iron |) Tj
+T*
+() Tj
+T*
+(### Advanced MRI Techniques) Tj
+T*
+() Tj
+T*
+(**Diffusion Tensor Imaging \(DTI\):**) Tj
+T*
+(Measures diffusion anisotropy -> maps white matter tracts \(tractography\).) Tj
+T*
+(Pre-surgical planning: avoid eloquent white matter fibers.) Tj
+T*
+(ADC \(Apparent Diffusion Coefficient\): low in stroke, high-grade tumor.) Tj
+T*
+() Tj
+T*
+(**Perfusion MRI \(DSC\):**) Tj
+T*
+ET
+endstream
+endobj
+87 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 86 0 R >>
+endobj
+88 0 obj
+<< /Length 2438 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(Dynamic tracking of Gadolinium bolus -> cerebral blood volume \(CBV\).) Tj
+T*
+(High rCBV = high vascularity = high-grade tumor.) Tj
+T*
+() Tj
+T*
+(**MR Spectroscopy \(MRS\):**) Tj
+T*
+(Chemical peaks in spectrum:) Tj
+T*
+(- NAA \(N-acetyl aspartate\) at 2.0 ppm: neurons \(REDUCED in tumor\)) Tj
+T*
+(- Cho \(choline\) at 3.2 ppm: cell membranes \(ELEVATED in tumor\)) Tj
+T*
+(- Cr \(creatine\) at 3.0 ppm: energy metabolism \(reference\)) Tj
+T*
+(- Lac \(lactate\) at 1.3 ppm: anaerobic metabolism \(necrosis/high-grade\)) Tj
+T*
+(- Lip \(lipids\): necrotic tumor) Tj
+T*
+() Tj
+T*
+(**Elevated Cho/NAA ratio > 2.0** strongly suggests high-grade glioma.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. CT vs MRI Comparison) Tj
+T*
+() Tj
+T*
+(| Aspect | CT | MRI |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Physical principle | X-ray attenuation | NMR of protons |) Tj
+T*
+(| Radiation | Ionizing \(X-rays\) | Non-ionizing \(RF + magnets\) |) Tj
+T*
+(| Acquisition time | 5-60 seconds | 20-60 minutes |) Tj
+T*
+(| Resolution | 0.5-1mm isotropic | 1-3mm typical |) Tj
+T*
+(| Bone/calcification | Excellent | Poor \(no signal\) |) Tj
+T*
+(| Soft tissue | Moderate | Excellent |) Tj
+T*
+(| Hemorrhage \(acute\) | Bright \(hyperdense\) | Depends on sequence |) Tj
+T*
+(| Brain tumors | Shows mass, edema | Shows tumor sub-regions |) Tj
+T*
+(| Stroke | Early: often normal; late: hypodense | DWI: bright within minutes |) Tj
+T*
+(| Cost | Lower | Higher |) Tj
+T*
+(| Main limitation | Radiation dose | Slow, contraindications \(metal\) |) Tj
+T*
+(| Claustrophobia | Rare | Common |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. 3D Reconstruction Pipeline) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(DICOM files \(512x512 x N slices\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Read with pydicom/SimpleITK -> numpy array) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Preprocessing:) Tj
+T*
+(  - Normalize HU values) Tj
+T*
+(  - Resample to isotropic voxel spacing \(e.g., 1mm x 1mm x 1mm\)) Tj
+T*
+(  - Apply Gaussian smoothing \(sigma=0.5-1.0\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Segmentation:) Tj
+T*
+(  - Thresholding \(Otsu\) or) Tj
+T*
+(  - Region growing or) Tj
+T*
+(  - Deep learning \(U-Net, nnU-Net\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Marching Cubes \(isovalue = 0.5\)) Tj
+T*
+(  -> Triangle mesh) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Post-processing:) Tj
+T*
+(  - Laplacian smoothing) Tj
+T*
+(  - QEM simplification \(target: 100k-500k triangles\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+ET
+endstream
+endobj
+89 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 88 0 R >>
+endobj
+90 0 obj
+<< /Length 2539 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(Visualization \(VTK, 3D Slicer\) or 3D printing \(STL\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: Wikipedia Magnetic resonance imaging; Wikipedia Computed tomography; ) Tj
+T*
+(Bushberg et al. 'The Essential Physics of Medical Imaging'; ) Tj
+T*
+(Netter 'Atlas of Human Anatomy'*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: brain_tumor_detection.md) Tj
+T*
+() Tj
+T*
+(# Brain Tumor Detection --- Complete Guide) Tj
+T*
+() Tj
+T*
+(## 1. Overview of Brain Tumors) Tj
+T*
+() Tj
+T*
+(### Classification) Tj
+T*
+(- Primary: Originate in brain tissue) Tj
+T*
+(  - Gliomas \(most common\): astrocytoma, glioblastoma \(GBM\), oligodendroglioma) Tj
+T*
+(  - Meningioma: from meninges, usually benign) Tj
+T*
+(  - Pituitary adenoma) Tj
+T*
+(  - Medulloblastoma \(pediatric\)) Tj
+T*
+(- Secondary \(metastatic\): Spread from elsewhere \(lung, breast, melanoma\)) Tj
+T*
+() Tj
+T*
+(### WHO Grading \(2021 Classification\)) Tj
+T*
+(- Grade 1: Slow-growing, often resectable \(e.g., pilocytic astrocytoma\)) Tj
+T*
+(- Grade 2: Diffuse, infiltrating; low mitotic activity) Tj
+T*
+(- Grade 3: Malignant features, mitoses \(anaplastic glioma\)) Tj
+T*
+(- Grade 4: High mitotic activity, necrosis, microvascular proliferation \(GBM\)) Tj
+T*
+() Tj
+T*
+(**GBM \(Glioblastoma Multiforme\):**) Tj
+T*
+(- Most common primary brain malignancy in adults) Tj
+T*
+(- Median survival: 14-16 months with maximal treatment) Tj
+T*
+(- Hallmarks: ring enhancement \(T1c\), central necrosis, peritumoral edema \(T2/FLAIR\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. BraTS Dataset and Challenge) Tj
+T*
+() Tj
+T*
+(### International Brain Tumor Segmentation Challenge \(arXiv:1811.02629\)) Tj
+T*
+(Annual challenge at MICCAI \(premier medical image computing conference\).) Tj
+T*
+(Running since 2012. BraTS 2023: 1251 training cases.) Tj
+T*
+() Tj
+T*
+(### Four MRI Modalities per Patient) Tj
+T*
+(```) Tj
+T*
+(T1:    Anatomy, structural details) Tj
+T*
+(T1ce:  Post-contrast; shows blood-brain barrier breakdown \(active tumor: BRIGHT\)) Tj
+T*
+(T2:    Edema and infiltration \(tumor + edema: BRIGHT\)) Tj
+T*
+(FLAIR: Edema without CSF \(tumor/edema: BRIGHT, CSF: DARK\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### Tumor Sub-region Labels) Tj
+T*
+() Tj
+T*
+(BraTS uses 3 nested labels:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Whole Tumor \(WT\)  = everything: enhancing + necrosis + edema) Tj
+T*
+(Tumor Core \(TC\)   = enhancing + necrosis \(without edema\)) Tj
+T*
+(Enhancing Tumor \(ET\) = only the gadolinium-enhancing active tumor) Tj
+T*
+ET
+endstream
+endobj
+91 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 90 0 R >>
+endobj
+92 0 obj
+<< /Length 2788 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(```) Tj
+T*
+() Tj
+T*
+(In voxel labels:) Tj
+T*
+(- Label 1: Necrotic core \(non-enhancing tumor core\)) Tj
+T*
+(- Label 2: Peritumoral edematous/invaded tissue) Tj
+T*
+(- Label 4: GD-enhancing tumor) Tj
+T*
+() Tj
+T*
+(### Evaluation Metrics) Tj
+T*
+(```) Tj
+T*
+(Dice Score = 2*|prediction AND ground_truth| / \(|prediction| + |ground_truth|\)) Tj
+T*
+(```) Tj
+T*
+(Range [0,1]. 1 = perfect. Typical state-of-the-art: ~0.90 WT, ~0.86 TC, ~0.83 ET.) Tj
+T*
+() Tj
+T*
+(Hausdorff Distance 95th percentile \(HD95\): Surface distance in mm.) Tj
+T*
+(State-of-the-art: ~3-5mm.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. Clinical MRI Features for Brain Tumors) Tj
+T*
+() Tj
+T*
+(### Glioblastoma \(GBM\) - Grade 4) Tj
+T*
+(| Sequence | Appearance |) Tj
+T*
+(|---|---|) Tj
+T*
+(| T1 | Hypointense mass; may show isointense core |) Tj
+T*
+(| T1ce | RING ENHANCEMENT \(hallmark!\) around necrotic core |) Tj
+T*
+(| T2 | Hyperintense tumor + extensive surrounding edema |) Tj
+T*
+(| FLAIR | Hyperintense mass + edema; suppresses CSF |) Tj
+T*
+(| DWI | Rim of restricted diffusion \(high cellularity at enhancing border\) |) Tj
+T*
+(| ADC | Low ADC at enhancing rim; elevated in necrosis and edema |) Tj
+T*
+(| Perfusion \(rCBV\) | ELEVATED \(high vascularity = high grade\) |) Tj
+T*
+(| Spectroscopy | High Cho, low NAA, Lac+Lip peaks \(necrosis\) |) Tj
+T*
+() Tj
+T*
+(### Lower Grade Glioma \(Grade 2-3\)) Tj
+T*
+(- T2/FLAIR: Hyperintense, diffusely infiltrating, no clear boundary) Tj
+T*
+(- T1ce: Little or no enhancement \(no BBB disruption\)) Tj
+T*
+(- DWI: Not usually restricted) Tj
+T*
+(- Spectroscopy: Mildly elevated Cho) Tj
+T*
+() Tj
+T*
+(### Metastases) Tj
+T*
+(- T1ce: SOLID RING or homogeneous enhancement) Tj
+T*
+(- T2: Variable; usually distinct spherical mass) Tj
+T*
+(- Multiple lesions: strongly suggests metastases over primary) Tj
+T*
+(- Located at grey-white matter junction \(blood-borne distribution\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. Deep Learning for Brain Tumor Segmentation) Tj
+T*
+() Tj
+T*
+(### U-Net for Brain Tumor Segmentation \(2015-\)) Tj
+T*
+() Tj
+T*
+(U-Net \(arXiv:1505.04597\) applied to brain tumor:) Tj
+T*
+(- Input: 4-channel volume \(T1, T1ce, T2, FLAIR\) concatenated) Tj
+T*
+(- 3D U-Net: processes volumetric data directly) Tj
+T*
+(- Output: Per-voxel class probability for 4 classes \(background + 3 tumor labels\)) Tj
+T*
+() Tj
+T*
+(Key adaptations for brain tumor:) Tj
+T*
+(- Residual connections within encoder/decoder blocks) Tj
+T*
+(- Deep supervision: loss at multiple decoder levels) Tj
+T*
+(- Patch-based training: random 128x128x128 patches) Tj
+T*
+(- Test-time augmentation: flip along all axes, average predictions) Tj
+T*
+() Tj
+T*
+(### nnU-Net \(2021\) - State of the Art) Tj
+T*
+() Tj
+T*
+(Self-configuring U-Net that automatically determines:) Tj
+T*
+ET
+endstream
+endobj
+93 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 92 0 R >>
+endobj
+94 0 obj
+<< /Length 2530 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(- Patch size \(based on GPU memory and dataset statistics\)) Tj
+T*
+(- Batch size) Tj
+T*
+(- Normalization strategy \(z-score, percentile clipping\)) Tj
+T*
+(- Architecture type \(2D, 3D, 3D cascade\)) Tj
+T*
+(- Data augmentation \(elastic deformation, random rotation, scaling, flipping\)) Tj
+T*
+() Tj
+T*
+(nnU-Net outperforms hand-tuned architectures on 23/23 medical segmentation benchmarks.) Tj
+T*
+(For BraTS 2021: DSC 0.892 WT, 0.865 TC, 0.832 ET.) Tj
+T*
+() Tj
+T*
+(### Transformer-Based Methods) Tj
+T*
+() Tj
+T*
+(TransBTS \(MICCAI 2021\):) Tj
+T*
+(```) Tj
+T*
+(3D CNN encoder -> flatten spatial features to sequence) Tj
+T*
+(                -> Transformer encoder \(multi-head self-attention\)) Tj
+T*
+(                -> CNN decoder with skip connections) Tj
+T*
+(```) Tj
+T*
+(Self-attention captures long-range dependencies \(critical for irregular tumor shapes\).) Tj
+T*
+() Tj
+T*
+(SwinUNETR \(CVPR 2022\):) Tj
+T*
+(- Hierarchical Swin Transformer backbone \(arXiv:2103.14030\)) Tj
+T*
+(- Shifted Window self-attention: linear complexity w.r.t. volume size) Tj
+T*
+(- Pretraining on large unlabeled medical datasets) Tj
+T*
+(- State-of-the-art on BraTS 2021) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Automated Brain Tumor Analysis Pipeline) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Multi-parametric MRI acquisition \(T1, T1ce, T2, FLAIR\)) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Preprocessing:) Tj
+T*
+(  1. Co-registration: align all 4 modalities to T1 atlas \(FSL FLIRT, ANTs\)) Tj
+T*
+(  2. Brain extraction \(skull stripping\): BET, HD-BET) Tj
+T*
+(  3. Intensity normalization: z-score or percentile normalization) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Segmentation \(nnU-Net or SwinUNETR\):) Tj
+T*
+(  Input: \(4, 240, 240, 155\) tensor) Tj
+T*
+(  Output: \(4-class, 240, 240, 155\) probability maps) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Post-processing:) Tj
+T*
+(  Argmax -> segmentation mask) Tj
+T*
+(  Remove small connected components \(< 100 voxels\)) Tj
+T*
+(  Apply brain mask) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Radiomic Feature Extraction:) Tj
+T*
+(  - Shape: volume, surface area, elongation, sphericity) Tj
+T*
+(  - Intensity statistics: mean, variance, skewness, kurtosis) Tj
+T*
+(  - Texture \(GLCM, GLRLM, GLSZM\)) Tj
+T*
+(  - Wavelet sub-band features) Tj
+T*
+(    |) Tj
+T*
+(    v) Tj
+T*
+(Clinical Prediction:) Tj
+T*
+(  - Overall survival prediction \(regression/classification\)) Tj
+T*
+(  - IDH mutation prediction \(AUC ~0.85\)) Tj
+T*
+(  - Pseudoprogression vs true progression) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+ET
+endstream
+endobj
+95 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 94 0 R >>
+endobj
+96 0 obj
+<< /Length 2795 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(## 6. Key Papers) Tj
+T*
+() Tj
+T*
+(| Paper | Year | Innovation | Performance |) Tj
+T*
+(|---|---|---|---|) Tj
+T*
+(| U-Net \(Ronneberger\) | 2015 | Skip connections, data augmentation | BraTS DSC ~0.78 |) Tj
+T*
+(| 3D U-Net \(Cicek\) | 2016 | 3D skip connections | DSC ~0.82 |) Tj
+T*
+(| Kamnitsas et al. | 2017 | 3D DeepMedic \(dual-path CNN\) | DSC ~0.85 |) Tj
+T*
+(| nnU-Net \(Isensee\) | 2018 | Self-configuring | DSC ~0.87 |) Tj
+T*
+(| TransBTS | 2021 | CNN+Transformer hybrid | DSC ~0.89 |) Tj
+T*
+(| SwinUNETR | 2022 | Swin Transformer backbone | DSC ~0.91 |) Tj
+T*
+(| BraTS 2023 winners | 2023 | Ensemble + TTA | DSC ~0.92 |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7. Tools and Libraries) Tj
+T*
+() Tj
+T*
+(| Tool | Purpose |) Tj
+T*
+(|---|---|) Tj
+T*
+(| 3D Slicer | DICOM viewer, segmentation, volume rendering |) Tj
+T*
+(| ITK/SimpleITK | Medical image I/O and processing \(Python/C++\) |) Tj
+T*
+(| MONAI | PyTorch-based medical AI framework |) Tj
+T*
+(| nnU-Net | Self-configuring medical segmentation |) Tj
+T*
+(| pydicom | Read/write DICOM in Python |) Tj
+T*
+(| ANTs | Image registration and brain extraction |) Tj
+T*
+(| FSL | Brain extraction tool \(BET\), FAST tissue segmentation |) Tj
+T*
+(| FreeSurfer | Cortical parcellation, brain surface extraction |) Tj
+T*
+(| HD-BET | Deep learning brain extraction |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: BraTS Challenge \(arXiv:1811.02629\); Bakas et al. multi-year challenge papers; ) Tj
+T*
+(Isensee et al. nnU-Net; Wikipedia Brain tumor; clinical radiology references*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: bezier_curves.md) Tj
+T*
+() Tj
+T*
+(# Bzier Curves ? Complete Reference) Tj
+T*
+() Tj
+T*
+(> *Wikipedia says:* "A Bzier curve is a parametric curve used in computer graphics and related) Tj
+T*
+(fields. A set of discrete 'control points' defines a smooth, continuous curve by means of a) Tj
+T*
+(formula. The Bzier curve is named after French engineer Pierre Bzier \(1910?1999\), who used it) Tj
+T*
+(in the 1960s for designing curves for the bodywork of Renault cars.") Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1. History) Tj
+T*
+() Tj
+T*
+(| Person | Company | Year | Contribution |) Tj
+T*
+(|---|---|---|---|) Tj
+T*
+(| Paul de Casteljau | Citron | 1959 | Recursive algorithm \(unpublished until 1980s\) |) Tj
+T*
+(| Pierre Bzier | Renault | 1960s | Publicly described polynomial-based curves \(UNISURF\) |) Tj
+T*
+(| Sergei Bernstein | ? | 1912 | Bernstein basis polynomials \(mathematical foundation\) |) Tj
+T*
+() Tj
+T*
+(Both de Casteljau and Bzier independently discovered the same mathematical curves built on) Tj
+T*
+(Bernstein polynomials. The algorithm is named after de Casteljau; the curves after Bzier.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+97 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 96 0 R >>
+endobj
+98 0 obj
+<< /Length 2063 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(## 2. Bernstein Basis Polynomials) Tj
+T*
+() Tj
+T*
+(The building blocks of Bzier curves:) Tj
+T*
+() Tj
+T*
+($$B_{i,n}\(t\) = \\binom{n}{i} t^i \(1-t\)^{n-i}, \\quad t \\in [0,1]$$) Tj
+T*
+() Tj
+T*
+(**Key properties \(MEMORIZE\):**) Tj
+T*
+(- Sum to 1: $\\sum_{i=0}^n B_{i,n}\(t\) = 1$) Tj
+T*
+(- Non-negative: $B_{i,n}\(t\) \\geq 0$) Tj
+T*
+(- Maximum at $t = i/n$) Tj
+T*
+(- Symmetry: $B_{i,n}\(t\) = B_{n-i,n}\(1-t\)$) Tj
+T*
+() Tj
+T*
+(**Values at endpoints:**) Tj
+T*
+(- $B_{0,n}\(0\) = 1$, all others = 0 at t=0) Tj
+T*
+(- $B_{n,n}\(1\) = 1$, all others = 0 at t=1) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. The Bzier Curve Formula) Tj
+T*
+() Tj
+T*
+($$\\boxed{B\(t\) = \\sum_{i=0}^{n} \\binom{n}{i} \(1-t\)^{n-i} t^i \\cdot P_i}$$) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. Specific Degrees) Tj
+T*
+() Tj
+T*
+(### Degree 1 \(Linear\) ? 2 points) Tj
+T*
+($$B\(t\) = \(1-t\)P_0 + t\\,P_1$$) Tj
+T*
+() Tj
+T*
+(### Degree 2 \(Quadratic\) ? 3 points) Tj
+T*
+($$B\(t\) = \(1-t\)^2 P_0 + 2t\(1-t\)P_1 + t^2 P_2$$) Tj
+T*
+() Tj
+T*
+(**Coefficients: 1, 2, 1**) Tj
+T*
+() Tj
+T*
+(### Degree 3 \(Cubic\) ? 4 points ? MOST COMMON ?) Tj
+T*
+($$B\(t\) = \(1-t\)^3 P_0 + 3t\(1-t\)^2 P_1 + 3t^2\(1-t\) P_2 + t^3 P_3$$) Tj
+T*
+() Tj
+T*
+(**Coefficients: 1, 3, 3, 1**) Tj
+T*
+() Tj
+T*
+(### Degree 4 \(Quartic\) ? 5 points) Tj
+T*
+($$B\(t\) = \(1-t\)^4 P_0 + 4t\(1-t\)^3 P_1 + 6t^2\(1-t\)^2 P_2 + 4t^3\(1-t\) P_3 + t^4 P_4$$) Tj
+T*
+() Tj
+T*
+(**Coefficients: 1, 4, 6, 4, 1**) Tj
+T*
+() Tj
+T*
+(### Degree 5 \(Quintic\) ? 6 points) Tj
+T*
+($$B\(t\) = \(1-t\)^5 P_0 + 5t\(1-t\)^4 P_1 + 10t^2\(1-t\)^3 P_2 + 10t^3\(1-t\)^2 P_3 + 5t^4\(1-t\) P_4 +) Tj
+T*
+(t^5 P_5$$) Tj
+T*
+() Tj
+T*
+(**Coefficients: 1, 5, 10, 10, 5, 1**) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Pascal's Triangle \(Binomial Coefficients Lookup\)) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(n=0:          1) Tj
+T*
+(n=1:        1   1) Tj
+T*
+(n=2:      1   2   1) Tj
+T*
+(n=3:    1   3   3   1) Tj
+T*
+(n=4:  1   4   6   4   1) Tj
+T*
+(n=5: 1   5  10  10   5   1) Tj
+T*
+(n=6: 1   6  15  20  15   6   1) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+99 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 98 0 R >>
+endobj
+100 0 obj
+<< /Length 2759 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(Rule: each number = sum of two numbers directly above it.) Tj
+T*
+(C\(n,i\) = C\(n-1,i-1\) + C\(n-1,i\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6. Properties You Must Know) Tj
+T*
+() Tj
+T*
+(| Property | Formula/Explanation |) Tj
+T*
+(|---|---|) Tj
+T*
+(| **Endpoint interpolation** | B\(0\)=P?, B\(1\)=P? always |) Tj
+T*
+(| **Convex hull** | Entire curve lies within convex hull of control points |) Tj
+T*
+(| **Affine invariance** | Transform control points ? transforms curve identically |) Tj
+T*
+(| **Tangent at start** | B'\(0\) = n\(P? ? P?\) |) Tj
+T*
+(| **Tangent at end** | B'\(1\) = n\(P? ? P???\) |) Tj
+T*
+(| **Derivative is Bzier** | B'\(t\) is a Bzier of degree n?1 with ?P? = n\(P????P?\) |) Tj
+T*
+(| **Symmetry** | Reverse P? order ? same curve reversed |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7. Derivatives) Tj
+T*
+() Tj
+T*
+(**First derivative** \(itself a Bzier of degree n?1\):) Tj
+T*
+($$B'\(t\) = n \\sum_{i=0}^{n-1} B_{i,n-1}\(t\) \\cdot \(P_{i+1} - P_i\)$$) Tj
+T*
+() Tj
+T*
+(**Cubic first derivative** \(degree 2 Bzier with ?Ps\):) Tj
+T*
+($$B'\(t\) = 3[\(1-t\)^2\(P_1-P_0\) + 2t\(1-t\)\(P_2-P_1\) + t^2\(P_3-P_2\)]$$) Tj
+T*
+() Tj
+T*
+(**At t=0:** $B'\(0\) = n\(P_1 - P_0\)$ \(tangent direction P??P?, magnitude n\)) Tj
+T*
+(**At t=1:** $B'\(1\) = n\(P_n - P_{n-1}\)$ \(tangent direction P????P?, magnitude n\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 8. Quick Evaluation at Special t Values) Tj
+T*
+() Tj
+T*
+(### At t = 0.5) Tj
+T*
+(| Degree | Formula | Value |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Linear | \(P?+P?\)/2 | midpoint |) Tj
+T*
+(| Quadratic | \(P?+2P?+P?\)/4 | weighted average |) Tj
+T*
+(| Cubic | \(P?+3P?+3P?+P?\)/8 | weighted average |) Tj
+T*
+() Tj
+T*
+(### At t = 1/3) Tj
+T*
+(Coefficients for quadratic: \(1-1/3\)=4/9, 2\(1/3\)\(2/3\)=4/9, \(1/3\)=1/9) Tj
+T*
+($$B\(1/3\) = \\frac{4}{9}P_0 + \\frac{4}{9}P_1 + \\frac{1}{9}P_2$$) Tj
+T*
+() Tj
+T*
+(### At t = 3/4 = 0.75) Tj
+T*
+(Coefficients for quadratic: \(1/4\)=1/16, 2\(3/4\)\(1/4\)=6/16, \(3/4\)=9/16) Tj
+T*
+($$B\(3/4\) = \\frac{1}{16}P_0 + \\frac{6}{16}P_1 + \\frac{9}{16}P_2$$) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 9. Applications) Tj
+T*
+() Tj
+T*
+(- **Adobe Illustrator / Inkscape / SVG**: All paths are cubic Bzier splines) Tj
+T*
+(- **TrueType fonts**: Quadratic Bziers for glyph outlines) Tj
+T*
+(- **OpenType/PostScript fonts**: Cubic Bziers) Tj
+T*
+(- **CSS animations**: `cubic-bezier\(p1x, p1y, p2x, p2y\)` controls timing) Tj
+T*
+(- **Computer-aided design \(CAD\)**: Foundation of NURBS \(Non-Uniform Rational B-Splines\)) Tj
+T*
+(- **CNC machining**: Tool path generation) Tj
+T*
+(- **Robotics**: Smooth trajectory planning) Tj
+T*
+(- **Games**: Camera paths, character animations, UI transitions) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+101 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 100 0 R >>
+endobj
+102 0 obj
+<< /Length 2477 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(## 10. Relationship to Other Splines) Tj
+T*
+() Tj
+T*
+(| Spline Type | Based On | Properties |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Bzier | Bernstein polynomials | Global control \(moving any point affects whole curve\) |) Tj
+T*
+(| B-Spline | B-spline basis | Local control; pieces share knot vectors |) Tj
+T*
+(| NURBS | Rational B-Splines | Exact conics \(circles, ellipses\); industry standard |) Tj
+T*
+(| Hermite | Positions + tangents | Interpolates endpoints AND tangents |) Tj
+T*
+(| Catmull-Rom | 4 nearby points | Passes through all control points \(interpolating\) |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: Wikipedia Bzier curve article; Farin, "Curves and Surfaces for CAGD" \(Morgan) Tj
+T*
+(Kaufmann\); Shirley, "Fundamentals of Computer Graphics"*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: de_casteljau_algorithm.md) Tj
+T*
+() Tj
+T*
+(# De Casteljau's Algorithm --- Complete Guide) Tj
+T*
+() Tj
+T*
+(> Wikipedia says: "De Casteljau's algorithm is a recursive method to evaluate polynomials in) Tj
+T*
+(Bernstein form or Bezier curves, named after its inventor Paul de Casteljau. The algorithm is) Tj
+T*
+(numerically stable compared to direct evaluation of polynomials. The computational complexity) Tj
+T*
+(is O\(dn^2\) where d is the number of dimensions and n is the number of control points.") Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 1. Why Use De Casteljau?) Tj
+T*
+() Tj
+T*
+(**Problem:** Direct evaluation of B\(t\) = Sum C\(n,i\)*t^i*\(1-t\)^\(n-i\)*Pi requires computing large) Tj
+T*
+(powers \(t^n\) and binomial coefficients, which can cause numerical overflow/precision loss for) Tj
+T*
+(high n.) Tj
+T*
+() Tj
+T*
+(**Solution:** De Casteljau's algorithm uses only linear interpolation at each step --- a convex) Tj
+T*
+(combination \(weights sum to 1, both non-negative\). This guarantees numerical stability because) Tj
+T*
+(intermediate points always stay within the convex hull.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. The Algorithm) Tj
+T*
+() Tj
+T*
+(### Initialize \(Level 0\):) Tj
+T*
+(```) Tj
+T*
+(P_i^\(0\) = P_i    for i = 0, 1, ..., n) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### Recurrence \(n rounds\):) Tj
+T*
+(```) Tj
+T*
+(P_i^\(j\) = \(1-t0\) * P_i^\(j-1\)  +  t0 * P_\(i+1\)^\(j-1\)) Tj
+T*
+(```) Tj
+T*
+(for j = 1, 2, ..., n and i = 0, 1, ..., n-j) Tj
+T*
+() Tj
+T*
+(### Result:) Tj
+T*
+(```) Tj
+T*
+(B\(t0\) = P_0^\(n\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The key recurrence boxed:) Tj
+T*
+(```) Tj
+T*
+ET
+endstream
+endobj
+103 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 102 0 R >>
+endobj
+104 0 obj
+<< /Length 1983 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(????????????????????????????????????????????????????????????) Tj
+T*
+(?  P_i^\(j\) = \(1-t\) * P_i^\(j-1\)  +  t * P_\(i+1\)^\(j-1\)    ?) Tj
+T*
+(????????????????????????????????????????????????????????????) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. Triangle Scheme for Hand Computation) Tj
+T*
+() Tj
+T*
+(This is how to organize your work on paper. Draw a triangle and fill left-to-right:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level j=0    j=1       j=2       j=3) Tj
+T*
+(?????????????????????????????????????????????????????) Tj
+T*
+(P0^\(0\)) Tj
+T*
+(           P0^\(1\)) Tj
+T*
+(P1^\(0\)               P0^\(2\)) Tj
+T*
+(           P1^\(1\)               P0^\(3\)  <-- ANSWER) Tj
+T*
+(P2^\(0\)               P1^\(2\)) Tj
+T*
+(           P2^\(1\)) Tj
+T*
+(P3^\(0\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Each entry = \(1-t\) * entry_above_left  +  t * entry_below_left**) Tj
+T*
+() Tj
+T*
+(For a QUADRATIC \(3 points, 2 rounds\):) Tj
+T*
+(```) Tj
+T*
+(P0^\(0\)) Tj
+T*
+(           P0^\(1\)) Tj
+T*
+(P1^\(0\)               P0^\(2\)  <-- ANSWER) Tj
+T*
+(           P1^\(1\)) Tj
+T*
+(P2^\(0\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. Complete Worked Examples) Tj
+T*
+() Tj
+T*
+(### Example A: Quadratic at t = 0.5) Tj
+T*
+() Tj
+T*
+(Given: P0=\(0,0\), P1=\(2,4\), P2=\(4,0\)) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level 0:  \(0,0\)      \(2,4\)      \(4,0\)) Tj
+T*
+() Tj
+T*
+(Level 1:) Tj
+T*
+(  Q0 = 0.5*\(0,0\) + 0.5*\(2,4\) = \(0,0\)+\(1,2\) = \(1, 2\)) Tj
+T*
+(  Q1 = 0.5*\(2,4\) + 0.5*\(4,0\) = \(1,2\)+\(2,0\) = \(3, 2\)) Tj
+T*
+() Tj
+T*
+(Level 2:) Tj
+T*
+(  R0 = 0.5*\(1,2\) + 0.5*\(3,2\) = \(0.5,1\)+\(1.5,1\) = \(2, 2\)) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(0.5\) = \(2, 2\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Verify: \(1/4\)\(0,0\) + \(2/4\)\(2,4\) + \(1/4\)\(4,0\) = \(0+1+1, 0+2+0\) = \(2,2\) CORRECT) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example B: Quadratic at t = 3/4) Tj
+T*
+() Tj
+T*
+(Given: P0=\(0,0\), P1=\(1,2\), P2=\(3,0\)) Tj
+T*
+() Tj
+T*
+(**t=0.75, \(1-t\)=0.25**) Tj
+T*
+ET
+endstream
+endobj
+105 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 104 0 R >>
+endobj
+106 0 obj
+<< /Length 2087 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(```) Tj
+T*
+(Level 0:  \(0,0\)      \(1,2\)      \(3,0\)) Tj
+T*
+() Tj
+T*
+(Level 1:) Tj
+T*
+(  Q0 = 0.25*\(0,0\) + 0.75*\(1,2\) = \(0,0\)+\(0.75,1.5\) = \(0.75, 1.5\)) Tj
+T*
+(  Q1 = 0.25*\(1,2\) + 0.75*\(3,0\) = \(0.25,0.5\)+\(2.25,0\) = \(2.5, 0.5\)) Tj
+T*
+() Tj
+T*
+(Level 2:) Tj
+T*
+(  R0 = 0.25*\(0.75,1.5\) + 0.75*\(2.5,0.5\)) Tj
+T*
+(     = \(0.1875, 0.375\) + \(1.875, 0.375\)) Tj
+T*
+(     = \(2.0625, 0.75\)) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(0.75\) = \(2.0625, 0.75\) = \(33/16, 3/4\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example C: Cubic at t = 0.5) Tj
+T*
+() Tj
+T*
+(Given: P0=\(0,0\), P1=\(0,1\), P2=\(1,1\), P3=\(1,0\)) Tj
+T*
+() Tj
+T*
+(**t=0.5, \(1-t\)=0.5**) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level 0:  \(0,0\)     \(0,1\)     \(1,1\)     \(1,0\)) Tj
+T*
+() Tj
+T*
+(Level 1:) Tj
+T*
+(  Q0 = 0.5*\(0,0\)+0.5*\(0,1\) = \(0, 0.5\)) Tj
+T*
+(  Q1 = 0.5*\(0,1\)+0.5*\(1,1\) = \(0.5, 1.0\)) Tj
+T*
+(  Q2 = 0.5*\(1,1\)+0.5*\(1,0\) = \(1.0, 0.5\)) Tj
+T*
+() Tj
+T*
+(Level 2:) Tj
+T*
+(  R0 = 0.5*\(0,0.5\)+0.5*\(0.5,1.0\) = \(0.25, 0.75\)) Tj
+T*
+(  R1 = 0.5*\(0.5,1.0\)+0.5*\(1.0,0.5\) = \(0.75, 0.75\)) Tj
+T*
+() Tj
+T*
+(Level 3:) Tj
+T*
+(  S0 = 0.5*\(0.25,0.75\)+0.5*\(0.75,0.75\) = \(0.5, 0.75\)) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(0.5\) = \(0.5, 0.75\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example D: Cubic at t = 1/3) Tj
+T*
+() Tj
+T*
+(Given: P0=\(0,0\), P1=\(3,0\), P2=\(3,3\), P3=\(0,3\)) Tj
+T*
+() Tj
+T*
+(**t=1/3, \(1-t\)=2/3**) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level 0:  \(0,0\)    \(3,0\)    \(3,3\)    \(0,3\)) Tj
+T*
+() Tj
+T*
+(Level 1:) Tj
+T*
+(  Q0 = \(2/3\)\(0,0\) + \(1/3\)\(3,0\) = \(0,0\)+\(1,0\)   = \(1, 0\)) Tj
+T*
+(  Q1 = \(2/3\)\(3,0\) + \(1/3\)\(3,3\) = \(2,0\)+\(1,1\)   = \(3, 1\)) Tj
+T*
+(  Q2 = \(2/3\)\(3,3\) + \(1/3\)\(0,3\) = \(2,2\)+\(0,1\)   = \(2, 3\)) Tj
+T*
+() Tj
+T*
+(Level 2:) Tj
+T*
+(  R0 = \(2/3\)\(1,0\) + \(1/3\)\(3,1\) = \(2/3+1, 0+1/3\) = \(5/3, 1/3\)) Tj
+T*
+(  R1 = \(2/3\)\(3,1\) + \(1/3\)\(2,3\) = \(2+2/3, 2/3+1\) = \(8/3, 5/3\)) Tj
+T*
+() Tj
+T*
+(Level 3:) Tj
+T*
+(  S0 = \(2/3\)\(5/3,1/3\) + \(1/3\)\(8/3,5/3\)) Tj
+T*
+ET
+endstream
+endobj
+107 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 106 0 R >>
+endobj
+108 0 obj
+<< /Length 2057 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(     = \(10/9+8/9, 2/9+5/9\)) Tj
+T*
+(     = \(18/9, 7/9\) = \(2, 7/9\)) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(1/3\) = \(2, 7/9\) ? \(2.0, 0.778\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(### Example E: Degree-5 \(Quintic\) at t = 0.5) Tj
+T*
+() Tj
+T*
+(Given: P0=\(0,0\), P1=\(1,2\), P2=\(2,4\), P3=\(3,4\), P4=\(4,2\), P5=\(5,0\)) Tj
+T*
+() Tj
+T*
+(**t=0.5, all weights 0.5**) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Level 0:  \(0,0\) \(1,2\) \(2,4\) \(3,4\) \(4,2\) \(5,0\)) Tj
+T*
+() Tj
+T*
+(Level 1 [each pair avg]:) Tj
+T*
+(  \(0.5,1\) \(1.5,3\) \(2.5,4\) \(3.5,3\) \(4.5,1\)) Tj
+T*
+() Tj
+T*
+(Level 2 [each pair avg]:) Tj
+T*
+(  \(1,2\) \(2,3.5\) \(3,3.5\) \(4,2\)) Tj
+T*
+() Tj
+T*
+(Level 3 [each pair avg]:) Tj
+T*
+(  \(1.5,2.75\) \(2.5,3.5\) \(3.5,2.75\)) Tj
+T*
+() Tj
+T*
+(Level 4 [each pair avg]:) Tj
+T*
+(  \(2,3.125\) \(3,3.125\)) Tj
+T*
+() Tj
+T*
+(Level 5 [final avg]:) Tj
+T*
+(  \(2.5, 3.125\)) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(0.5\) = \(2.5, 3.125\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Mental Math Shortcuts) Tj
+T*
+() Tj
+T*
+(**For t = 0.5:** Every step is just averaging adjacent pairs. Fastest computation.) Tj
+T*
+() Tj
+T*
+(**For t = 1/3:** Use fractions 2/3 and 1/3. Keep exact fractions throughout.) Tj
+T*
+() Tj
+T*
+(**For t = 3/4:** Use fractions 1/4 and 3/4. Denominators build up as powers of 4.) Tj
+T*
+() Tj
+T*
+(**Check:** At t=0 the answer should be P0; at t=1 it should be Pn. Use this to verify) Tj
+T*
+(direction.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6. Common Mistakes) Tj
+T*
+() Tj
+T*
+(1. **Wrong order of blending:** It's \(1-t\)*left + t*right, NOT t*left + \(1-t\)*right) Tj
+T*
+(2. **Forgetting to do n rounds:** n+1 points needs n rounds \(a cubic with 4 points needs 3) Tj
+T*
+(rounds\)) Tj
+T*
+(3. **Wrong triangle structure:** Each round has one fewer point than the previous) Tj
+T*
+(4. **Not verifying at t=0 or t=1:** Quick sanity check) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(*Sources: Wikipedia De Casteljau's algorithm; Paul de Casteljau's original 1959 report at) Tj
+T*
+(Citroen*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+109 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 108 0 R >>
+endobj
+110 0 obj
+<< /Length 1859 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: bezier_surfaces.md) Tj
+T*
+() Tj
+T*
+(# Bezier Surfaces --- Complete Reference) Tj
+T*
+() Tj
+T*
+(## 1. Definition) Tj
+T*
+() Tj
+T*
+(A Bezier surface of degree \(m,n\) is defined by an \(m+1\)x\(n+1\) grid of control points P_{i,j}:) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(           m    n) Tj
+T*
+(B\(u,v\) =  Sum  Sum  B_{i,m}\(u\) * B_{j,n}\(v\) * P_{i,j}) Tj
+T*
+(          i=0  j=0) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(This is a TENSOR PRODUCT surface: independently apply the 1D Bezier formula in u-direction) Tj
+T*
+(and v-direction.) Tj
+T*
+() Tj
+T*
+(u in [0,1], v in [0,1]) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 2. Bicubic Bezier Patch \(Most Important\)) Tj
+T*
+() Tj
+T*
+(Degree \(3,3\): 4x4 = 16 control points) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(B\(u,v\) = Sum_{i=0}^{3} Sum_{j=0}^{3}  B_{i,3}\(u\) * B_{j,3}\(v\) * P_{i,j}) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Control point grid:) Tj
+T*
+(```) Tj
+T*
+(P00  P01  P02  P03) Tj
+T*
+(P10  P11  P12  P13) Tj
+T*
+(P20  P21  P22  P23) Tj
+T*
+(P30  P31  P32  P33) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(The FOUR CORNER POINTS \(P00, P03, P30, P33\) lie ON the surface.) Tj
+T*
+(All other points are off-surface "handles".) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 3. How to Evaluate B\(u,v\) --- Two-Stage Method) Tj
+T*
+() Tj
+T*
+(### Stage 1: Fix v, evaluate each ROW as a Bezier curve in v) Tj
+T*
+() Tj
+T*
+(For each row i=0,1,...,m:) Tj
+T*
+(```) Tj
+T*
+(Q_i\(v\) = Sum_{j=0}^{n} B_{j,n}\(v\) * P_{i,j}) Tj
+T*
+(```) Tj
+T*
+(This gives m+1 new "row-reduced" control points Q_0\(v\), Q_1\(v\), ..., Q_m\(v\)) Tj
+T*
+() Tj
+T*
+(### Stage 2: Evaluate the result as a Bezier curve in u) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(B\(u,v\) = Sum_{i=0}^{m} B_{i,m}\(u\) * Q_i\(v\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(### KEY: You can do Stage 1 and Stage 2 in either order \(u then v, or v then u\)!) Tj
+T*
+ET
+endstream
+endobj
+111 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 110 0 R >>
+endobj
+112 0 obj
+<< /Length 2285 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 4. Full Worked Example: Bilinear Patch \(degree 1,1\)) Tj
+T*
+() Tj
+T*
+(4 control points:) Tj
+T*
+(```) Tj
+T*
+(P00=\(0,0,0\)   P01=\(1,0,1\)) Tj
+T*
+(P10=\(0,1,1\)   P11=\(1,1,0\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Evaluate at \(u,v\) = \(0.5, 0.5\):) Tj
+T*
+() Tj
+T*
+(**Stage 1 \(fix u=0.5, evaluate rows in u-direction... or v-direction first\):**) Tj
+T*
+() Tj
+T*
+(Actually let us fix v=0.5 and evaluate each row in v:) Tj
+T*
+(```) Tj
+T*
+(Q0\(0.5\) = B_{0,1}\(0.5\)*P00 + B_{1,1}\(0.5\)*P01) Tj
+T*
+(        = 0.5*\(0,0,0\) + 0.5*\(1,0,1\)) Tj
+T*
+(        = \(0.5, 0, 0.5\)) Tj
+T*
+() Tj
+T*
+(Q1\(0.5\) = 0.5*P10 + 0.5*P11) Tj
+T*
+(        = 0.5*\(0,1,1\) + 0.5*\(1,1,0\)) Tj
+T*
+(        = \(0.5, 1.0, 0.5\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(**Stage 2 \(evaluate Q0, Q1 in u at u=0.5\):**) Tj
+T*
+(```) Tj
+T*
+(B\(0.5,0.5\) = 0.5*Q0\(0.5\) + 0.5*Q1\(0.5\)) Tj
+T*
+(           = 0.5*\(0.5,0,0.5\) + 0.5*\(0.5,1,0.5\)) Tj
+T*
+(           = \(0.25,0,0.25\) + \(0.25,0.5,0.25\)) Tj
+T*
+(           = \(0.5, 0.5, 0.5\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(0.5,0.5\) = \(0.5, 0.5, 0.5\) -- center of patch.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 5. Full Worked Example: Biquadratic Patch \(degree 2,2\)) Tj
+T*
+() Tj
+T*
+(9 control points \(3x3 grid\):) Tj
+T*
+(```) Tj
+T*
+(Row 0 \(i=0\): P00=\(0,0,0\)  P01=\(1,0,1\)  P02=\(2,0,0\)) Tj
+T*
+(Row 1 \(i=1\): P10=\(0,1,1\)  P11=\(1,1,2\)  P12=\(2,1,1\)) Tj
+T*
+(Row 2 \(i=2\): P20=\(0,2,0\)  P21=\(1,2,1\)  P22=\(2,2,0\)) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(Evaluate at \(u,v\) = \(0.5, 0.5\):) Tj
+T*
+() Tj
+T*
+(Bernstein quadratic at t=0.5: B_{0,2}=0.25, B_{1,2}=0.50, B_{2,2}=0.25) Tj
+T*
+() Tj
+T*
+(**Stage 1: Fix v=0.5, evaluate each row in v:**) Tj
+T*
+() Tj
+T*
+(Row 0: Q0 = 0.25*\(0,0,0\) + 0.50*\(1,0,1\) + 0.25*\(2,0,0\)) Tj
+T*
+(           = \(0,0,0\)+\(0.5,0,0.5\)+\(0.5,0,0\) = \(1.0, 0.0, 0.5\)) Tj
+T*
+() Tj
+T*
+(Row 1: Q1 = 0.25*\(0,1,1\) + 0.50*\(1,1,2\) + 0.25*\(2,1,1\)) Tj
+T*
+(           = \(0,0.25,0.25\)+\(0.5,0.5,1.0\)+\(0.5,0.25,0.25\) = \(1.0, 1.0, 1.5\)) Tj
+T*
+() Tj
+T*
+(Row 2: Q2 = 0.25*\(0,2,0\) + 0.50*\(1,2,1\) + 0.25*\(2,2,0\)) Tj
+T*
+(           = \(0,0.5,0\)+\(0.5,1,0.5\)+\(0.5,0.5,0\) = \(1.0, 2.0, 0.5\)) Tj
+T*
+() Tj
+T*
+(**Stage 2: Evaluate Q0,Q1,Q2 in u at u=0.5:**) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+113 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 112 0 R >>
+endobj
+114 0 obj
+<< /Length 2860 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(B\(0.5,0.5\) = 0.25*Q0 + 0.50*Q1 + 0.25*Q2) Tj
+T*
+(           = 0.25*\(1,0,0.5\) + 0.50*\(1,1,1.5\) + 0.25*\(1,2,0.5\)) Tj
+T*
+(           = \(0.25,0,0.125\) + \(0.5,0.5,0.75\) + \(0.25,0.5,0.125\)) Tj
+T*
+(           = \(1.0, 1.0, 1.0\)) Tj
+T*
+() Tj
+T*
+(ANSWER: B\(0.5,0.5\) = \(1, 1, 1\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 6. Properties) Tj
+T*
+() Tj
+T*
+(| Property | Explanation |) Tj
+T*
+(|---|---|) Tj
+T*
+(| Corner interpolation | P00,P0n,Pm0,Pmn lie ON the surface |) Tj
+T*
+(| Boundary curves | Each boundary is a Bezier curve using boundary row/column |) Tj
+T*
+(| Tangent at \(0,0\) in u | partial B/partial u = m*\(P10 - P00\) |) Tj
+T*
+(| Tangent at \(0,0\) in v | partial B/partial v = n*\(P01 - P00\) |) Tj
+T*
+(| Normal at corner | \(partial u\) x \(partial v\) |) Tj
+T*
+(| Convex hull | Entire surface lies in convex hull of all control points |) Tj
+T*
+(| Affine invariance | Transform control points = transform surface |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 7. Partial Derivatives for Surface Normals) Tj
+T*
+() Tj
+T*
+(For bicubic \(m=n=3\):) Tj
+T*
+() Tj
+T*
+(partial B/partial u \(u,v\) = 3 * Sum_{i=0}^{2} Sum_{j=0}^{3}) Tj
+T*
+(B_{i,2}\(u\)*B_{j,3}\(v\)*\(P_{i+1,j}-P_{i,j}\)) Tj
+T*
+(partial B/partial v \(u,v\) = 3 * Sum_{i=0}^{3} Sum_{j=0}^{2}) Tj
+T*
+(B_{i,3}\(u\)*B_{j,2}\(v\)*\(P_{i,j+1}-P_{i,j}\)) Tj
+T*
+() Tj
+T*
+(Surface normal: N = \(partial B/partial u\) x \(partial B/partial v\)) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(## 8. Extensions) Tj
+T*
+() Tj
+T*
+(- **Bezier Triangle**: Triangular domain, barycentric coordinates) Tj
+T*
+(- **NURBS**: Non-Uniform Rational B-Splines = weighted control points with knot vectors;) Tj
+T*
+(generalizes Bezier surfaces; industry standard in CAD \(AutoCAD, CATIA, SolidWorks\)) Tj
+T*
+(- **Subdivision Surfaces**: Catmull-Clark, Loop -- refine control mesh toward smooth limit) Tj
+T*
+(surface; used in Pixar/DreamWorks animation, game characters) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+(*Sources: Wikipedia Bezier surface; Farin 'Curves and Surfaces for CAGD'; Shirley 'Fundamentals) Tj
+T*
+(of Computer Graphics'*) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(# Source: bezier_surfaces_2.md) Tj
+T*
+() Tj
+T*
+(This is a comprehensive guide on how to algorithmically compute Bzier curves, Bzier surfaces,) Tj
+T*
+(and perform curve fitting. Bzier curves are foundational to computer graphics, animations,) Tj
+T*
+(vector graphics, and Computer-Aided Design \(CAD\).) Tj
+T*
+(Here is the complete tutorial, broken down into mathematical theory, algorithmic) Tj
+T*
+(implementation, and practical code examples.) Tj
+T*
+(## Part 1: The Bzier Curve) Tj
+T*
+(A Bzier curve is a parametric curve defined by a set of control points P_0, P_1, \\dots, P_n.) Tj
+T*
+(The curve always starts at P_0 and ends at P_n, while the intermediate points act as "magnets") Tj
+T*
+ET
+endstream
+endobj
+115 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 114 0 R >>
+endobj
+116 0 obj
+<< /Length 3579 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(that pull the curve toward them.) Tj
+T*
+(### 1. The Explicit Equation \(Bernstein Polynomials\)) Tj
+T*
+(The mathematical foundation of a Bzier curve of degree n is the sum of its control points) Tj
+T*
+(weighted by **Bernstein polynomials**:) Tj
+T*
+(Where:) Tj
+T*
+( * t is the parameter that goes from 0 to 1.) Tj
+T*
+( * P_i are the control points.) Tj
+T*
+( * \\binom{n}{i} = \\frac{n!}{i!\(n-i\)!} is the binomial coefficient.) Tj
+T*
+(While you *can* compute the curve using this explicit formula, calculating factorials for) Tj
+T*
+(high-degree curves can lead to numerical instability and overflow. This is where De Casteljau's) Tj
+T*
+(algorithm comes in.) Tj
+T*
+(### 2. De Casteljau's Algorithm) Tj
+T*
+(De Casteljau's algorithm evaluates a Bzier curve through **recursive linear interpolation**.) Tj
+T*
+(It is numerically stable, robust, and geometrically intuitive.) Tj
+T*
+(**The Algorithm:**) Tj
+T*
+( 1. Treat your initial control points as the "zero-th" level: P_i^{\(0\)} = P_i.) Tj
+T*
+( 2. For a given t \(where 0 \\le t \\le 1\), compute the next level of points by linearly) Tj
+T*
+(interpolating between adjacent points:) Tj
+T*
+(   ) Tj
+T*
+( 3. Repeat this process until you are left with a single point: P_0^{\(n\)}. This point is) Tj
+T*
+(exactly B\(t\).) Tj
+T*
+(**Python Implementation:**) Tj
+T*
+(```python) Tj
+T*
+(def de_casteljau\(control_points, t\):) Tj
+T*
+(    """) Tj
+T*
+(    Evaluates a Bezier curve at parameter t using De Casteljau's algorithm.) Tj
+T*
+(    control_points: List of \(x, y\) tuples.) Tj
+T*
+(    t: Float between 0.0 and 1.0.) Tj
+T*
+(    """) Tj
+T*
+(    # Create a working copy of the control points) Tj
+T*
+(    points = list\(control_points\)) Tj
+T*
+(    n = len\(points\) - 1) Tj
+T*
+(    ) Tj
+T*
+(    for j in range\(1, n + 1\):) Tj
+T*
+(        for i in range\(n - j + 1\):) Tj
+T*
+(            x = \(1 - t\) * points[i][0] + t * points[i+1][0]) Tj
+T*
+(            y = \(1 - t\) * points[i][1] + t * points[i+1][1]) Tj
+T*
+(            points[i] = \(x, y\)) Tj
+T*
+(            ) Tj
+T*
+(    # The final remaining point is the point on the curve at t) Tj
+T*
+(    return points[0]) Tj
+T*
+() Tj
+T*
+(# Example: Compute a cubic curve at t=0.5) Tj
+T*
+(pts = [\(0, 0\), \(0, 1\), \(1, 1\), \(1, 0\)]) Tj
+T*
+(point_at_half = de_casteljau\(pts, 0.5\)) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(## Part 2: The Bzier Surface) Tj
+T*
+(A Bzier surface is the 3D extension of a Bzier curve. Instead of a 1D line of control points,) Tj
+T*
+(you use a 2D grid of control points P_{i,j} of size \(n+1\) \\times \(m+1\). The surface is) Tj
+T*
+(evaluated using two parameters, u and v, both ranging from 0 to 1.) Tj
+T*
+(### 1. The Surface Equation) Tj
+T*
+(A Bzier surface is the tensor product of two Bzier curves:) Tj
+T*
+(Where B_i^n\(u\) and B_j^m\(v\) are the Bernstein basis polynomials.) Tj
+T*
+(### 2. Algorithmic Computation \(Nested De Casteljau\)) Tj
+T*
+(To find a point on the surface S\(u, v\), you don't need a complex new algorithm. You simply) Tj
+T*
+(apply De Casteljau's algorithm in two passes:) Tj
+T*
+( 1. **Row-wise reduction:** For every row i in your control grid, treat the points in that row) Tj
+T*
+(as a Bzier curve. Run De Casteljau on each row with the parameter u. This leaves you with a) Tj
+T*
+(single column of n+1 intermediate points.) Tj
+T*
+( 2. **Column-wise reduction:** Take that newly generated column of points. Treat them as a) Tj
+T*
+(single Bzier curve and run De Casteljau with the parameter v. The final resulting point is) Tj
+T*
+(your surface point S\(u, v\).) Tj
+T*
+(**Python Implementation:**) Tj
+T*
+ET
+endstream
+endobj
+117 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 116 0 R >>
+endobj
+118 0 obj
+<< /Length 3270 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(```python) Tj
+T*
+(def bezier_surface\(control_grid, u, v\):) Tj
+T*
+(    """) Tj
+T*
+(    Evaluates a Bezier surface at \(u, v\).) Tj
+T*
+(    control_grid: 2D list \(list of lists\) of \(x, y, z\) control points.) Tj
+T*
+(    """) Tj
+T*
+(    u_curve_points = []) Tj
+T*
+(    ) Tj
+T*
+(    # Pass 1: Evaluate De Casteljau along the 'u' direction for each row) Tj
+T*
+(    for row in control_grid:) Tj
+T*
+(        point_u = de_casteljau_3d\(row, u\) # Assume de_casteljau_3d handles 3D tuples) Tj
+T*
+(        u_curve_points.append\(point_u\)) Tj
+T*
+(        ) Tj
+T*
+(    # Pass 2: Evaluate De Casteljau along the 'v' direction using the results) Tj
+T*
+(    final_surface_point = de_casteljau_3d\(u_curve_points, v\)) Tj
+T*
+(    ) Tj
+T*
+(    return final_surface_point) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(## Part 3: Curve Fitting with Bzier Curves) Tj
+T*
+(Curve fitting is the inverse problem: You have a large set of data points D_0, D_1, \\dots, D_m) Tj
+T*
+(\(like a user's mouse drawing or a noisy data scan\), and you want to find a smaller set of) Tj
+T*
+(Bzier control points P_0, \\dots, P_n that accurately approximate the data.) Tj
+T*
+(Because we usually want fewer control points than data points \(n < m\), an exact match isn't) Tj
+T*
+(possible. Instead, we use **Least Squares Optimization**.) Tj
+T*
+(### Step 1: Parameterize the Data Points) Tj
+T*
+(To compare our data points to a Bzier curve, we must assign a t_k value \(between 0 and 1\) to) Tj
+T*
+(each data point D_k.) Tj
+T*
+(The easiest stable method is **Chord-Length Parameterization**. We calculate the cumulative) Tj
+T*
+(distance between points:) Tj
+T*
+( 1.  2. Calculate total length L = \\sum_{k=1}^{m} |D_k - D_{k-1}|) Tj
+T*
+( 3. Assign t_k = t_{k-1} + \\frac{|D_k - D_{k-1}|}{L}) Tj
+T*
+( 4. ### Step 2: Set Up the Linear System) Tj
+T*
+(We want our Bzier curve B\(t_k\) to match our data points D_k:) Tj
+T*
+(We can represent this as a matrix equation:) Tj
+T*
+() Tj
+T*
+(Where:) Tj
+T*
+( * \\mathbf{D} is an m \\times 2 \(or 3\) matrix of the target data points.) Tj
+T*
+( * \\mathbf{P} is an n \\times 2 matrix of the unknown control points we want to find.) Tj
+T*
+( * \\mathbf{M} is an m \\times n matrix where each element M_{k,i} is the Bernstein polynomial) Tj
+T*
+(B_i^n\(t_k\).) Tj
+T*
+(### Step 3: Solve Using Least Squares) Tj
+T*
+(Since \\mathbf{M} is not a square matrix, we cannot simply invert it. Instead, we multiply both) Tj
+T*
+(sides by the transpose \\mathbf{M}^T to create the **Normal Equations**:) Tj
+T*
+(Now, \(\\mathbf{M}^T \\mathbf{M}\) is a square, invertible matrix. We solve for the control points) Tj
+T*
+(\\mathbf{P}:) Tj
+T*
+(**Python Implementation \(using NumPy\):**) Tj
+T*
+(```python) Tj
+T*
+(import numpy as np) Tj
+T*
+(import math) Tj
+T*
+() Tj
+T*
+(def bernstein_poly\(n, i, t\):) Tj
+T*
+(    """Computes the Bernstein polynomial B_{i,n}\(t\).""") Tj
+T*
+(    return math.comb\(n, i\) * \(t**i\) * \(\(1 - t\)**\(n - i\)\)) Tj
+T*
+() Tj
+T*
+(def fit_bezier_curve\(data_points, degree\):) Tj
+T*
+(    """) Tj
+T*
+(    Fits a Bezier curve of a given degree to a set of data points.) Tj
+T*
+(    data_points: numpy array of shape \(m, 2\)) Tj
+T*
+(    degree: integer n) Tj
+T*
+(    """) Tj
+T*
+(    m = len\(data_points\)) Tj
+T*
+(    n = degree) Tj
+T*
+(    ) Tj
+T*
+ET
+endstream
+endobj
+119 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 118 0 R >>
+endobj
+120 0 obj
+<< /Length 2959 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(    # 1. Chord-length parameterization) Tj
+T*
+(    t_values = np.zeros\(m\)) Tj
+T*
+(    distances = np.linalg.norm\(np.diff\(data_points, axis=0\), axis=1\)) Tj
+T*
+(    cumulative_dist = np.insert\(np.cumsum\(distances\), 0, 0\)) Tj
+T*
+(    t_values = cumulative_dist / cumulative_dist[-1]) Tj
+T*
+(    ) Tj
+T*
+(    # 2. Build the Matrix M) Tj
+T*
+(    M = np.zeros\(\(m, n + 1\)\)) Tj
+T*
+(    for k in range\(m\):) Tj
+T*
+(        for i in range\(n + 1\):) Tj
+T*
+(            M[k, i] = bernstein_poly\(n, i, t_values[k]\)) Tj
+T*
+(            ) Tj
+T*
+(    # 3. Solve the Normal Equations: P = \(M^T * M\)^-1 * M^T * D) Tj
+T*
+(    # Note: np.linalg.lstsq does this efficiently and handles edge cases) Tj
+T*
+(    P, residuals, rank, s = np.linalg.lstsq\(M, data_points, rcond=None\)) Tj
+T*
+(    ) Tj
+T*
+(    # Ensure exact endpoint matching \(optional but highly recommended\)) Tj
+T*
+(    P[0] = data_points[0]) Tj
+T*
+(    P[-1] = data_points[-1]) Tj
+T*
+(    ) Tj
+T*
+(    return P) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(Here are the full TypeScript implementations for De Casteljau's algorithm in both 2D and 3D.) Tj
+T*
+(To take advantage of TypeScript, we will first define clear interfaces for our data structures.) Tj
+T*
+(The algorithm itself relies on an iterative approach, creating a working copy of the array and) Tj
+T*
+(reducing it level by level until only the final evaluated point remains.) Tj
+T*
+(### 1. Defining the Types) Tj
+T*
+(First, we define the strict types for our 2D and 3D points so the compiler can catch any) Tj
+T*
+(missing coordinates.) Tj
+T*
+(```typescript) Tj
+T*
+(export interface Point2D {) Tj
+T*
+(    x: number;) Tj
+T*
+(    y: number;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(export interface Point3D extends Point2D {) Tj
+T*
+(    z: number;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(### 2. De Casteljau for 2D Points) Tj
+T*
+(This function takes an array of Point2D objects and a parameter t \(where 0 \\le t \\le 1\). It) Tj
+T*
+(interpolates the x and y coordinates.) Tj
+T*
+(```typescript) Tj
+T*
+(/**) Tj
+T*
+( * Evaluates a point on a 2D Bezier curve using De Casteljau's algorithm.) Tj
+T*
+( * * @param points - An array of 2D control points.) Tj
+T*
+( * @param t - The parameter t, typically between 0.0 and 1.0.) Tj
+T*
+( * @returns The evaluated 2D point on the curve.) Tj
+T*
+( */) Tj
+T*
+(export function deCasteljau2D\(points: Point2D[], t: number\): Point2D {) Tj
+T*
+(    if \(points.length === 0\) {) Tj
+T*
+(        throw new Error\("At least one control point is required."\);) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    // Create a deep copy of the points to avoid mutating the original array) Tj
+T*
+(    const workingPoints: Point2D[] = points.map\(p => \({ x: p.x, y: p.y }\)\);) Tj
+T*
+(    const n = workingPoints.length - 1;) Tj
+T*
+() Tj
+T*
+(    // Iteratively reduce the points) Tj
+T*
+(    for \(let j = 1; j <= n; j++\) {) Tj
+T*
+(        for \(let i = 0; i <= n - j; i++\) {) Tj
+T*
+(            workingPoints[i] = {) Tj
+T*
+ET
+endstream
+endobj
+121 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 120 0 R >>
+endobj
+122 0 obj
+<< /Length 2597 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(                x: \(1 - t\) * workingPoints[i].x + t * workingPoints[i + 1].x,) Tj
+T*
+(                y: \(1 - t\) * workingPoints[i].y + t * workingPoints[i + 1].y) Tj
+T*
+(            };) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    // The final remaining point is the evaluated point) Tj
+T*
+(    return workingPoints[0];) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(### 3. De Casteljau for 3D Points) Tj
+T*
+(The 3D version is identical in structure to the 2D version, but it includes the z-axis in the) Tj
+T*
+(linear interpolation step.) Tj
+T*
+(```typescript) Tj
+T*
+(/**) Tj
+T*
+( * Evaluates a point on a 3D Bezier curve using De Casteljau's algorithm.) Tj
+T*
+( * * @param points - An array of 3D control points.) Tj
+T*
+( * @param t - The parameter t, typically between 0.0 and 1.0.) Tj
+T*
+( * @returns The evaluated 3D point on the curve.) Tj
+T*
+( */) Tj
+T*
+(export function deCasteljau3D\(points: Point3D[], t: number\): Point3D {) Tj
+T*
+(    if \(points.length === 0\) {) Tj
+T*
+(        throw new Error\("At least one control point is required."\);) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    // Create a deep copy of the points) Tj
+T*
+(    const workingPoints: Point3D[] = points.map\(p => \({ x: p.x, y: p.y, z: p.z }\)\);) Tj
+T*
+(    const n = workingPoints.length - 1;) Tj
+T*
+() Tj
+T*
+(    // Iteratively reduce the points) Tj
+T*
+(    for \(let j = 1; j <= n; j++\) {) Tj
+T*
+(        for \(let i = 0; i <= n - j; i++\) {) Tj
+T*
+(            workingPoints[i] = {) Tj
+T*
+(                x: \(1 - t\) * workingPoints[i].x + t * workingPoints[i + 1].x,) Tj
+T*
+(                y: \(1 - t\) * workingPoints[i].y + t * workingPoints[i + 1].y,) Tj
+T*
+(                z: \(1 - t\) * workingPoints[i].z + t * workingPoints[i + 1].z) Tj
+T*
+(            };) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return workingPoints[0];) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(### Usage Example) Tj
+T*
+(Here is how you would call these functions in your TypeScript application:) Tj
+T*
+(```typescript) Tj
+T*
+(// 2D Example: A simple quadratic curve) Tj
+T*
+(const curve2D: Point2D[] = [) Tj
+T*
+(    { x: 0, y: 0 },) Tj
+T*
+(    { x: 5, y: 10 },) Tj
+T*
+(    { x: 10, y: 0 }) Tj
+T*
+(];) Tj
+T*
+() Tj
+T*
+(// Evaluate exactly at the halfway mark) Tj
+T*
+(const midpoint2D = deCasteljau2D\(curve2D, 0.5\);) Tj
+T*
+(console.log\(`2D Point at t=0.5: \(${midpoint2D.x}, ${midpoint2D.y}\)`\); ) Tj
+T*
+(// Output: 2D Point at t=0.5: \(5, 5\)) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(// 3D Example: A cubic curve in 3D space) Tj
+T*
+(const curve3D: Point3D[] = [) Tj
+T*
+(    { x: 0, y: 0, z: 0 },) Tj
+T*
+ET
+endstream
+endobj
+123 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 122 0 R >>
+endobj
+124 0 obj
+<< /Length 2886 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(    { x: 0, y: 10, z: 5 },) Tj
+T*
+(    { x: 10, y: 10, z: 10 },) Tj
+T*
+(    { x: 10, y: 0, z: 15 }) Tj
+T*
+(];) Tj
+T*
+() Tj
+T*
+(// Evaluate at 75% along the curve) Tj
+T*
+(const point3D = deCasteljau3D\(curve3D, 0.75\);) Tj
+T*
+(console.log\(`3D Point at t=0.75: \(${point3D.x}, ${point3D.y}, ${point3D.z}\)`\);) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(To compute a point on a Bzier surface, we apply De Casteljau's algorithm in two dimensions.) Tj
+T*
+(You can think of a Bzier surface as a grid of control points. First, we use the parameter u to) Tj
+T*
+(evaluate a point along each row of the grid. This yields a new, single "column" of intermediate) Tj
+T*
+(points. Then, we use the parameter v to evaluate that new column, which gives us our final 3D) Tj
+T*
+(point on the surface.) Tj
+T*
+(Here is the complete, self-contained TypeScript code to evaluate a Bzier surface, including a) Tj
+T*
+(function to generate a full mesh of points so you can render it.) Tj
+T*
+(### 1. The Bzier Surface Implementation) Tj
+T*
+(```typescript) Tj
+T*
+(export interface Point3D {) Tj
+T*
+(    x: number;) Tj
+T*
+(    y: number;) Tj
+T*
+(    z: number;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(/**) Tj
+T*
+( * Helper function: De Casteljau's algorithm for a 1D curve in 3D space.) Tj
+T*
+( */) Tj
+T*
+(function deCasteljau3D\(points: Point3D[], t: number\): Point3D {) Tj
+T*
+(    if \(points.length === 0\) {) Tj
+T*
+(        throw new Error\("At least one control point is required."\);) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    const workingPoints: Point3D[] = points.map\(p => \({ x: p.x, y: p.y, z: p.z }\)\);) Tj
+T*
+(    const n = workingPoints.length - 1;) Tj
+T*
+() Tj
+T*
+(    for \(let j = 1; j <= n; j++\) {) Tj
+T*
+(        for \(let i = 0; i <= n - j; i++\) {) Tj
+T*
+(            workingPoints[i] = {) Tj
+T*
+(                x: \(1 - t\) * workingPoints[i].x + t * workingPoints[i + 1].x,) Tj
+T*
+(                y: \(1 - t\) * workingPoints[i].y + t * workingPoints[i + 1].y,) Tj
+T*
+(                z: \(1 - t\) * workingPoints[i].z + t * workingPoints[i + 1].z) Tj
+T*
+(            };) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return workingPoints[0];) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(/**) Tj
+T*
+( * Evaluates a specific \(u, v\) point on a Bezier surface.) Tj
+T*
+( * @param controlGrid - A 2D array [row][col] of 3D control points.) Tj
+T*
+( * @param u - The parameter u, typically between 0.0 and 1.0.) Tj
+T*
+( * @param v - The parameter v, typically between 0.0 and 1.0.) Tj
+T*
+( * @returns The evaluated 3D point on the surface.) Tj
+T*
+( */) Tj
+T*
+(export function evaluateBezierSurface\(controlGrid: Point3D[][], u: number, v: number\): Point3D) Tj
+T*
+({) Tj
+T*
+(    if \(controlGrid.length === 0 || controlGrid[0].length === 0\) {) Tj
+T*
+(        throw new Error\("Control grid cannot be empty."\);) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    const uCurvePoints: Point3D[] = [];) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+125 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 124 0 R >>
+endobj
+126 0 obj
+<< /Length 3101 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+(    // Step 1: Reduce each row of the grid into a single point using parameter 'u') Tj
+T*
+(    for \(let i = 0; i < controlGrid.length; i++\) {) Tj
+T*
+(        const pointAtU = deCasteljau3D\(controlGrid[i], u\);) Tj
+T*
+(        uCurvePoints.push\(pointAtU\);) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    // Step 2: Reduce the resulting column of points into a final point using parameter 'v') Tj
+T*
+(    return deCasteljau3D\(uCurvePoints, v\);) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(/**) Tj
+T*
+( * Generates a full mesh/grid of points representing the Bezier surface.) Tj
+T*
+( * Useful for rendering the surface in a 3D engine like Three.js.) Tj
+T*
+( * @param controlGrid - A 2D array [row][col] of 3D control points.) Tj
+T*
+( * @param resolution - How many segments to divide the surface into.) Tj
+T*
+( * @returns A 2D array of points representing the final evaluated surface.) Tj
+T*
+( */) Tj
+T*
+(export function generateSurfaceMesh\(controlGrid: Point3D[][], resolution: number\): Point3D[][]) Tj
+T*
+({) Tj
+T*
+(    const surfaceMesh: Point3D[][] = [];) Tj
+T*
+() Tj
+T*
+(    for \(let i = 0; i <= resolution; i++\) {) Tj
+T*
+(        const u = i / resolution;) Tj
+T*
+(        const row: Point3D[] = [];) Tj
+T*
+(        ) Tj
+T*
+(        for \(let j = 0; j <= resolution; j++\) {) Tj
+T*
+(            const v = j / resolution;) Tj
+T*
+(            row.push\(evaluateBezierSurface\(controlGrid, u, v\)\);) Tj
+T*
+(        }) Tj
+T*
+(        ) Tj
+T*
+(        surfaceMesh.push\(row\);) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return surfaceMesh;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(```) Tj
+T*
+(### 2. Usage Example) Tj
+T*
+(To test this, we can define a biquadratic surface \(a 3 \\times 3 grid of control points\). This) Tj
+T*
+(creates a simple curved "sheet" in 3D space.) Tj
+T*
+(```typescript) Tj
+T*
+(// Define a 3x3 grid of control points \(Biquadratic Bezier Surface\)) Tj
+T*
+(const surfaceControlGrid: Point3D[][] = [) Tj
+T*
+(    // Row 0) Tj
+T*
+(    [ {x: -10, y: -10, z: 0}, {x: 0, y: -10, z: 5}, {x: 10, y: -10, z: 0} ],) Tj
+T*
+(    // Row 1) Tj
+T*
+(    [ {x: -10, y: 0, z: 5},   {x: 0, y: 0, z: 10},  {x: 10, y: 0, z: 5}   ],) Tj
+T*
+(    // Row 2) Tj
+T*
+(    [ {x: -10, y: 10, z: 0},  {x: 0, y: 10, z: 5},  {x: 10, y: 10, z: 0}  ]) Tj
+T*
+(];) Tj
+T*
+() Tj
+T*
+(// 1. Evaluate a single point in the dead center of the surface) Tj
+T*
+(const centerPoint = evaluateBezierSurface\(surfaceControlGrid, 0.5, 0.5\);) Tj
+T*
+(console.log\(`Center point \(u=0.5, v=0.5\): x=${centerPoint.x}, y=${centerPoint.y},) Tj
+T*
+(z=${centerPoint.z}`\);) Tj
+T*
+(// Output: Center point \(u=0.5, v=0.5\): x=0, y=0, z=6.25) Tj
+T*
+() Tj
+T*
+(// 2. Generate a coarse mesh \(4x4 points\) for rendering) Tj
+T*
+(const resolution = 3; // 3 segments means 4 points along each axis) Tj
+T*
+(const mesh = generateSurfaceMesh\(surfaceControlGrid, resolution\);) Tj
+T*
+() Tj
+T*
+(console.log\(`\\nGenerated Mesh \(${mesh.length}x${mesh[0].length}\):`\);) Tj
+T*
+(console.log\(`Point at u=1, v=1: x=${mesh[3][3].x}, y=${mesh[3][3].y}, z=${mesh[3][3].z}`\);) Tj
+T*
+(// Output will match the bottom-right corner control point: x=10, y=10, z=0) Tj
+T*
+ET
+endstream
+endobj
+127 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 126 0 R >>
+endobj
+128 0 obj
+<< /Length 90 >>
+stream
+BT
+/F1 9 Tf
+11 TL
+54 738 Td
+() Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+ET
+endstream
+endobj
+129 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 128 0 R >>
+endobj
+xref
+0 130
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000571 00000 n 
+0000000639 00000 n 
+0000003022 00000 n 
+0000003148 00000 n 
+0000006631 00000 n 
+0000006757 00000 n 
+0000009851 00000 n 
+0000009977 00000 n 
+0000013212 00000 n 
+0000013340 00000 n 
+0000016655 00000 n 
+0000016783 00000 n 
+0000020455 00000 n 
+0000020583 00000 n 
+0000023806 00000 n 
+0000023934 00000 n 
+0000027071 00000 n 
+0000027199 00000 n 
+0000030238 00000 n 
+0000030366 00000 n 
+0000033230 00000 n 
+0000033358 00000 n 
+0000036651 00000 n 
+0000036779 00000 n 
+0000039636 00000 n 
+0000039764 00000 n 
+0000043221 00000 n 
+0000043349 00000 n 
+0000046274 00000 n 
+0000046402 00000 n 
+0000048597 00000 n 
+0000048725 00000 n 
+0000051585 00000 n 
+0000051713 00000 n 
+0000054472 00000 n 
+0000054600 00000 n 
+0000057013 00000 n 
+0000057141 00000 n 
+0000059437 00000 n 
+0000059565 00000 n 
+0000062119 00000 n 
+0000062247 00000 n 
+0000064773 00000 n 
+0000064901 00000 n 
+0000066874 00000 n 
+0000067002 00000 n 
+0000070713 00000 n 
+0000070841 00000 n 
+0000073834 00000 n 
+0000073962 00000 n 
+0000076767 00000 n 
+0000076895 00000 n 
+0000079763 00000 n 
+0000079891 00000 n 
+0000082433 00000 n 
+0000082561 00000 n 
+0000085141 00000 n 
+0000085269 00000 n 
+0000087624 00000 n 
+0000087752 00000 n 
+0000091033 00000 n 
+0000091161 00000 n 
+0000094023 00000 n 
+0000094151 00000 n 
+0000097327 00000 n 
+0000097455 00000 n 
+0000100000 00000 n 
+0000100128 00000 n 
+0000102779 00000 n 
+0000102907 00000 n 
+0000105742 00000 n 
+0000105870 00000 n 
+0000108400 00000 n 
+0000108528 00000 n 
+0000111141 00000 n 
+0000111269 00000 n 
+0000113676 00000 n 
+0000113804 00000 n 
+0000116087 00000 n 
+0000116215 00000 n 
+0000118495 00000 n 
+0000118623 00000 n 
+0000121076 00000 n 
+0000121204 00000 n 
+0000124186 00000 n 
+0000124314 00000 n 
+0000126805 00000 n 
+0000126933 00000 n 
+0000129525 00000 n 
+0000129653 00000 n 
+0000132494 00000 n 
+0000132622 00000 n 
+0000135205 00000 n 
+0000135333 00000 n 
+0000138181 00000 n 
+0000138309 00000 n 
+0000140425 00000 n 
+0000140553 00000 n 
+0000143366 00000 n 
+0000143496 00000 n 
+0000146027 00000 n 
+0000146157 00000 n 
+0000148194 00000 n 
+0000148324 00000 n 
+0000150465 00000 n 
+0000150595 00000 n 
+0000152706 00000 n 
+0000152836 00000 n 
+0000154749 00000 n 
+0000154879 00000 n 
+0000157218 00000 n 
+0000157348 00000 n 
+0000160262 00000 n 
+0000160392 00000 n 
+0000164025 00000 n 
+0000164155 00000 n 
+0000167479 00000 n 
+0000167609 00000 n 
+0000170622 00000 n 
+0000170752 00000 n 
+0000173403 00000 n 
+0000173533 00000 n 
+0000176473 00000 n 
+0000176603 00000 n 
+0000179758 00000 n 
+0000179888 00000 n 
+0000180030 00000 n 
+trailer
+<< /Size 130 /Root 1 0 R >>
+startxref
+180160
+%%EOF
